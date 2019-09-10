@@ -1,10 +1,10 @@
 *P.S.:* Esse trabalho é baseado nos trabalhos prévios do Chatbot Lino, encontrados no seguinte link: https://botlino.github.io/docs/
 
-#Bot Lino – Novas funcionalidades
+# Bot Lino – Novas funcionalidades
 
 *Escopo:* Assim como o objetivo principal determinado na criação do botlino, pretendemos facilitar o acesso de informações aos estudantes da UNB, de forma rápida e prática.
 
-##Fluxo 1 - FAQ
+## Fluxo 1 - FAQ
 	Objetivo: Reunir as informações que estão espalhadas em diversos sites, ou em documentos disponibilizados pela secretaria e pela coordenação, em um unico meio de fácil acesso para dos discentes, facilitando o trabalho de docentes.
 	
 	Fontes:
@@ -23,5 +23,5 @@ C) – Secretaria:
 - Responder perguntas referentes à monitorias, opção de curso, trancamento, dupla graduação e atividades complementares.
 - Muitos desses dados estão disponibilizados no site da unb, porém algumas dúvidas só são respondidas na própria secretaria. Portanto, devemos planejar uma lista de perguntas para obter todas as informações.
 
-##Fluxo 2 - Monitoria
+## Fluxo 2 - Monitoria
 	Objetivo: Disponilizar aos monitores de cada semestre uma ferramenta de divulgação dos horários e salas de suas monitorias.
