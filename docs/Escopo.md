@@ -6,9 +6,10 @@
 
 ## Fluxo 1 - FAQ
 
-	Objetivo: Reunir as informações que estão espalhadas em diversos sites, ou em documentos disponibilizados pela secretaria e pela coordenação, em um unico meio de fácil acesso para dos discentes, facilitando o trabalho de docentes.
+Objetivo: Reunir as informações que estão espalhadas em diversos sites, ou em documentos disponibilizados pela secretaria e pela coordenação, em um unico meio de fácil acesso para dos discentes, facilitando o trabalho de docentes.
 	
-	Fontes:
+Fontes:
+
 A) Estágio:
 - Fazer um tutorial do estágio obrigatório, de acordo com os dados encontrados na seguinte página: https://fga.unb.br/estagio
 - FAQ do estágio: https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/
@@ -26,4 +27,4 @@ C) – Secretaria:
 
 ## Fluxo 2 - Monitoria
 
-	Objetivo: Disponilizar aos monitores de cada semestre uma ferramenta de divulgação dos horários e salas de suas monitorias.
+Objetivo: Disponilizar aos monitores de cada semestre uma ferramenta de divulgação dos horários e salas de suas monitorias.
