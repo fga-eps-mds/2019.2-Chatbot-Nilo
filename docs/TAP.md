@@ -8,7 +8,7 @@ Esse documento visa informar os propósitos, objetivos, especificações e requi
 
 O projeto original do Lino é ser um bot disponibilizado no telegram que ajuda a comunidade da FGA, mostrando o cardápio do RU e respondendo algumas perguntas (projeto original: https://botlino.github.io/docs ). A idéia desse projeto é fazer um novo produto, com base no Lino, mantendo o objetivo de ajudar a comunidade acadêmica da FGA e adicionando novas funcionalidades.
 
-##3.Propósito e Justificativa
+## 3.Propósito e Justificativa
 
 A coordenação e os alunos da FGA possuem uma grande demanda de informações e a solicitação dessa informação por parte dos alunos ocorre frequentemente. As novas implementações propostas para o Dino têm como propósito suprir a demanda de um acesso mais rápido e fácil de informações específicas e importantes no decorrer do curso.
 
