@@ -12,11 +12,11 @@ O projeto original do Lino é ser um bot disponibilizado no telegram que ajuda a
 
 A coordenação e os alunos da FGA possuem uma grande demanda de informações e a solicitação dessa informação por parte dos alunos ocorre frequentemente. As novas implementações propostas para o Dino têm como propósito suprir a demanda de um acesso mais rápido e fácil de informações específicas e importantes no decorrer do curso.
 
-## 4. Objetivo
+## 4.Objetivo
 
 As implementações propostas têm como objetivo facilitar o acesso aos dados acadêmicos, disponibilizando informações sobre estágio, monitorias, matrícula, trancamento entre outras informações gerais. Com estas novas funcionalidades, o acesso à informação será menos burocrático, mais dinâmico e simples.
 
-##5.Requisitos de Alto Nível
+## 5.Requisitos de Alto Nível
 Estão entre os requisitos de alto nível:
 
 * Interação através de linguagem natural para uma melhor usabilidade;
@@ -40,7 +40,7 @@ Estão entre os requisitos de alto nível:
 | Mudança de escopo                                          | Avaliação constante das necessidades da comunidade, por meio de reuniões e manter um cronograma flexível de acordo com as necessidades.                                            |
 
 
-## 7. Partes interessada
+## 7.Partes interessada
 
 ### 7.1 Usuários
 
@@ -61,7 +61,7 @@ Estão entre os requisitos de alto nível:
 | Joenio Costa     | Orientador            |                  |
 
 
-## 8. Requisitos para a aprovação
+## 8.Requisitos para a aprovação
 
 Para a aprovação do projeto, o projeto deve atingir as seguintes metas: 
 
