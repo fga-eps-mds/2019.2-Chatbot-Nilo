@@ -69,3 +69,10 @@ Para a aprovação do projeto, o projeto deve atingir as seguintes metas:
 * Fornecer as informações acadêmicas solicitadas pelo usuário, como previsto nos tópicos anteriores, e como definido no escopo do 
   projeto (<https://github.com/fga-eps-mds/2019.2-Grupo13/blob/master/docs/Escopo.md>).
 * Atender bem as especificações dos requisitos levantados.
+
+## 9: Comunicação
+
+Durante o período do projeto a comunicação do grupo será realizada através de calls diarias no aplicativo Discord.
+
+A comunicação com outros envolvidos, como por exemplo, algum membro do coordenação ou da secretaria, será realizada atavés de reuniões presenciais na FGA.
+
