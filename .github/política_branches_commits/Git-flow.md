@@ -129,7 +129,7 @@ Assim que estiver pronta para o lançamento, será realizado o merge da release 
 
 ## Hotfix
 
-A hotfix branch é utilizada para uma manutenção de pequenos ajustes, ou problemas que não podem esperar até a próxima release.
+A hotfix branch é utilizada para uma manutenção de ajustes sevéros que ocorrem em meio a produção de uma release, que não podem esperar até a próxima release.
 
 Diferentemente das demais branches que são filhas da develop branch, a hotfix é "filha" da master branch, ou seja na criação da hotfix, é realizado o **fork** diretamente da master branch para a hotfix.
 
@@ -158,7 +158,24 @@ Assim que realizado os demais ajustes, será realizado o merge de volta a master
 
 * Similarmente a release branch, ao finalizarmos a hotfix branch, automaticamente é realizado o merge da hotfix com a branch master e develop.
 
-            $ git flow hotfix start hotfix_branch
+            $ git flow hotfix finish hotfix_branch
+## Bugfix
+
+A Bugfix não é uma branch padrão do Gitflow, porém utilizaremos ela com intúito de resolver bugs que ocorrem na fase de teste da produção.
+
+Esta branch será praticamente uma cópia da develop branch, que após os requeridos reparos, será feito o merge de volta a develop branch.
+
+## 1. Iniciando uma bugfix
+
+* Uma bugfix é iniciada de forma simples usando estes comando git-flow:
+
+            $ git flow bugfix start bugfix_branch
+            
+## 2. Finalizando uma bugfix
+
+* Após a bugfix finalizada, ocorre-se o merge de volta a develop branch.
+
+           $ git flow bugfix finish bugfix_branch
 
 ## Referências
 
