@@ -9,7 +9,7 @@
 
 &emsp; [1.2 Escopo](#12-escopo) <br>
 
-&emsp; [1.3 Definições, Acrônimos e Abreviações ](#13-definições-acrônimo-e-abreviações   ) <br>
+&emsp; [1.3 Definições, Acrônimos e Abreviações ](#13-definições-acrônimos-e-abreviações ) <br>
 
 &emsp; [1.4 Referências](#14-referências) <br>
 
@@ -21,17 +21,17 @@
 
 &emsp; [2.2 Back-end](#22-Back-end) <br>
 
-[3. Objetivos e Restrições da Arquitetura](#3-objetivos-restrições-da-arquitetura) <br>
+[3. Objetivos e Restrições da Arquitetura](#3-objetivos-e-restrições-da-arquitetura) <br>
 
 &emsp; [3.1 Requisitos](#31-requisitos) <br>
 
-&emsp; [3.2 Restrições](#32-restrições) <br>
+&emsp; [3.2 Restrições](#32-restrições-tecnológicas) <br>
 
 [4. Visualização de Caso de Uso](#4-visualização-de-caso-de-uso) <br>
 
 &emsp; [4.1 Diagrama de Casos de Uso](#41-diagrama-de-casos-de-uso) <br>
 
-&emsp; [4.2 Atores de Casos de Uso](#42-atores-de-casos-de-usos) <br>
+&emsp; [4.2 Atores de Casos de Uso](#42-atores-de-casos-de-uso) <br>
 
 &emsp; [4.3 Descrições de Casos de Uso](#43-descrições-de-casos-de-uso) <br>
 
