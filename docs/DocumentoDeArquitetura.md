@@ -1,6 +1,12 @@
 
 # Documento de Arquitetura
 
+## Histórico de Versões
+
+| Data | Versão | Descrição | Autor |
+| ---- | ------ | --------- | ----- |
+| 23/09| 1.0.0 | Adição do Template do Documeto | WashingtonBispo |
+
 ## Sumário:
 
 [1. Introdução](#1-introdução) <br>
