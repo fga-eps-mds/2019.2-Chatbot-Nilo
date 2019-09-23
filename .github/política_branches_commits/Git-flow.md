@@ -177,6 +177,10 @@ Esta branch será praticamente uma cópia da develop branch, que após os requer
 
            $ git flow bugfix finish bugfix_branch
 
+### Observações
+
+* Na finalização de cada branch, será realizado o Pull Request, e assim que aprovado, sera utilizado o comando "finish" ou sera realizado o merge e a exclusão da branch (em alguns casos manualmente sem o uso do git-flow).
+
 ## Referências
 
 - <https://medium.com/empathyco/git-flow-applied-to-a-real-project-c08037e28f88>
