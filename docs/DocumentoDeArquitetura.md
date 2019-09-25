@@ -6,7 +6,7 @@
 | Data | Versão | Descrição | Autor |
 | ---- | ------ | --------- | ----- |
 | 23/09| 1.0.0 | Adição do Template do Documeto | Washington Bispo |
-|25/09| 1.0.1 | Adição do 1.4, 2.2, 4.1, 4.2, 4.3, 6 | Washginton Bispo|
+|25/09| 1.0.1 | Adição do 1.4, 2.2, 4.1, 4.2, 4.3 e 6 | Washington Bispo|
 
 ## Sumário:
 
