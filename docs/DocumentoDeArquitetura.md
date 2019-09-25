@@ -7,6 +7,7 @@
 | ---- | ------ | --------- | ----- |
 | 23/09| 1.0.0 | Adição do Template do Documeto | Washington Bispo |
 |25/09| 1.0.1 | Adição do 1.4, 2.2, 4.1, 4.2, 4.3 e 6 | Washington Bispo|
+| 25/09| 1.0.2 | Revisão geral e formatação | Thiago Guilherme |
 
 ## Sumário:
 
@@ -66,7 +67,7 @@ Este documento tem como foco esclarecer o funcionamento da aplicação, suas nua
 ### 1.2: Escopo
 
 
-O projeto tem como objetivo auxiliar os alunos na obtenção de informações relativo ao estágio supervisionado e as monitorias dentro do campus da Universidade de Brasília - Faculdade do Gama, será feito através de um bot que irá ser capaz de responder perguntas referentes aos temas citados.
+O projeto tem como objetivo auxiliar os alunos na obtenção de informações relativo ao estágio supervisionado e as monitorias dentro do campus da Universidade de Brasília - Faculdade do Gama, será feito através de um bot que será capaz de responder as perguntas referentes aos temas citados.
 
 ### 1.3: Definições, Acrônimos e Abreviações
 
@@ -77,9 +78,10 @@ O projeto tem como objetivo auxiliar os alunos na obtenção de informações re
 |     FGA    | Faculdade do Gama                     |
 
 ### 1.4: Referências
-Documento de Arquitetura de Software; Disponível em http://mds.cultura.gov.br/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm#_Toc447085892; Acesso em <25 de Setembro de 2019>
-The Rasa Core dialogue engine; Disponível em: https://rasa.com/docs/core/; Acesso em 25 de Setembro de 2019.
-YUKIO, Victor; GUILHERME, Thiago; KADESH, Eliseu; BISPO, Washington; GOMES, Murilo; AGUIAR, Gabriel; Documento de Visão: https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/documenta%C3%A7%C3%A3o/docs/DocumentoDeVisao.md; Acesso em <25 de Setembro de 2019>
+>Documento de Arquitetura de Software; Disponível em http://mds.cultura.gov.br/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm#_Toc447085892; Acesso em <25 de Setembro de 2019>
+>The Rasa Core dialogue engine; Disponível em: https://rasa.com/docs/core/; Acesso em 25 de Setembro de 2019.
+YUKIO, Victor; GUILHERME, Thiago; KADESH, Eliseu; BISPO, Washington; GOMES, Murilo; AGUIAR, Gabriel; 
+>Documento de Visão: https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/documenta%C3%A7%C3%A3o/docs/DocumentoDeVisao.md; Acesso em <25 de Setembro de 2019>
 
 
 
@@ -134,21 +136,21 @@ A base do projeto é a tecnologia Rasa, que dispõe de um conjunto de ferramenta
 
 ### 4.3: Descrições de Casos de Uso
 #### 4.3.1: Consultar Informações Sobre Estágio 
-Breve Descrição: Este caso de uso permite o usuário fazer perguntas referentes aos processos que envolvem o estágio supervisionado e o bot responderá da maneira adequada.
+Breve Descrição: Este caso de uso permite que o usuário faça perguntas referentes aos processos que envolvem o estágio supervisionado e o bot o responderá da maneira adequada.
 
 #### 4.3.2: Consultar Monitores e Horários de Monitorias
-Breve Descrição: Este caso de uso permite o usuário perguntar quais os horários de um determinada monitorias, perguntar diretamente os horários de um monitor ou todos os monitores de uma determinada matéria.
+Breve Descrição: Este caso de uso permite o usuário perguntar quais os horários de uma determinada monitoria, perguntar diretamente os horários e qual a sala de atendimento, de um monitor ou de todos os monitores de uma determinada matéria.
 
 #### 4.3.3: Marcar Monitorias 
 Breve Descrição: Este caso de uso permite o monitor informar ao bot quando vai ser realizada uma monitoria e aonde ela vai acontecer.
 
 #### 4.3.4: Cadastrar Monitores
-Breve Descrição: Este caso de uso serve para o professor informar ao bot quais são seus monitores e as maneiras de entrar em contaro com eles.
+Breve Descrição: Este caso de uso serve para o professor informar ao bot quais são seus monitores e as maneiras de entrar em contato com eles.
 
 ## 5: Visão Lógica
 
 
-Através de um dispositivo que tenha acesso a aplicação Telegram e acesso a internet o usuário poderá inicializar uma conversa com  NiloBot, quando o usuário enviar uma mensagem ao Nilo, essa mensagem será respondida da forma adequada.
+Através de um dispositivo que tenha acesso a aplicação Telegram e acesso a internet, o usuário poderá inicializar uma conversa com o NiloBot, quando o usuário enviar uma mensagem ao Nilo, essa mensagem será respondida da forma adequada.
 
 A informação referente aos monitores, seus horários e como entrar em contato com ele estarão disponíveis em um google sheet, de onde o bot irá tirar as informações requisitadas pelo usuário.
 
@@ -162,6 +164,7 @@ O aplicativo vai usar a própria interface gráfica do Telegram, onde o usuário
 
     
     
+
 
 
 
