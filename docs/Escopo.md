@@ -1,8 +1,8 @@
 *P.S.:* Esse trabalho é baseado nos trabalhos prévios do Chatbot Lino, encontrados no seguinte link: https://botlino.github.io/docs/
 
-# Bot Lino – Novas funcionalidades
+# Bot Nilo – Novas funcionalidades
 
-*Escopo:* Assim como o objetivo principal determinado na criação do botlino, pretendemos facilitar o acesso de informações aos estudantes da UNB, de forma rápida e prática.
+*Escopo:* Assim como o objetivo principal determinado na criação do botlino, pretendemos facilitar o acesso de informações aos estudantes da UNB, de forma rápida e prática com a criação do novo Bot.
 
 ## Fluxo 1 - FAQ
 
