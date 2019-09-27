@@ -71,7 +71,7 @@ Esse documento servirá como guia do produto, explicando seu objetivo, recursos,
 ### 2.1: Oportunidade de Negócios
 Informações sobre estágio, disponibilidade para horários de monitorias e informações sobre os monitores, não são disponibilizadas de forma de fácil acesso para os alunos.
 
-Dito isto, o Noli tem como objetivo automatizar essas informações, disponibilizando informações sobre o estágio, encontradas no site da UnB e permitir que monitores se cadastrem no Chatbot para que os monitorados possam ir atrás deles de forma mais simples e rápida.
+Dito isto, o Nilo tem como objetivo automatizar essas informações, disponibilizando informações sobre o estágio, encontradas no site da UnB e permitir que monitores se cadastrem no Chatbot para que os monitorados possam ir atrás deles de forma mais simples e rápida.
 ### 2.2: Instrução do Problema
 | Os problemas de | Afeta | Cujo impacto é | Uma boa solução seria |
 | -------------- | -------- | ------------------ | ---------------------------- |
