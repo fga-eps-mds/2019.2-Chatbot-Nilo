@@ -4,7 +4,11 @@ Descrição objetiva do que foi realizado.
 
 ## Resolve (Issues)
 
-Issues que foram resolvidas
+Issues que foram resolvidas:
+
+
+* resolve #numero_da_issue.
+
 
 ## Pull_Requests relacionados, se houver
 
