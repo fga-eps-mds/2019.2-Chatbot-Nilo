@@ -95,4 +95,16 @@
 - coordenadores de estagio
 - coordenadores de estagio e quando atendem
 
+## intent:action_docs_nao_obrigatorio_estagio
+- gostaria de saber quais sao os documentos necessarios para o estagio nao obrigatorio
+- quais sao os documentos necessarios para o estagio nao obrigatorio
+- documentos necessarios para o estagio nao obrigatorio
+
+## intent:action_objetivo_estagio
+- gostaria de saber qual o objetivo do estagio supervisionado
+- qual o objetivo do estagio supervisionado
+- qual seria o objetivo do estagio supervisionado
+- objetivo do estagio superivisionado
+
+
 
