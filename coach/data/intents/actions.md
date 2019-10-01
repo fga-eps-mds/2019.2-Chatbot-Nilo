@@ -55,3 +55,14 @@
 - gostaria de saber qual a caga horaria minima para o estagio supervisionado
 - carga horaria minima necessaria para o estagio supervisionado
 - carga horaria minima para o estagio supervisionado
+
+## intent:action_limite_creditos_estagio
+- há limite de creditos para cursar o estagio supervisionado
+- gostaria de saber se há limite de creditos para cursar o estagio supervisionado
+- existe algum limite de creditos para cursar o estagio supervisionado
+
+## intent:action_preencher_datas_estagio
+- como preencho as datas de inicio e termino do estagio supervisionado
+- como preencher as datas de inicio e termino do estagio supervisionado 
+- tenho duvidas de como preencher as datas de incio de termino do estagio supervisionado
+- gostaria de saber como preencher as datas de inicio e termino do estagio supervisionado
