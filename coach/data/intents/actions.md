@@ -41,4 +41,28 @@
 - gostaria de saber como me matricular no estagio supervisionado
 - gostaria de saber sobre como funciona a matricula no estagio supervisionado
 
+## intent:action_orientador_estagio
+- como escolher um orientador de estagio supervisionado
+- como escolher um orientador de estagio
+- gostaria de saber como escolher um orientador de estagio supervisionado
+- como escolho um orientador de estagio para a disciplina de estagio supervisionado
+- como escolho um orientador de estagio supervisionado
+- orientador para estagio supervisionado
 
+## intent:action_carga-horaria_min_estagio
+- qual a carga horaria minima para o estagio supervisionado
+- qual a carga horari minima necessaria para o estagio supervisionado
+- gostaria de saber qual a caga horaria minima para o estagio supervisionado
+- carga horaria minima necessaria para o estagio supervisionado
+- carga horaria minima para o estagio supervisionado
+
+## intent:action_limite_creditos_estagio
+- há limite de creditos para cursar o estagio supervisionado
+- gostaria de saber se há limite de creditos para cursar o estagio supervisionado
+- existe algum limite de creditos para cursar o estagio supervisionado
+
+## intent:action_preencher_datas_estagio
+- como preencho as datas de inicio e termino do estagio supervisionado
+- como preencher as datas de inicio e termino do estagio supervisionado 
+- tenho duvidas de como preencher as datas de incio de termino do estagio supervisionado
+- gostaria de saber como preencher as datas de inicio e termino do estagio supervisionado
