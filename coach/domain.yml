@@ -47,6 +47,7 @@ intents:
   - action_contratos_estagio
   - action_limite_creditos_simultaneo_estagio
   - action_doc_matricula_estagio
+  - action_restricao_estagio
 
 entities:
   - religiao
@@ -498,3 +499,4 @@ actions:
   - action_contratos_estagio
   - action_limite_creditos_simultaneo_estagio
   - action_doc_matricula_estagio
+  - action_restricao_estagio

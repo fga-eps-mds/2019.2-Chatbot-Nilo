@@ -107,3 +107,13 @@
 ## path_action_doc_matricula_estagio 2
 * action_doc_matricula_estagio
 	- action_doc_matricula_estagio
+
+## path_action_restricao_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_restricao_estagio
+	- action_restricao_estagio
+
+## path_action_restricao_estagio 2
+* action_restricao_estagio
+	- action_restricao_estagio

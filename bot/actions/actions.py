@@ -111,3 +111,12 @@ class ActionDocMatriculaEstagio(Action):
 		except ValueError:
 			dispatcher.utter_message(ValueError)
 
+class ActionRestricaoEstagio(Action):
+	def name(self):
+		return 'action_restricao_estagio'
+	def run(self, dispatcher, tracker, domain):
+		try:
+			for line in procura_respostas.procura_resposta_por_topico(13):
+				dispatcher.utter_message('{}'.format(line))
+		except ValueError:
+			dispatcher.utter_message(ValueError)
