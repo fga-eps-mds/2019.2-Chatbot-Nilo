@@ -117,3 +117,13 @@
 ## path_action_restricao_estagio 2
 * action_restricao_estagio
 	- action_restricao_estagio
+
+## path_action_coordenadores_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_coordenadores_estagio
+	- action_coordenadores_estagio
+
+## path_action_coordenadores_estagio 2
+* action_coordenadores_estagio
+	- action_coordenadores_estagio
