@@ -2,7 +2,7 @@
 name: Funcionalidade
 about: Sugerir uma ideia para o projeto
 title: ''
-labels: evolucao
+labels: ''
 assignees: ''
 
 ---
