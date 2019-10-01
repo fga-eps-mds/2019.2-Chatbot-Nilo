@@ -70,3 +70,13 @@ class ActionLimiteCreditosEstagio(Action):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
+
+class ActionPreencherDatasEstagio(Action):
+	def name(self):
+		return 'action_preencher_datas_estagio'
+	def run(self, dispatcher, tracker, domain):
+		try:
+			for line in procura_respostas.procura_resposta_por_topico(8):
+				dispatcher.utter_message('{}'.format(line))
+		except ValueError:
+			dispatcher.utter_message(ValueError)

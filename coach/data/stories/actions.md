@@ -67,3 +67,13 @@
 ## path_action_limite_creditos_estagio 2
 * action_limite_creditos_estagio
 	- action_limite_creditos_estagio
+
+## path_action_preencher_datas_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_preencher_datas_estagio
+	- action_preencher_datas_estagio
+
+## path_action_preencher_datas_estagio 2
+* action_preencher_datas_estagio
+	- action_preencher_datas_estagio
