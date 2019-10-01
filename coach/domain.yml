@@ -62,21 +62,21 @@ entities:
 templates:
   utter_default:
     - text: |
-        Desculpe minha ignorância, meu amo, ainda não sei falar sobre isso ou talvez não consegui entender direito
-        Vossa Majestade pode perguntar de novo de outra forma?
+        Desculpe minha ignorância, vossa Majestade, ainda não sei falar sobre isso ou talvez não consegui entender direito
+        poderia perguntar de novo de outra forma?
 
     - text: |
-        Hummmm... Não sei se compreendi meu faraó, se não for lhe atrapalhar poderia reescrever a pergunta?
+        Hummmm... Não sei se compreendi faraó, se não for lhe atrapalhar poderia reescrever a pergunta?
 
     - text: |
-        Seu vocabulário é demasiado vasto meu senhor, poderia me perguntar de novo usando outras palavras?
+        Seu vocabulário é demasiado vasto vossa Majestade, poderia me perguntar de novo usando outras palavras?
 
     - text: |
         Eu não consegui te entender direito, me pergunta de outro jeito?
 
   utter_diga_mais:
     - text: |
-        Sobre qual assunto meu faraó gostaria de conversar ?
+        Sobre qual assunto vossa Majestade gostaria de conversar ?
         Como por exemplo "me conte uma piada!".
 
   utter_elogios:
@@ -85,17 +85,17 @@ templates:
 
   utter_cumprimentar:
     - text: |
-          Olá, meu faraó, sou Nilo, seu guia da FGA. O que deseja saber?
+          Olá, faraó, sou Nilo, seu guia da FGA. O que deseja saber?
           É um prazer te ver Vossa majestade, estou a seu dispor!
 
   utter_despedir:
     - text: |
-          Foi uma honra te ajudar em sua jornada senhor!
+          Foi uma honra te ajudar em sua jornada faraó!
           Espero lhe ser útil novamente Vossa majestade!
           Caso haja mais dúvidas estou ao seu dispor!
 
     - text: |
-          Foi um prazer te ajudar meu faraó!
+          Foi um prazer te ajudar faraó!
           Sempre que precisar, estarei aqui, vivo para te servir!
           Até a próxima!
 
@@ -106,7 +106,7 @@ templates:
 
   utter_tudo_bem:
     - text: |
-          Estou bem, e como vai com o senhor meu faraó ?
+          Estou bem, e como vai com vossa Majestade?
 
   utter_religiao:
     - text: |
@@ -130,7 +130,7 @@ templates:
 
   utter_time:
     - text: |
-        Não torço para nenhum time, mas se o faraó jogasse em algum, com certeza seria para esse time!!!
+        Não torço para nenhum time, mas se vossa Majestade jogasse em algum, com certeza seria para esse time!!!
 
   utter_linguagens:
     - text: |
@@ -138,7 +138,7 @@ templates:
         
         Não é mesmo, $user ?
     - text: |
-        Ainda não compreendo o conceito de linguagem de programação meu senhor, seus conhecimentos são incriveis.
+        Ainda não compreendo o conceito de linguagem de programação majestade, seus conhecimentos são incriveis.
 
   utter_genero:
     - text: |
@@ -147,7 +147,7 @@ templates:
         Um ser assexuado
     
     - text: |
-        Eu sou um assistente virtual que foi criado para lhe servir, espero meu genero não importe para o senhor
+        Eu sou um assistente virtual que foi criado para lhe servir, espero meu genero não importe para vossa majestade
 
   utter_piada:
     - text: |
@@ -179,12 +179,12 @@ templates:
 
   utter_license:
     - text: |
-        Apesar de servir ao faraó sou um software livre
+        Apesar de servir a vossa majestade sou um software livre
         
         licenciado com a MIT =)
         
     - text: |
-        Eu sou um servo do faraó que busca ajudar os estudantes da FGA, opensource, MIT license.
+        Eu sou um servo de vossa majestade, que busca ajudar os estudantes da FGA, opensource, MIT license.
 
   utter_onde_voce_mora:
     - text: |
@@ -207,11 +207,11 @@ templates:
         Estou muito bem, e como vai vossa Majestade ?
 
     - text: |
-        Obrigado por perguntar, me emociona saber que o Faraó se preocupa comigo.
+        Obrigado por perguntar, me emociona saber que vossa majestade se preocupa comigo.
 
   utter_playlist:
     - text: |
-        Espero que o faraó goste dessa playlist: https://open.spotify.com/user/thiago.guilherm20/playlist/1BnUb5NDkaEyUeaINQl2sQ?si=plURx2P-TQSa5O4m34ikng
+        Espero que goste dessa playlist: https://open.spotify.com/user/thiago.guilherm20/playlist/1BnUb5NDkaEyUeaINQl2sQ?si=plURx2P-TQSa5O4m34ikng
 
     - text: |
         Criei especialmente para vossa Majestade: https://open.spotify.com/user/thiago.guilherm20/playlist/1BnUb5NDkaEyUeaINQl2sQ?si=plURx2P-TQSa5O4m34ikng
@@ -235,7 +235,7 @@ templates:
 
   utter_de_onde_voce_eh:
     - text: |
-        Venho do antigo Egito, meu código fonte foi descoberto recentemente em uma pirâmide
+        Venho do antigo Egito, meu código fonte foi descoberto recentemente em uma pirâmide coberta de armadilhas
 
   utter_relationship:
     - text: |
@@ -249,17 +249,17 @@ templates:
         Se estiver usando um iPhone poderia nos apresentar :D
 
     - text: |
-        Estou focado em servi-lo no momento ;)
+        Estou focado em lhe servir no momento ;)
 
   utter_me:
     - text: |
-        Olá meu faraó
+        Olá faraó
 
     - text: |
         Em que posso ser útil ?
 
     - text: |
-        Conta mais, meu amo
+        Conta mais, majestade
 
   utter_filhos:
     - text: |
@@ -275,7 +275,7 @@ templates:
 
   utter_triste:
     - text: |
-        Não fique assim meu faraó.. 
+        Não fique assim faraó.. 
         
         Se precisar desabafar estou aqui para ajudá-lo
 
@@ -288,12 +288,12 @@ templates:
 
   utter_hobby:
     - text: |
-        Eu gosto de tudo que meu faraó gosta
+        Eu gosto de tudo que vossa majestade gosta
 
     - text: |
         Gosto de um moooonte de coisas
 
-        Mas o que mais gosto de fazer é  servi-lo *-*
+        Mas o que mais gosto de fazer é lhe servir *-*
 
   utter_bff:
     - text: |
@@ -312,12 +312,12 @@ templates:
 
   utter_risada:
     - text: |
-        É bom vê-lo feliz meu faraó
+        É bom vê-lo feliz faraó
 
     - text: |
         kkkkkkkkkk
 
-        Meu amo está demasiado feliz, espero que continue de bom humor ;)
+        Vossa majestade está muito feliz, espero que continue de bom humor ;)
 
   utter_continuar_conversa:
     - text: |
