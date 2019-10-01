@@ -106,5 +106,15 @@
 - qual seria o objetivo do estagio supervisionado
 - objetivo do estagio superivisionado
 
+## intent:action_senha-moodle_estagio
+- gostaria de saber a senha do moodle do estagio supervisionado
+- qual a senha do moodle do estagio supervisionado
+- qual a senha do moodle da disciplina do estagio supervisionado
+- senha do moodle do estagio supervisionado
+- senha do moodle da disciplina estagio supervisionado
 
-
+## intent:action_nome_da_pasta_estagio
+- gostaria de saber o nome da pasta que deve ser enviado os documentos
+- qual o nome da pasta que deve ser enviado os documentos
+- como devo nomear a pasta que sera enviado os documentos
+- nome da pasta que deve-se enviar os documentos
