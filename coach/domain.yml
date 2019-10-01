@@ -36,6 +36,7 @@ intents:
   - historia
   - risada
 
+  - action_atividades_estagio
 
 entities:
   - religiao
@@ -476,3 +477,4 @@ actions:
   - utter_afirmacao_botao
   - utter_negacao_botao
 
+  - action_atividades_estagio
