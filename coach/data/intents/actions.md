@@ -76,3 +76,23 @@
 - qual o limite de creditos que podem ser cursados simultaneamente ao estagio
 - limite de creditos silmutaneos ao estagio
 - qual o limite de creditos simultaneos ao estagio
+
+## intent:action_doc_matricula_estagio
+- gostaria de saber quais sao os documentos que devo apresentar junto a matricula caso esteja aproveitando um projeto de pesquisa
+- quais sao os documentos necessarios apresentar junto a matricula para aproveitar um projeto de pesquisa
+- quais sao os documentos que devo apresentar junto a matricula caso esteja aproveitando um projeto de pesquisa
+
+## intent:action_restricao_estagio
+- gostaria de saber se ha alguma restricao caso o estagio nao seja em brasilia
+- existe alguma restricao caso o estagio nao seja em brasilia
+- caso o estagio nao seja em brasilia existe alguma restricao
+
+## intent:action_coordenadores_estagio
+- gostaria de saber quem sao os coordenadores de estagio
+- gostaria de saber quem sao os coordenadores de estagio e quando atendem
+- quem sao os coordenadores de estagio
+- quem sao os coordenadores de estagio e quando atendem
+- coordenadores de estagio
+- coordenadores de estagio e quando atendem
+
+
