@@ -27,3 +27,13 @@
 ## path_action_periodo_matricula_estagio 2
 * action_periodo_matricula_estagio
 	- action_periodo_matricula_estagio
+
+## path_action_matricula_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_matricula_estagio
+	- action_matricula_estagio
+
+## path_action_matricula_estagio 2
+* action_matricula_estagio
+	- action_matricula_estagio
