@@ -127,3 +127,13 @@
 ## path_action_coordenadores_estagio 2
 * action_coordenadores_estagio
 	- action_coordenadores_estagio
+
+## path_action_docs_nao_obrigatorio_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_docs_nao_obrigatorio_estagio
+	- action_docs_nao_obrigatorio_estagio
+
+## path_action_docs_nao_obrigatorio_estagio 2
+* action_docs_nao_obrigatorio_estagio
+	- action_docs_nao_obrigatorio_estagio

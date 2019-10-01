@@ -130,3 +130,13 @@ class ActionCoordenadoresEstagio(Action):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
+
+class ActionDocsNaoObrigatorioEstagio(Action):
+	def name(self):
+		return 'action_docs_nao_obrigatorio_estagio'
+	def run(self, dispatcher, tracker, domain):
+		try:
+			for line in procura_respostas.procura_resposta_por_topico(15):
+				dispatcher.utter_message('{}'.format(line))
+		except ValueError:
+			dispatcher.utter_message(ValueError)

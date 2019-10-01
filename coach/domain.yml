@@ -49,6 +49,7 @@ intents:
   - action_doc_matricula_estagio
   - action_restricao_estagio
   - action_coordenadores_estagio
+  - action_docs_nao_obrigatorio_estagio
 
 entities:
   - religiao
@@ -502,3 +503,4 @@ actions:
   - action_doc_matricula_estagio
   - action_restricao_estagio
   - action_coordenadores_estagio
+  - action_docs_nao_obrigatorio_estagio
