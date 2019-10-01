@@ -16,7 +16,7 @@
 - gostaria de saber os pre-requisitos do estagio supervisionado
 - gostaria de saber os pre-requisitos do estagio
 
-## intent:action_matricula_estagio
+## intent:action_periodo_matricula_estagio
 - quando ocorre a matricula para o estagio supervisionado
 - quando ocorre a matricula para o estagio
 - quando ocorre a matricula do estagio suervisionado
@@ -24,8 +24,8 @@
 - quando acontece a matricula do estagio supervisionado
 - gostaria de saber quando acontece a matricula do estagio supervisionado
 - gostaria de saber quando acontece a matricula do estagio
-- matricula do estagio supervisionado
-- matricula do estagio
+- periodo de matricula do estagio supervisionado
+- periodo de matricula do estagio
 
 ## intent:action_link_estagio
 - gostaria de obter o link do moodle para o estagio supervisionado
