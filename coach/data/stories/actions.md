@@ -77,3 +77,13 @@
 ## path_action_preencher_datas_estagio 2
 * action_preencher_datas_estagio
 	- action_preencher_datas_estagio
+
+## path_action_contratos_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_contratos_estagio
+	- action_contratos_estagio
+
+## path_action_contratos_estagio 2
+* action_contratos_estagio
+	- action_contratos_estagio

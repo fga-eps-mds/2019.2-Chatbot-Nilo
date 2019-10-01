@@ -80,3 +80,14 @@ class ActionPreencherDatasEstagio(Action):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
+
+class ActionContratosEstagio(Action):
+	def name(self):
+		return 'action_contratos_estagio'
+	def run(self, dispatcher, tracker, domain):
+		try:
+			for line in procura_respostas.procura_resposta_por_topico(10):
+				dispatcher.utter_message('{}'.format(line))
+		except ValueError:
+			dispatcher.utter_message(ValueError)
+

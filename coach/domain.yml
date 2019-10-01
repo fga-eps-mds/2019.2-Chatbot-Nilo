@@ -44,6 +44,7 @@ intents:
   - action_carga-horaria_min_estagio
   - action_limite_creditos_estagio
   - action_preencher_datas_estagio
+  - action_contratos_estagio
 
 entities:
   - religiao
@@ -492,3 +493,4 @@ actions:
   - action_carga-horaria_min_estagio
   - action_limite_creditos_estagio
   - action_preencher_datas_estagio
+  - action_contratos_estagio
