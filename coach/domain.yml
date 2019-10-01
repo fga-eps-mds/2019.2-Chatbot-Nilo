@@ -40,6 +40,7 @@ intents:
   - action_pre-requisitos_estagio
   - action_periodo_matricula_estagio
   - action_matricula_estagio
+  - action_orientador_estagio
 
 entities:
   - religiao
@@ -484,3 +485,4 @@ actions:
   - action_pre-requisitos_estagio
   - action_periodo_matricula_estagio
   - action_matricula_estagio
+  - action_orientador_estagio

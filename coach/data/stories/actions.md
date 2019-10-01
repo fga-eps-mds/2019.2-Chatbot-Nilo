@@ -37,3 +37,13 @@
 ## path_action_matricula_estagio 2
 * action_matricula_estagio
 	- action_matricula_estagio
+
+## path_action_orientador_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_orientador_estagio
+	- action_orientador_estagio
+
+## path_action_orientador_estagio 2
+* action_orientador_estagio
+	- action_orientador_estagio
