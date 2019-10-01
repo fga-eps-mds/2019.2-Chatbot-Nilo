@@ -45,6 +45,7 @@ intents:
   - action_limite_creditos_estagio
   - action_preencher_datas_estagio
   - action_contratos_estagio
+  - action_limite_creditos_simultaneo_estagio
 
 entities:
   - religiao
@@ -494,3 +495,4 @@ actions:
   - action_limite_creditos_estagio
   - action_preencher_datas_estagio
   - action_contratos_estagio
+  - action_limite_creditos_simultaneo_estagio

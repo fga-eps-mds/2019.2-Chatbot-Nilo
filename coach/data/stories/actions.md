@@ -87,3 +87,13 @@
 ## path_action_contratos_estagio 2
 * action_contratos_estagio
 	- action_contratos_estagio
+
+## path_action_limite_creditos_simultaneo_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_limite_creditos_simultaneo_estagio
+	- action_limite_creditos_simultaneo_estagio
+
+## path_action_limite_creditos_simultaneo_estagio 2
+* action_limite_creditos_simultaneo_estagio
+	- action_limite_creditos_simultaneo_estagio
