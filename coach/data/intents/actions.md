@@ -33,3 +33,12 @@
 - link para o moodle do estagio supervisionado
 - link para o moodle da materia de estagio supervisionado
 - me envie o link para o moodle da materia de estagio supervisionado
+
+## intent:action_matricula_estagio
+- como me matriculo no estagio supervisionado
+- como realizo minha matricula no estagio supervisionado
+- como funciona a matricula no estagio supervisionado
+- gostaria de saber como me matricular no estagio supervisionado
+- gostaria de saber sobre como funciona a matricula no estagio supervisionado
+
+
