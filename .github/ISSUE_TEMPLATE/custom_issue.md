@@ -1,4 +1,4 @@
-# General Issues Template
+# Custom Issues Template
 
 ## Título
 
