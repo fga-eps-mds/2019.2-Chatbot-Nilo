@@ -41,6 +41,7 @@ intents:
   - action_periodo_matricula_estagio
   - action_matricula_estagio
   - action_orientador_estagio
+  - action_carga-horaria_min_estagio
 
 entities:
   - religiao
@@ -486,3 +487,4 @@ actions:
   - action_periodo_matricula_estagio
   - action_matricula_estagio
   - action_orientador_estagio
+  - action_carga-horaria_min_estagio

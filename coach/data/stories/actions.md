@@ -47,3 +47,13 @@
 ## path_action_orientador_estagio 2
 * action_orientador_estagio
 	- action_orientador_estagio
+
+## path_action_carga-horaria_min_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_carga-horaria_min_estagio
+	- action_carga-horaria_min_estagio
+
+## path_action_carga-horaria_min_estagio 2
+* action_carga-horaria_min_estagio
+	- action_carga-horaria_min_estagio
