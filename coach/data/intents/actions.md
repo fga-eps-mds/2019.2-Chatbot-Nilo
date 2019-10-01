@@ -66,3 +66,13 @@
 - como preencher as datas de inicio e termino do estagio supervisionado 
 - tenho duvidas de como preencher as datas de incio de termino do estagio supervisionado
 - gostaria de saber como preencher as datas de inicio e termino do estagio supervisionado
+
+## intent:action_contratos_estagio
+- gostaria de saber se os contratos de trabalho precisam ser formalizados junto ao DAIA
+- os contratos de trabalho com carteira assinada precisam ser formalizados junto ao DAIA
+
+## intent:action_limite_creditos_simultaneo_estagio
+- gostaria de saber o limite de creditos que podem ser cursados simultaneamente ao estagio
+- qual o limite de creditos que podem ser cursados simultaneamente ao estagio
+- limite de creditos silmutaneos ao estagio
+- qual o limite de creditos simultaneos ao estagio
