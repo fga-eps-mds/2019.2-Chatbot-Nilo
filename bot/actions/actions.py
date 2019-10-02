@@ -220,3 +220,13 @@ class ActionEstudanteDesligado(Action):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
+
+class ActionQuandoPedidoReIntegracao(Action):
+	def name(self):
+		return 'action_quando_pedido_reintegracao'
+	def run(self, dispatcher, tracker, domain):
+		try:
+			for line in procura_respostas.procura_resposta_por_topico_geral(5):
+				dispatcher.utter_message('{}'.format(line))
+		except ValueError:
+			dispatcher.utter_message(ValueError)

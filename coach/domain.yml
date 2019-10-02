@@ -57,6 +57,7 @@ intents:
   - action_quando_entra_risco_desligamento
   - action_sair_risco_desligamento
   - action_estudante_desligado
+  - action_quando_pedido_reintegracao
 
 entities:
   - religiao
@@ -421,3 +422,4 @@ actions:
   - action_encontrar_guia_calouro
   - action_sair_risco_desligamento
   - action_estudante_desligado
+  - action_quando_pedido_reintegracao

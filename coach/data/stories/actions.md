@@ -217,3 +217,13 @@
 ## path_action_estudante_desligado 2
 * action_estudante_desligado
 	- action_estudante_desligado
+
+## path_action_quando_pedido_reintegracao 1
+* cumprimentar
+	- utter_cumprimentar
+* action_quando_pedido_reintegracao
+	- action_quando_pedido_reintegracao
+
+## path_action_quando_pedido_reintegracao 2
+* action_quando_pedido_reintegracao
+	- action_quando_pedido_reintegracao
