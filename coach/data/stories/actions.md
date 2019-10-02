@@ -227,3 +227,14 @@
 ## path_action_quando_pedido_reintegracao 2
 * action_quando_pedido_reintegracao
 	- action_quando_pedido_reintegracao
+
+## path_action_como_pedido_reintegracao 1
+* cumprimentar
+	- utter_cumprimentar
+* action_como_pedido_reintegracao
+	- action_como_pedido_reintegracao
+
+## path_action_como_pedido_reintegracao 2
+* action_como_pedido_reintegracao
+	- action_como_pedido_reintegracao
+
