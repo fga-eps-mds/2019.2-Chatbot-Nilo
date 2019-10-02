@@ -2,7 +2,7 @@
 
 # Chatbot Nilo
 
-![Nilo_logo_pequeno](https://user-images.githubusercontent.com/48720096/66083330-6bc22a80-e542-11e9-8c70-5b4c497aa6a7.jpg)
+![Nilo_logo_medio](https://user-images.githubusercontent.com/48720096/66083488-cb203a80-e542-11e9-9b32-62491d364934.jpeg)
 
 ## O que é o Nilo?
 
