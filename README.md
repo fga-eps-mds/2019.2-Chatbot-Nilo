@@ -21,13 +21,13 @@ Procure o bot pelo nome “@nilo_fga_bot” e pode começar a conversar.
 Ele pode tirar as dúvidas acadêmicas mais frequentes sobre a UnB…
 
 # Documentação:
-[1. Documento de Arquitetura](
+- [1. Documento de Arquitetura](
  https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeArquitetura.md) 
-[2. Documento de Visão](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeVisao.md)
-[3. TAP](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/TAP.md)
-[4. Roadmap](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Roadmap.md)
-[5. Escopo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Escopo.md)
+- [2. Documento de Visão](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeVisao.md)
+- [3. TAP](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/TAP.md)
+- [4. Roadmap](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Roadmap.md)
+- [5. Escopo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Escopo.md)
 
 # Referenciais
-[1] Rasa-boilerplate: <https://github.com/lappis-unb/rasa-ptbr-boilerplate>
-[2] Disciplina MDS: <https://github.com/fga-eps-mds>
+- [1] Rasa-boilerplate: <https://github.com/lappis-unb/rasa-ptbr-boilerplate>
+- [2] Disciplina MDS: <https://github.com/fga-eps-mds>
