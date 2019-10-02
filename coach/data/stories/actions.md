@@ -167,3 +167,13 @@
 ## path_action_nome_da_pasta_estagio
 * action_nome_da_pasta_estagio
 	- action_nome_da_pasta_estagio
+
+## path_action_link_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_link_estagio
+	- action_link_estagio
+
+## path_action_link_estagio 2
+* action_link_estagio
+	- action_link_estagio
