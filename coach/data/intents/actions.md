@@ -207,7 +207,7 @@
 - como entrar em risco de desligamento
 - risco de desligamento
 
-## intent:action_sair_riscodesligamento
+## intent:action_sair_risco_desligamento
 - como sair do risco de desligamento
 - quando saio do risco de desligamento
 - o que fazer em risco de desligamento

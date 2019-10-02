@@ -55,6 +55,7 @@ intents:
 
   - action_encontrar_guia_calouro
   - action_quando_entra_risco_desligamento
+  - action_sair_risco_desligamento
 
 entities:
   - religiao
@@ -417,3 +418,4 @@ actions:
 
   - action_quando_entra_risco_desligamento
   - action_encontrar_guia_calouro
+  - action_sair_risco_desligamento

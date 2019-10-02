@@ -197,3 +197,13 @@
 ## path_action_quando_entra_risco_desligamento 2
 * action_quando_entra_risco_desligamento
 	- action_quando_entra_risco_desligamento
+
+## path_action_sair_risco_desligamento 1
+* cumprimentar
+	- utter_cumprimentar
+* action_sair_risco_desligamento
+	- action_sair_risco_desligamento
+
+## path_action_sair_risco_desligamento
+* action_sair_risco_desligamento
+	- action_sair_risco_desligamento
