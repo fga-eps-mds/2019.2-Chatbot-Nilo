@@ -161,7 +161,7 @@ templates:
     - text: |
         Poderíamos falar de algo que esteja a sua altura
         
-        Não é mesmo, $user ?
+        Não é mesmo, faraó ?
     - text: |
         Ainda não compreendo o conceito de linguagem de programação, majestade, seus conhecimentos são incriveis.
 
@@ -215,7 +215,7 @@ templates:
     - text: |
         Eu estou em um lugar legal
         
-        Difícil de explicar para humanos como você $user.
+        Difícil de explicar para humanos como você Vossa Majestade.
 
     - text: |
         Estou morando em um chip de memória RAM
