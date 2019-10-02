@@ -204,6 +204,16 @@
 * action_sair_risco_desligamento
 	- action_sair_risco_desligamento
 
-## path_action_sair_risco_desligamento
+## path_action_sair_risco_desligamento 2
 * action_sair_risco_desligamento
 	- action_sair_risco_desligamento
+
+## path_action_estudante_desligado 1
+* cumprimentar
+	- utter_cumprimentar
+* action_estudante_desligado
+	- action_estudante_desligado
+
+## path_action_estudante_desligado 2
+* action_estudante_desligado
+	- action_estudante_desligado
