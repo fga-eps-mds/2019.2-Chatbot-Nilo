@@ -62,30 +62,6 @@
 - melhor time
 - time
 
-## intent:star_wars
-- [mestre yoda](starwars)
-- citação de [starwars](starwars)
-- cite [yoda](starwars)
-- me manda um concelho [jedi](starwars)
-- sabedoria [jedi](starwars)
-- concelhos [jedi](starwars)
-- [star wars](starwars)
-- [yoda] (starwars)
-- concelhos do [yoda](starwars)
-- [guerra nas estrelas](starwars)
-- quero conselhos do yoda
-- lado negro da força
-- lado negro da forca
-- lado negro
-- frase de star wars
-- guerra nas estrelas
-- darth vader
-- luke
-- leia
-- c3po
-- r2d2
-- jedi
-
 ## intent:como_estou
 - [como voce é](how)?
 - [como vc é](how)?
@@ -349,17 +325,6 @@
 - filme que ama
 - filme favorito
 - filme preferido
-
-## intent:signo
-- Qual o seu [signoo](signo)?
-- qual é o seu signo
-- qual o seu signo
-- Fala seu [signoo](signo)?
-- [signoo](signo)
-- diz pra mim qual é seu signo
-- diz pra mim qual e seu signo
-- seu signo
-- signo
 
 ## intent:triste
 - Estou [triste](triste)
