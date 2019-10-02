@@ -200,7 +200,7 @@
 - encontrar guia do calouro
 - achar guia do calouro
 
-## intent:action_quando_entra_riscodesligamento
+## intent:action_quando_entra_risco_desligamento
 - quando um estudante entra em risco de desligamento
 - quando um aluno entra em risco de desligamento
 - quando entro em risco de desligamento

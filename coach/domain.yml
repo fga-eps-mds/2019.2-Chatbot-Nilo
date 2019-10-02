@@ -52,7 +52,9 @@ intents:
   - action_senha-moodle_estagio
   - action_nome_da_pasta_estagio
   - action_link_estagio
+
   - action_encontrar_guia_calouro
+  - action_quando_entra_risco_desligamento
 
 entities:
   - religiao
@@ -408,10 +410,10 @@ actions:
   - action_restricao_estagio
   - action_coordenadores_estagio
   - action_docs_nao_obrigatorio_estagio
-
   - action_objetivo_estagio
   - action_senha-moodle_estagio
   - action_nome_da_pasta_estagio
   - action_link_estagio
 
+  - action_quando_entra_risco_desligamento
   - action_encontrar_guia_calouro

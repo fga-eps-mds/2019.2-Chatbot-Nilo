@@ -187,3 +187,13 @@
 ## path_action_encontrar_guia_calouro 2
 * action_encontrar_guia_calouro
 	- action_encontrar_guia_calouro
+
+## path_action_quando_entra_risco_desligamento 1
+* cumprimentar
+	- utter_cumprimentar
+* action_quando_entra_risco_desligamento
+	- action_quando_entra_risco_desligamento
+
+## path_action_quando_entra_risco_desligamento 2
+* action_quando_entra_risco_desligamento
+	- action_quando_entra_risco_desligamento
