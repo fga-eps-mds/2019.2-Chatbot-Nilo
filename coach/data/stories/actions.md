@@ -238,3 +238,12 @@
 * action_como_pedido_reintegracao
 	- action_como_pedido_reintegracao
 
+## path_action_revisar_mencao 1
+* cumprimentar
+	- utter_cumprimentar
+* action_revisar_mencao
+	- action_revisar_mencao
+
+## path_action_revisar_mencao 2
+* action_revisar_mencao
+	- action_revisar_mencao

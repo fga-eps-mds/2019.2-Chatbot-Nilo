@@ -59,6 +59,7 @@ intents:
   - action_estudante_desligado
   - action_quando_pedido_reintegracao
   - action_como_pedido_reintegracao
+  - action_revisar_mencao
 
 entities:
   - religiao
@@ -425,3 +426,4 @@ actions:
   - action_estudante_desligado
   - action_quando_pedido_reintegracao
   - action_como_pedido_reintegracao
+  - action_revisar_mencao
