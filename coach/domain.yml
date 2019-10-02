@@ -50,6 +50,7 @@ intents:
   - action_docs_nao_obrigatorio_estagio
   - action_objetivo_estagio
   - action_senha-moodle_estagio
+  - action_nome_da_pasta_estagio
 
 entities:
   - religiao
@@ -408,3 +409,4 @@ actions:
 
   - action_objetivo_estagio
   - action_senha-moodle_estagio
+  - action_nome_da_pasta_estagio

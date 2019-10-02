@@ -157,3 +157,13 @@
 ## path_action_senha-moodle_estagio 2
 * action_senha-moodle_estagio
 	- action_senha-moodle_estagio
+
+## path_action_nome_da_pasta_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_nome_da_pasta_estagio
+	- action_nome_da_pasta_estagio
+
+## path_action_nome_da_pasta_estagio
+* action_nome_da_pasta_estagio
+	- action_nome_da_pasta_estagio
