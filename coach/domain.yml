@@ -53,6 +53,14 @@ intents:
   - action_nome_da_pasta_estagio
   - action_link_estagio
 
+  - action_encontrar_guia_calouro 
+  - action_quando_entra_risco_desligamento
+  - action_sair_risco_desligamento
+  - action_estudante_desligado
+  - action_quando_pedido_reintegracao
+  - action_como_pedido_reintegracao
+  - action_revisar_mencao
+
 entities:
   - religiao
   - esporte
@@ -412,3 +420,11 @@ actions:
   - action_senha-moodle_estagio
   - action_nome_da_pasta_estagio
   - action_link_estagio
+
+  - action_encontrar_guia_calouro 
+  - action_quando_entra_risco_desligamento
+  - action_sair_risco_desligamento
+  - action_estudante_desligado
+  - action_quando_pedido_reintegracao
+  - action_como_pedido_reintegracao
+  - action_revisar_mencao
