@@ -147,3 +147,13 @@
 ## path_action_objetivo_estagio 2
 * action_objetivo_estagio
 	- action_objetivo_estagio
+
+## path_action_senha-moodle_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_senha-moodle_estagio
+	- action_senha-moodle_estagio
+
+## path_action_senha-moodle_estagio 2
+* action_senha-moodle_estagio
+	- action_senha-moodle_estagio
