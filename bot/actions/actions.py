@@ -6,7 +6,7 @@ class ActionAtividadesEstagio(Action):
 		return 'action_atividades_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(1):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(1):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -16,7 +16,7 @@ class ActionPreRequisitosEstagio(Action):
 		return 'action_pre-requisitos_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(2):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(2):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -26,7 +26,7 @@ class ActionPeriodoMatriculaEstagio(Action):
 		return 'action_periodo_matricula_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(3):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(3):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -36,7 +36,7 @@ class ActionMatriculaEstagio(Action):
 		return 'action_matricula_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(4):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(4):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -46,7 +46,7 @@ class ActionOrientadorEstagio(Action):
 		return 'action_orientador_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(5):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(5):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -56,7 +56,7 @@ class ActionCargaHorariaMinEstagio(Action):
 		return 'action_carga-horaria_min_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(6):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(6):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -66,7 +66,7 @@ class ActionLimiteCreditosEstagio(Action):
 		return 'action_limite_creditos_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(7):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(7):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -76,7 +76,7 @@ class ActionLinkEstagio(Action):
 		return 'action_link_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(8):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(8):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -86,7 +86,7 @@ class ActionPreencherDatasEstagio(Action):
 		return 'action_preencher_datas_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(9):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(9):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -96,7 +96,7 @@ class ActionContratosEstagio(Action):
 		return 'action_contratos_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(10):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(10):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -106,7 +106,7 @@ class ActionLimiteCreditosSimultaneoEstagio(Action):
 		return 'action_limite_creditos_simultaneo_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(11):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(11):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -116,7 +116,7 @@ class ActionDocMatriculaEstagio(Action):
 		return 'action_doc_matricula_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(12):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(12):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -126,7 +126,7 @@ class ActionRestricaoEstagio(Action):
 		return 'action_restricao_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(13):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(13):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -136,7 +136,7 @@ class ActionCoordenadoresEstagio(Action):
 		return 'action_coordenadores_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(14):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(14):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -146,7 +146,7 @@ class ActionDocsNaoObrigatorioEstagio(Action):
 		return 'action_docs_nao_obrigatorio_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(15):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(15):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -156,7 +156,7 @@ class ActionObjetivoEstagio(Action):
 		return 'action_objetivo_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(16):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(16):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -166,7 +166,7 @@ class ActionSenhaMoodleEstagio(Action):
 		return 'action_senha-moodle_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(17):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(17):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
@@ -176,7 +176,7 @@ class ActionNomeDaPastaEstagio(Action):
 		return 'action_nome_da_pasta_estagio'
 	def run(self, dispatcher, tracker, domain):
 		try:
-			for line in procura_respostas.procura_resposta_por_topico(18):
+			for line in procura_respostas.procura_resposta_por_topico_estagio(18):
 				dispatcher.utter_message('{}'.format(line))
 		except ValueError:
 			dispatcher.utter_message(ValueError)
