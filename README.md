@@ -2,7 +2,7 @@
 
 # Chatbot Nilo
 
-![WhatsApp Image 2019-10-02 at 18 17 14](https://user-images.githubusercontent.com/48720096/66082801-4f71be00-e541-11e9-8094-5a0f298801b1.jpeg)
+![Nilo_logo_pequeno](https://user-images.githubusercontent.com/48720096/66083330-6bc22a80-e542-11e9-8c70-5b4c497aa6a7.jpg)
 
 ## O que é o Nilo?
 
