@@ -189,3 +189,69 @@
 - qual o nome da pasta estagio supervisionado
 - pasta de documentos estagio supervisionado
 - pasta estagio supervisionado
+
+## intent:action_encontrar_guia_calouro
+- onde posso encontrar o guia do calouro
+- onde encontrar guia do calouro
+- em que site acho o guia do calouro
+- onde acho o guia do calouro
+- onde achar o guia do calouro
+- site do guia do calouro
+- encontrar guia do calouro
+- achar guia do calouro
+
+## intent:action_quando_entra_riscodesligamento
+- quando um estudante entra em risco de desligamento
+- quando um aluno entra em risco de desligamento
+- quando entro em risco de desligamento
+- como entrar em risco de desligamento
+- risco de desligamento
+
+## intent:action_sair_riscodesligamento
+- como sair do risco de desligamento
+- quando saio do risco de desligamento
+- o que fazer em risco de desligamento
+- oq fazer em risco de desligamento
+- o que fazer risco de desligamento
+- oq fazer risco desligamento
+- sair risco desligamento
+- sair do risco de desligamento
+- sair risco de desligamento
+- socorro risco de desligamento
+- socorro risco desligamento
+
+## intent:action_estudante_desligado
+- quando um estudante e desligado
+- quando um estudante e desligado da UNB
+- quando um aluno e desligado
+- quando um aluno e desligado da UNB
+- como ser desligado da UNB
+- desligamento
+- expulsao
+- vou ser desligado
+
+## intent:action_quando_pedido_reintegracao
+- quando posso fazer meu pedido de reintegracao
+- quando fazer pedido de reintegracao
+- quando fazer pedido reintegracao
+- quando pedir reintegracao
+- periodo de reintegracao
+- tempo de reintegracao
+- data de reintegracao
+- ate quando posso ser reintegrado
+
+## intent:action_como_pedido_reintegracao
+- como fazer o pedido de reintegracao
+- como posso fazer o pedido de reintegracao
+- como ser reintegrado
+- como fazer reintegracao
+- como pedir reintegracao
+- como fazer pedido reintegracao
+
+## intent:action_revisar_mencao
+- como fazer a revisao de mencao
+- como fazer revisao de mencao
+- como revisar mencao
+- revisar mencao
+- revisao mencao
+- revisao de mencao
