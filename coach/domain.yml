@@ -52,6 +52,7 @@ intents:
   - action_senha-moodle_estagio
   - action_nome_da_pasta_estagio
   - action_link_estagio
+  - action_encontrar_guia_calouro
 
 entities:
   - religiao
@@ -412,3 +413,5 @@ actions:
   - action_senha-moodle_estagio
   - action_nome_da_pasta_estagio
   - action_link_estagio
+
+  - action_encontrar_guia_calouro

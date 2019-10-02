@@ -177,3 +177,13 @@
 ## path_action_link_estagio 2
 * action_link_estagio
 	- action_link_estagio
+
+## path_action_encontrar_guia_calouro 1
+* cumprimentar
+	- utter_cumprimentar
+* action_encontrar_guia_calouro
+	- action_encontrar_guia_calouro
+
+## path_action_encontrar_guia_calouro 2
+* action_encontrar_guia_calouro
+	- action_encontrar_guia_calouro
