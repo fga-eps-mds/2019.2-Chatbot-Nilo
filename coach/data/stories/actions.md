@@ -137,3 +137,13 @@
 ## path_action_docs_nao_obrigatorio_estagio 2
 * action_docs_nao_obrigatorio_estagio
 	- action_docs_nao_obrigatorio_estagio
+
+## path_action_objetivo_estagio 1
+* cumprimentar
+	- utter_cumprimentar
+* action_objetivo_estagio
+	- action_objetivo_estagio
+
+## path_action_objetivo_estagio 2
+* action_objetivo_estagio
+	- action_objetivo_estagio
