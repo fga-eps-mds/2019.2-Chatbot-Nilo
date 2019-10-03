@@ -34,7 +34,7 @@ Os assuntos que o Nilo já conhece são:
 - [4. Roadmap](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Roadmap.md)
 - [5. Escopo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Escopo.md)
 
-# Discurssão de Sugestões
+# Discussão de Sugestões
 Caso tenha qualquer dúvida, sugestão ou queira reportar algum bug sobre nosso Projeto, sinta-se livre para ir em nosso repositório e criar um _issue_ com a descrição do problema e a tag `dúvida`, para assim podermos avalia-la. divulgaremos também as principais dúvidas e comentários na nossa página na [Wiki-Nilo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/wiki), então para mais informações acesse o link.
 
 # Referenciais
