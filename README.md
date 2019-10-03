@@ -18,7 +18,13 @@ Procure o bot pelo nome “@nilo_fga_bot” e pode começar a conversar.
 
 # O que ele pode fazer?
 
-Ele pode tirar as dúvidas acadêmicas mais frequentes sobre a UnB…
+Os assuntos que o Nilo já conhece são:
+
+- Estágio supervisionado
+- Estágio não-obrigatório 
+- Desligamento e seu risco
+- Reintegração
+- Revisão de menção
 
 # Documentação:
 - [1. Documento de Arquitetura](
