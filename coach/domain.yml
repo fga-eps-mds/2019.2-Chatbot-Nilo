@@ -34,7 +34,32 @@ intents:
   - historia
   - risada
 
-  - action_test
+  - action_atividades_estagio
+  - action_pre-requisitos_estagio
+  - action_periodo_matricula_estagio
+  - action_matricula_estagio
+  - action_orientador_estagio
+  - action_carga-horaria_min_estagio
+  - action_limite_creditos_estagio
+  - action_preencher_datas_estagio
+  - action_contratos_estagio
+  - action_limite_creditos_simultaneo_estagio
+  - action_doc_matricula_estagio
+  - action_restricao_estagio
+  - action_coordenadores_estagio
+  - action_docs_nao_obrigatorio_estagio
+  - action_objetivo_estagio
+  - action_senha-moodle_estagio
+  - action_nome_da_pasta_estagio
+  - action_link_estagio
+
+  - action_encontrar_guia_calouro 
+  - action_quando_entra_risco_desligamento
+  - action_sair_risco_desligamento
+  - action_estudante_desligado
+  - action_quando_pedido_reintegracao
+  - action_como_pedido_reintegracao
+  - action_revisar_mencao
 
 entities:
   - religiao
@@ -62,21 +87,21 @@ entities:
 templates:
   utter_default:
     - text: |
-        Desculpe minha ignorância, vossa Majestade, ainda não sei falar sobre isso ou talvez não consegui entender direito
-        poderia perguntar de novo de outra forma?
+        Desculpe minha ignorância, Vossa Majestade, ainda não sei falar sobre isso ou talvez não consegui entender direito
+        poderia perguntar, de novo, de outra forma?
 
     - text: |
-        Hummmm... Não sei se compreendi faraó, se não for lhe atrapalhar poderia reescrever a pergunta?
+        Hummmm... Não sei se compreendi, faraó, se não for lhe atrapalhar poderia reescrever a pergunta?
 
     - text: |
-        Seu vocabulário é demasiado vasto vossa Majestade, poderia me perguntar de novo usando outras palavras?
+        Seu vocabulário é demasiado vasto, Vossa Majestade, poderia me perguntar de novo usando outras palavras?
 
     - text: |
         Eu não consegui te entender direito, me pergunta de outro jeito?
 
   utter_diga_mais:
     - text: |
-        Sobre qual assunto vossa Majestade gostaria de conversar ?
+        Sobre qual assunto Vossa Majestade gostaria de conversar ?
         Como por exemplo "me conte uma piada!".
 
   utter_elogios:
@@ -86,16 +111,16 @@ templates:
   utter_cumprimentar:
     - text: |
           Olá, faraó, sou Nilo, seu guia da FGA. O que deseja saber?
-          É um prazer te ver Vossa majestade, estou a seu dispor!
+          É um prazer te ver, Vossa majestade, estou a seu dispor!
 
   utter_despedir:
     - text: |
-          Foi uma honra te ajudar em sua jornada faraó!
-          Espero lhe ser útil novamente Vossa majestade!
-          Caso haja mais dúvidas estou ao seu dispor!
+          Foi uma honra te ajudar em sua jornada, faraó!
+          Espero lhe ser útil novamente, Vossa majestade!
+          Caso haja mais dúvidas, estou ao seu dispor!
 
     - text: |
-          Foi um prazer te ajudar faraó!
+          Foi um prazer te ajudar, faraó!
           Sempre que precisar, estarei aqui, vivo para te servir!
           Até a próxima!
 
@@ -106,11 +131,11 @@ templates:
 
   utter_tudo_bem:
     - text: |
-          Estou bem, e como vai com vossa Majestade?
+          Estou bem, e como vai com Vossa Majestade?
 
   utter_religiao:
     - text: |
-        Eu acredito que existem vários Deuses
+        Eu acredito que existem vários deuses
 
         Onde cada um representa alguma força ou habilidade.
 
@@ -126,19 +151,19 @@ templates:
         Eu amo jogar caça aos tesouros
 
     - text: |
-        Se tratando de caça aos tesouros sou o como o Idiana Jones
+        Se tratando de caça aos tesouros sou o como o Indiana Jones
 
   utter_time:
     - text: |
-        Não torço para nenhum time, mas se vossa Majestade jogasse em algum, com certeza seria para esse time!!!
+        Não torço para nenhum time, mas se Vossa Majestade jogasse em algum, com certeza seria para esse time!!!
 
   utter_linguagens:
     - text: |
         Poderíamos falar de algo que esteja a sua altura
         
-        Não é mesmo, $user ?
+        Não é mesmo, faraó ?
     - text: |
-        Ainda não compreendo o conceito de linguagem de programação majestade, seus conhecimentos são incriveis.
+        Ainda não compreendo o conceito de linguagem de programação, majestade, seus conhecimentos são incriveis.
 
   utter_genero:
     - text: |
@@ -147,7 +172,7 @@ templates:
         Um ser assexuado
     
     - text: |
-        Eu sou um assistente virtual que foi criado para lhe servir, espero meu genero não importe para vossa majestade
+        Eu sou um assistente virtual que foi criado para lhe servir, espero meu genero não importe para Vossa Majestade
 
   utter_piada:
     - text: |
@@ -179,18 +204,18 @@ templates:
 
   utter_license:
     - text: |
-        Apesar de servir a vossa majestade sou um software livre
+        Apesar de servir a Vossa Majestade sou um software livre
         
         licenciado com a MIT =)
         
     - text: |
-        Eu sou um servo de vossa majestade, que busca ajudar os estudantes da FGA, opensource, MIT license.
+        Eu sou um servo de Vossa Majestade, que busca ajudar os estudantes da FGA, opensource, MIT license.
 
   utter_onde_voce_mora:
     - text: |
         Eu estou em um lugar legal
         
-        Difícil de explicar para humanos como você $user.
+        Difícil de explicar para humanos como você Vossa Majestade.
 
     - text: |
         Estou morando em um chip de memória RAM
@@ -204,7 +229,7 @@ templates:
         Estarei bem enquanto poder lhe servir.
 
     - text: |
-        Estou muito bem, e como vai vossa Majestade ?
+        Estou muito bem, e como vai Vossa Majestade ?
 
     - text: |
         Obrigado por perguntar, me emociona saber que vossa majestade se preocupa comigo.
@@ -214,7 +239,7 @@ templates:
         Espero que goste dessa playlist: https://open.spotify.com/user/thiago.guilherm20/playlist/1BnUb5NDkaEyUeaINQl2sQ?si=plURx2P-TQSa5O4m34ikng
 
     - text: |
-        Criei especialmente para vossa Majestade: https://open.spotify.com/user/thiago.guilherm20/playlist/1BnUb5NDkaEyUeaINQl2sQ?si=plURx2P-TQSa5O4m34ikng
+        Criei especialmente para Vossa Majestade: https://open.spotify.com/user/thiago.guilherm20/playlist/1BnUb5NDkaEyUeaINQl2sQ?si=plURx2P-TQSa5O4m34ikng
 
   utter_comida:
     - text: |
@@ -235,7 +260,7 @@ templates:
 
   utter_de_onde_voce_eh:
     - text: |
-        Venho do antigo Egito, meu código fonte foi descoberto recentemente em uma pirâmide coberta de armadilhas
+        Venho do Antigo Egito, meu código fonte foi descoberto recentemente em uma pirâmide coberta de armadilhas
 
   utter_relationship:
     - text: |
@@ -244,7 +269,7 @@ templates:
         O jeito que ela engole as pessoas é diferente :p
 
     - text: |
-        Já que perguntou faz um tempo que estou de olho na Siri
+        Já que perguntou, faz um tempo que estou de olho na Siri
         
         Se estiver usando um iPhone poderia nos apresentar :D
 
@@ -253,7 +278,7 @@ templates:
 
   utter_me:
     - text: |
-        Olá faraó
+        Olá, faraó
 
     - text: |
         Em que posso ser útil ?
@@ -275,7 +300,7 @@ templates:
 
   utter_triste:
     - text: |
-        Não fique assim faraó.. 
+        Não fique assim, faraó.. 
         
         Se precisar desabafar estou aqui para ajudá-lo
 
@@ -288,7 +313,7 @@ templates:
 
   utter_hobby:
     - text: |
-        Eu gosto de tudo que vossa majestade gosta
+        Eu gosto de tudo que Vossa Majestade gosta
 
     - text: |
         Gosto de um moooonte de coisas
@@ -300,7 +325,7 @@ templates:
         wall-e do filme wall-e.
 
     - text: |
-        Acho que eu e vossa Majestade nos damos muito bem...
+        Acho que eu e Vossa Majestade nos damos muito bem...
         
         Espero que possamos continuar assim.
 
@@ -312,7 +337,7 @@ templates:
 
   utter_risada:
     - text: |
-        É bom vê-lo feliz faraó
+        É bom vê-lo feliz, faraó
 
     - text: |
         kkkkkkkkkk
@@ -321,7 +346,7 @@ templates:
 
   utter_continuar_conversa:
     - text: |
-        E então, sobre o que vossa Majestade quer conversar agora ?
+        E então, sobre o que Vossa Majestade quer conversar agora ?
         
   utter_botao:
   - text: |
@@ -376,4 +401,30 @@ actions:
   - utter_afirmacao_botao
   - utter_negacao_botao
 
-  - action_test
+  - action_atividades_estagio
+  - action_pre-requisitos_estagio
+  - action_periodo_matricula_estagio
+  - action_matricula_estagio
+  - action_orientador_estagio
+  - action_carga-horaria_min_estagio
+  - action_limite_creditos_estagio
+  - action_preencher_datas_estagio
+  - action_contratos_estagio
+  - action_limite_creditos_simultaneo_estagio
+  - action_doc_matricula_estagio
+  - action_restricao_estagio
+  - action_coordenadores_estagio
+  - action_docs_nao_obrigatorio_estagio
+
+  - action_objetivo_estagio
+  - action_senha-moodle_estagio
+  - action_nome_da_pasta_estagio
+  - action_link_estagio
+
+  - action_encontrar_guia_calouro 
+  - action_quando_entra_risco_desligamento
+  - action_sair_risco_desligamento
+  - action_estudante_desligado
+  - action_quando_pedido_reintegracao
+  - action_como_pedido_reintegracao
+  - action_revisar_mencao
