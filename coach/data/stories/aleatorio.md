@@ -58,18 +58,6 @@
     - utter_genero
     - utter_continuar_conversa
 
-## path_star_wars 1
-* star_wars
-    - utter_star_wars
-    - utter_continuar_conversa
-
-## path_star_wars 2
-* cumprimentar
-    - utter_cumprimentar
-* star_wars
-    - utter_star_wars
-    - utter_continuar_conversa
-
 ## path_piada 1
 * piada
     - utter_piada
@@ -212,18 +200,6 @@
     - utter_cumprimentar
 * filme
     - utter_filme
-    - utter_continuar_conversa
-
-## path_signo 1
-* signo
-    - utter_signo
-    - utter_continuar_conversa
-
-## path_signo 2
-* cumprimentar
-    - utter_cumprimentar
-* signo
-    - utter_signo
     - utter_continuar_conversa
 
 ## path_triste 1
