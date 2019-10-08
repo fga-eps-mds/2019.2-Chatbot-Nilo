@@ -1,3 +1,7 @@
+## intent:start
+- /start
+- start
+
 ## intent:out_of_scope
 - você fala sobre o meio ambiente
 - qual a origem do mundo
