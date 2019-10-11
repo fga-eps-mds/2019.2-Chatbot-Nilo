@@ -508,6 +508,51 @@ templates:
         Você que manda, faraó!
         O link é: https://aprender.ead.unb.br/course/view.php?id=3103. 
         Lembre-se, a senha é o código da matéria.
+  utter_encontrar_guia_calouro:
+  - text: |
+        Graças aos deuses, o guia do jovem faraó pode ser encontrado todo ano no link:
+        http://www.boasvindas.unb.br/guiaa
+  utter_quando_entra_risco_desligamento:
+  - text: |
+        Com medo de perder seu posto de faraó?
+        Vossa Majestade entrará em Risco de Desligamento quando cumprir alguma dessas condições:
+        1) Tiver duas reprovações na mesma disciplina obrigatória 
+        2) Não tiver sido aprovado(a), em pelo menos, quatro disciplinas do seu curso, em dois períodos letivos regulares consecutivos
+        3) Chegar ao último período letivo permitido no projeto pedagógico do seu curso sem possibilidades de concluí-lo.
+  utter_sair_risco_desligamento:
+  - text: |
+        O faraó em risco de desligamento deverá ser acompanhado por um orientador acadêmico e deverá cumprir uma das seguintes condições:
+        1-1) Obter aprovação nas disciplinas obrigatórias anteriormente cursadas com duas reprovações.
+        1-2) Obter aprovação em disciplinas que somem o mínimo de créditos por semestre definido para o curso, em cada um dos dois períodos letivos subsequentes.
+        Ou então:
+        2-1) Concluir, com aprovação, o mínimo de créditos por semestre definido para o curso, em cada um dos dois períodos letivos subsequentes.
+        2-2) Cumprir plano de estudo aprovado pela Comissão de Acompanhamento e Orientação (CAO), somente no caso de o estudante se enquadrar no caso de estar no último período letivo permitido no projeto pedagógico do seu curso sem possibilidades de concluí-lo.
+        Que os deuses o ajudem!
+  utter_estudante_desligado:
+  - text: |
+        O faraó de curso regular de graduação é desligado quando:
+        1) Não cumprir a condição de ser aprovado no número mínimo de créditos estabelecido pelo curso, em cada um de dois períodos letivos subsequentes.
+        2) For reprovado três vezes em disciplina obrigatória do seu curso.
+        3) Enquadrar-se nos critérios eliminatórios específicos do seu curso.
+        4) Cometer infração disciplinar cominada com expulsão, de acordo
+        com as normas internas da Universidade.
+        5) Não concluir seu curso no prazo máximo legal (desligamento por jubilamento).
+        6) Por iniciativa própria, desistir do vínculo com seu curso (desligamento voluntário).
+        7) Durante dois semestres consecutivos, não efetivar matrícula em nenhuma disciplina ou que, embora matriculado, tenha sido reprovado com menção SR (Sem Rendimento) em todas as disciplinas (desligamento por abandono).
+        Caso ocorra o desligamento do curso, Vossa Majestade ainda pode requisitar a reintegração.
+  utter_quando_pedido_reintegracao:
+  - text: |
+        O pedido pode ser feito desde o momento em que se recebe um comunicado formal sobre o desligamento, até o prazo máximo de 2 anos do desligamento.
+  utter_como_pedido_reintegracao:
+  - text: |
+        Deve-se ler e preencher a Instrução Normativa CEG n° 0002/2017 (link: http://www.deg.unb.br/images/legislacao/intrucao_normativa_ceg_0002_2017.pdf) e entregá-la na Secretaria do curso.
+        Se o pedido for indeferido, Vossa Majestade pode entrar com recurso, pessoalmente, no prédio da Reitoria.
+        Caso o pedido seja deferido, deve-se entrar em contato com o professor orientador indicado pelo colegiado do curso.
+  utter_revisar_mencao:
+  - text: |
+        Vossa Majestade deve ir na secretaria e pedir o documento referente a isso, nesse documento vai perguntar, o motivo da solicitação, o nome e o código da disciplina, sua turma e qual era o professor, por quê sua menção deve ser revisada e etc.
+        Depois de preencher os dados basta entregar na secretaria e esperar os resultados, normalmente ele chega no e-mail.
+        Boa sorte, faraó!
 
 actions:
   - utter_start
