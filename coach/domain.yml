@@ -393,7 +393,121 @@ templates:
         5) Trabalho com carteira assinada na área de atuação do curso.
         6) Contrato de serviço temporário (como pessoa física - RPA - ou como empresário) na área de atuação do curso.(*)
         (*)ATENÇÃO! Para estes casos, consulte o Coordenador de Estágios de seu curso para verificar se essas modalidades estão disponíveis.
-
+  utter_pre-requisitos_estagio:
+  - text: |
+        Para fazer estágio, você precisa atender as condições estabelecidas na Resolução de Estágios da FGA.
+        As condições são
+        1) Ter 70% dos créditos concluídos. 
+        2) Realizar 210 h de atividades técnicas sob a supervisão/demanda de um profissional da área de atuação do seu curso.
+  utter_periodo_matricula_estagio:
+  - text: |
+        A matrícula em Estágio Supervisionado acontece de forma similar à matrícula de TCC1 e TCC2.
+        O seu período de solicitação acontece durante o primeiro mês de aulas de um semestre que se inicia.
+  utter_matricula_estagio:
+  - text: |
+        Para se matricular no estágio supervisionado, Vossa Majestade deve
+        Possuir TCE (Termo de Compromisso de Estágio) + PA (Plano de Atividades) ou Contrato de Trabalho (CLT) ou Contrato de Prestação de Serviço. 
+        Atender os pré-requisitos de matrícula em estágio. 
+        E também deve ter um orientador previamente definido e disponível. 
+        Após isso, deve seguir os seguintes passos
+        1) Preencher a Ficha de Solicitação de Matrícula pelo sistema. A ficha de Solicitação de Matrícula será enviada pelo sistema para o e-mail do aluno.
+        2) Imprimir a Ficha, assiná-la e levar até o Orientador de Estágio escolhido para que ele também a assine.
+        3) Compactar os seguintes documentos - Ficha de Solicitação de Matrícula assinada, Histórico Escolar, Grade Curricular e Contrato) em formato .zip e submeter no Moodle.
+        Em seguida, a situação será avaliada pelo Coordenador de Estágios para definir se a sua matrícula será aprovada ou não.
+        Caso não seja aprovado, você será notificado.
+  utter_orientador_estagio:
+  - text: |
+        Então está procurando um guia para sua jornada no deserto?
+        Tenho algumas recomendações.
+        O Orientador de Estágio para a disciplina de Estágio Supervisionado poderá qualquer professor da FGA (ou mesmo da UnB) que esteja disponível para fazer a avaliação do relatório de estágio.
+        O professor que assinará a Ficha de Solicitação de Matrícula como Orientador da disciplina Estágio Supervisionado não precisa ser o mesmo professor que assinou o TCE/PA (Termo de Compromisso de Estágio e Plano de Atividades) de um estágio prévio que o estudante apresentará como comprovação de atividades.
+        A menção da disciplina é dada pelo Orientador de Estágio e é resultante da composição da avaliação do Supervisor de Estágios e da avaliação do relatório de atividades apresentadas pelo aluno.
+        Uma lista de sugestões de candidatos para Orientador de Estágio é a seguinte
+        1) Professor(a) orientador(a) de TCC;
+        2) Professor(a) orientador(a) de projeto de pesquisa;
+        3) Professor(a) orientador(a) de Pibic;
+        4) Coordenador(a) de Estágio do curso;
+        5) Coordenador de Graduação do curso.
+        Recomendo que Vossa Majestade observe a ordem dos candidatos acima.
+  utter_carga-horaria_min_estagio:
+  - text: |
+        É necessária a execução de atividades por, no mínimo, 210 h.
+        Mas olha pelo lado bom, pelo menos você não tem que construir uma pirâmide!
+  utter_limite_creditos_estagio:
+  - text: |
+        Sim, faraó, há o limite superior de créditos de seu curso.
+        Na FGA, o limite superior é de 32 créditos.
+        Todas as disciplinas em que você estiver matriculado mais os créditos de Estágio Supervisionado não poderão ultrapassar 32 créditos.
+        Por exemplo, se o estágio for de 20h, Vossa Majestade pode pegar até 18 créditos.
+        Se o estágio for de 30h, você poderá pegar até 8 créditos.
+        A condição de Provável Formando (conferir Guia do Aluno da UnB) permite que essa restrição seja dispensada.
+  utter_preencher_datas_estagio:
+  - text: |
+        Está com dificuldades de preencher o seu papiro?
+        Não tem problema.
+        Nilo, seu escriba, está aqui para ajudar.
+        O preenchimento das datas de início e de término de estágio deverá ser feito de acordo com as informações apresentadas na documentação comprobatória
+        Por exemplo, no caso de um estágio convencional, valerão as datas indicadas no Termo de Compromisso de Estágio e Plano de Atividades.
+        Os tempos em que o estudante estiver em atividade sem ter cumprido os pré-requisitos serão descontados do cômputo do acumulado das horas de estágio.
+  utter_contratos_estagio:
+  - text: |
+        Não precisam. 
+        Para matricular na disciplina, basta apresentar os contratos de trabalho com informações sobre contratante/empregador, local de trabalho, nome do supervisor/demandante/chefe, lista de atividades, carga horária e duração.
+  utter_limite_creditos_simultaneo_estagio:
+  - text: |
+        Nem mesmo Vossa Majestade pode trabalhar tanto!
+        Para qualquer carga horário maior que 30h/sem, vale o mesmo limite de créditos para o caso em que o estágio é de 30h/sem, 8 créditos no máximo.
+  utter_doc_matricula_estagio:
+  - text: |
+        Para comprovar o vínculo de Vossa Majestade com o projeto de pesquisa, será necessário apresentar o Plano de Atividades ou o contrato que formaliza a relação. 
+        Esses documentos serão substitutos do TCE/PA (Termo de Compromisso + Plano de Atividades de Estágio), que formalizam um estágio. 
+        O restante da documentação comprobatória permanece.
+        Esses documentos substitutos deverão conter de forma clara as seguintes informações
+        1) Onde (endereço) as atividades acontecerão.
+        2) Nome da instituição onde as atividades acontecerão.
+        3) Nome do coordenador do projeto (ou do supervisor).
+        4) Quais serão as atividades do aluno.
+        5) Carga horária semanal.
+        6) Por quanto tempo o aluno trabalhará no projeto.
+        Esse documento deverá estar assinado pelo aluno e pelo coordenador/supervisor do projeto.
+  utter_restricao_estagio:
+  - text: |
+        Não há limites para um faraó.
+        O estagiário pode atuar em qualquer cidade do planeta Terra.
+        Que tal uma forcinha nas pirâmides?
+  utter_coordenadores_estagio:
+  - text:
+        Deseja encontrar os deuses?
+        Os atendimentos são feitos no prédio UED (FGA), na sala do respectivo professor, como informado a seguir
+        1) Sébastien Rondineau (Eng. Aeroespacial) atende na sala 31 às Quartas e Sextas de 14h a 16h.
+        2) Eneida González Valdés (Eng. Automotiva) atende na sala 7 às Quartas e Sextas de 10h a 12h.
+        3) Felipe Chagas Storti (Eng. de Energia) atende na sala 13 às Segundas e Sextas de 10h a 12h.
+        4) Tiago Alves (Eng. de Software) atende na sala 31 às Segundas e Quartas de 14h a 15h30.
+        5) Roberto Baptista (Eng. Eletrônica) atende na sala 22 às Terças, no horário de 10h a 12h, e às Quintas, no horário de 14h a 16h.
+  utter_docs_nao_obrigatorio_estagio:
+  - text:
+        1) Modelo de Termo de Compromisso e Plano de Atividades (assinado pela empresa, pela integradora, pelo aluno e pelo DAIA (o último a assinar). 
+        2) Plano de atividades (assinado pela empresa, pela integradora, pelo aluno, pelo supervisor [profissional na empresa que acompanhará o aluno], pelo orientador de estágio [professor na UnB] e pelo DAIA [o último a assinar]). 
+        3) Modelo de Termo Aditivo. 
+        4) Modelo de Termo Rescisório. 
+        5) Modelo de Relatório de Atividades.
+  utter_objetivo_estagio:
+  - text:
+        O estágio obrigatório visa a preparação para o trabalho produtivo permitindo a aquisição de competências próprias da atividade profissional.
+        No estágio deve-se elaborar um plano de atividades e o estudante experimenta a prática profissional sob supervisão direta de um preceptor na empresa e de um professor do curso.
+  utter_senha-moodle_estagio:
+  - text: |
+        Anote aí no seu papiro:
+        A senha do Moodle é o código da matéria: 102512.
+  utter_nome_da_pasta_estagio:
+  - text: |
+        O nome da pasta deve seguir o seguinte formato: nome_sobrenome_matricula. 
+        E lembre-se: deve estar no formato .zip.
+  utter_link_estagio:
+  - text: |
+        Você que manda, faraó!
+        O link é: https://aprender.ead.unb.br/course/view.php?id=3103. 
+        Lembre-se, a senha é o código da matéria.
 
 actions:
   - utter_start
