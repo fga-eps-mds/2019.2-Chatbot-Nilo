@@ -382,6 +382,19 @@ templates:
   - text: |
         Mensagem de negação após clique em botão
 
+  utter_atividades_estagio:
+  - text: |
+        Se você fosse um deus, não ia ter que se preocupar com estágio.
+        Mas já que não é, preste atenção. As atividades aceitas como Estágio Supervisionado são
+        1) Estágios obrigatórios (sem remuneração) nas instituições cadastradas na UnB.
+        2) Estágios não obrigatórios em qualquer instituição desde que oficializados na UnB (TCE + Plano de Atividades assinado pelo Coordenador de Estágios e DAIA).
+        3) Atividades como MEI (Microempreendedor Individual) área de atuação do curso, comprovadas através de contrato de prestação de serviço.(*)
+        4) Projeto de pesquisa com pagamento de bolsa e área de atuação do curso (via CDT ou Finatec, por exemplo).
+        5) Trabalho com carteira assinada na área de atuação do curso.
+        6) Contrato de serviço temporário (como pessoa física - RPA - ou como empresário) na área de atuação do curso.(*)
+        (*)ATENÇÃO! Para estes casos, consulte o Coordenador de Estágios de seu curso para verificar se essas modalidades estão disponíveis.
+
+
 actions:
   - utter_start
   - utter_default
