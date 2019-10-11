@@ -1,3 +1,12 @@
+## intent:action_test
+- test custom action
+- custom action
+- actions
+- custom actions
+- action
+- test action
+
+
 ## intent:action_atividades_estagio
 - quais sao as atividades que podem ser consideradas como estagio supervisionado
 - quais são as atividades que podem ser consideradas como estágio supervisionado

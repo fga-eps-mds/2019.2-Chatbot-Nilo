@@ -34,6 +34,7 @@ intents:
   - bff
   - historia
   - risada
+  - action_test
 
   - action_atividades_estagio
   - action_pre-requisitos_estagio
@@ -416,6 +417,8 @@ actions:
   - utter_botao
   - utter_afirmacao_botao
   - utter_negacao_botao
+  
+  - action_test
 
   - action_atividades_estagio
   - action_pre-requisitos_estagio
