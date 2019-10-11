@@ -1,5 +1,5 @@
 <!-- Testado -->
-## path_action_atividades_estagio 1
+## path_atividades_estagio 1
 * cumprimentar
     - utter_cumprimentar
 * atividades_estagio
@@ -7,7 +7,7 @@
     - utter_continuar_conversa
 
 <!-- Testado -->
-## path_action_atividades_estagio 2
+## path_atividades_estagio 2
 * atividades_estagio
     - utter_atividades_estagio
     - utter_continuar_conversa
