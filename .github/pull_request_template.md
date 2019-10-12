@@ -1,8 +1,8 @@
-<Modelo de Pull-Request>
+# Modelo de Pull-Request
 
 ## Título do Pull Request
 
-Fix #<nº da issue principal do PR> <titulo resumido da proposta da PR>
+Fix #<nº da issue principal do PR><titulo resumido da proposta da PR>
 
 ## Descrição
 
