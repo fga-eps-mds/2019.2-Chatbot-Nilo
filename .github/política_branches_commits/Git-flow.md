@@ -205,7 +205,7 @@ Esta branch será utilizada para adicionar documentos que faltam, ou novos docum
 
 
         $ git checkout develop
-        $ git checkout -b Add/<nome do documento>
+        $ git checkout -b Ad/<nome do documento>
 
 #### 2. Finalizando
 
@@ -220,7 +220,7 @@ Esta branch será utilizada para adicionar documentos que faltam, ou novos docum
 
 
         $ git checkout develop
-        $ git checkout -b Add/<nome do documento>
+        $ git checkout -b Ad/<nome do documento>
 
 #### 2. Finalizando
 
