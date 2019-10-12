@@ -1,4 +1,10 @@
-## Modelo de Pull-Request
+<Modelo de Pull-Request>
+
+## Título do Pull Request
+
+Fix #<nº da issue principal do PR> <titulo resumido da proposta da PR>
+
+## Descrição
 
 Descrição objetiva do que foi realizado.
 
@@ -7,10 +13,10 @@ Descrição objetiva do que foi realizado.
 Issues que foram resolvidas:
 
 
-* resolve #numero_da_issue.
+* Closes #numero_da_issue.
 
 
-## Pull_Requests relacionados, se houver
+## Pull_Requests relacionados (se houver)
 
 branch | Pull-request
 ------ | ------
@@ -19,3 +25,4 @@ outro_pr_relacionado | [link]()
 ## Tarefas
 * Tarefa 1
 * Tarefa 2
+
