@@ -2,7 +2,7 @@
 
 ## Título do Pull Request
 
-Fix #<nº da issue principal do PR><titulo resumido da proposta da PR>
+Fix #<nº da issue principal do PR>"titulo resumido da proposta da PR".
 
 ## Descrição
 
@@ -16,13 +16,14 @@ Issues que foram resolvidas:
 * Closes #numero_da_issue.
 
 
-## Pull_Requests relacionados (se houver)
+## Pull_Requests relacionados (Apenas se houver, caso contrario apague este tópico)
 
 branch | Pull-request
 ------ | ------
 outro_pr_relacionado | [link]()
 
-## Tarefas
+## Tarefas(Apenas se achar necessário, caso contrário apague este tópico)
+
 * Tarefa 1
 * Tarefa 2
 
