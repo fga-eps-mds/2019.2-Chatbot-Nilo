@@ -80,7 +80,7 @@ Para cada feature nova devemos criar uma branch própria para essa feature. A fe
 
 Quando finalizado toda a criação e desenvolvimento da feature, podemos então fazer o **merge** da branch na develop.
 
-* Ao finalizar o desenvolvimento, devera ser realizado o [Pull Request](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/Fix/politicas-do-git/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
+* Ao finalizar o desenvolvimento, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
 * Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
 
@@ -154,7 +154,7 @@ Assim que realizado os demais ajustes, será realizado o merge de volta a master
 
 ### 2. Finalizando uma hotfix
 
-* Ao finalizar o desenvolvimento, devera ser realizado o [Pull Request](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/Fix/politicas-do-git/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
+* Ao finalizar o desenvolvimento, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
 * Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
 
@@ -172,7 +172,7 @@ Esta branch será praticamente uma cópia da develop branch, que após os requer
             
 ## 2. Finalizando uma bugfix
 
-* Ao finalizar a correção dos bugs, devera ser realizado o [Pull Request](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/Fix/politicas-do-git/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
+* Ao finalizar a correção dos bugs, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
 * Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
 
@@ -209,7 +209,7 @@ Esta branch será utilizada para adicionar documentos que faltam, ou novos docum
 
 #### 2. Finalizando
 
-* Ao finalizar as correções, devera ser realizado o [Pull Request](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/Fix/politicas-do-git/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
+* Ao finalizar as correções, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
 * Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`
 
@@ -224,7 +224,7 @@ Esta branch será utilizada para adicionar documentos que faltam, ou novos docum
 
 #### 2. Finalizando
 
-* Ao finalizar as correções, devera ser realizado o [Pull Request](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/Fix/politicas-do-git/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
+* Ao finalizar as correções, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
 * Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
 
