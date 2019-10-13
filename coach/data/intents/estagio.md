@@ -192,7 +192,7 @@
 - como preencho as datas de inicio e termino do estagio supervisionado
 - como preencho as datas de início e término do estágio supervisionado
 - como preencher as datas de inicio e termino do estagio supervisionado
-- como preencher as datas de início e término do estágio supervisionado 
+- como preencher as datas de início e término do estágio supervisionado
 - como preencher as datas de estagio supervisionado
 - como preencher as datas de estágio supervisionado
 - como preencher as datas do estagio supervisionado
@@ -459,3 +459,22 @@
 - revisão menção
 - revisao de mencao
 - revisão de menção
+
+## intent:action_enviar_doc_faq_estagio
+- queria saber sobre estagio
+- queria saber sobre estagio supervisionado
+- estagio
+- estagio supervisionado
+- gostaria de saber sobre estagio
+- gostaria de saber sobre estagio supervisionado
+- queria saber sobre estágio
+- queria saber sobre estágio supervisionado
+- estágio
+- estágio supervisionado
+- gostaria de saber sobre estágio
+- gostaria de saber sobre estágio supervisionado
+- tenho duvidas sobre estagio
+- tenho duvidas sobre estágio
+- tenho dúvidas sobre estágio
+- duvidas sobre estagio
+- dúvidas sobre estágio
