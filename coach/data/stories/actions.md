@@ -8,4 +8,4 @@
 ## path_action_enviar_doc_faq_estagio 2
 * action_enviar_doc_faq_estagio
   - action_enviar_doc_faq_estagio
-  - utter_cumprimentar
+  - utter_continuar_conversa
