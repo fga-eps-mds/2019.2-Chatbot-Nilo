@@ -1,9 +1,11 @@
-## cumprimentar action_test
+## path_action_enviar_doc_faq_estagio 1
 * cumprimentar
-    - utter_cumprimentar
-* action_test
-    - action_test
+  - utter_cumprimentar
+* action_enviar_doc_faq_estagio
+  - action_enviar_doc_faq_estagio
+  - utter_continuar_conversa
 
-## action_test
-* action_test
-    - action_test
+## path_action_enviar_doc_faq_estagio 2
+* action_enviar_doc_faq_estagio
+  - action_enviar_doc_faq_estagio
+  - utter_continuar_conversa

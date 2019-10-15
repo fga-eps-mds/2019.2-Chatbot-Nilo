@@ -1,7 +1,18 @@
-## intent:action_test
-- test custom action
-- custom action
-- actions
-- custom actions
-- action
-- test action
+## intent:action_enviar_doc_faq_estagio
+- queria saber sobre estagio
+- queria saber sobre estagio supervisionado
+- estagio
+- estagio supervisionado
+- gostaria de saber sobre estagio
+- gostaria de saber sobre estagio supervisionado
+- queria saber sobre estágio
+- queria saber sobre estágio supervisionado
+- estágio
+- estágio supervisionado
+- gostaria de saber sobre estágio
+- gostaria de saber sobre estágio supervisionado
+- tenho duvidas sobre estagio
+- tenho duvidas sobre estágio
+- tenho dúvidas sobre estágio
+- duvidas sobre estagio
+- dúvidas sobre estágio
