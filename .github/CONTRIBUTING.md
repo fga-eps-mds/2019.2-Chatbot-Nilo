@@ -4,11 +4,11 @@
 
 Para contribuir com nosso projeto, antes você precisa realizar o Fork do nosso repositório, e após isso você precisa seguir os seguintes tópicos deste guia :
 
-[1. Código de Conduta](#1-regras-e-código-de-conduta) <br>
-[2. Política de Issues](#2-política-de-issues) <br>
-[3. Política de Branches(GitFlow)](#3-política-de-branches) <br>
-[4. Política de commits](#4-política-de-commits) <br>
-[5. Modelo para Pull Requests](#5-política-de-merges-e-pull-requests) <br>
+* [1. Código de Conduta](#1-regras-e-código-de-conduta) <br>
+* [2. Política de Issues](#2-política-de-issues) <br>
+* [3. Política de Branches(GitFlow)](#3-política-de-branches) <br>
+* [4. Política de commits](#4-política-de-commits) <br>
+* [5. Modelo para Pull Requests](#5-política-de-merges-e-pull-requests) <br>
 
 ### 1. Regras e código de conduta.
 
