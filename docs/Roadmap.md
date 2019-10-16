@@ -53,55 +53,54 @@
 
 - Realizar o fluxograma dos assuntos do BOT.
 
-- Protótipo.
-
-- Wiki do Projeto.
+- Criar Protótipo de Alta Fidelidade
 
 - Criar uma identidade visual.
 
-- Criar uma github pages.
+- Criar opção /start.
 
 - Montar apresentação da Release 1.
 
 - Release 1 no dia 03/10.
 
-- Estabelecer o ambiente de CI.
-
  
 ## Sprint 8 - (06/10 a 12/10)
 
-- Definição da personalidade do BOT.
+- Estabelecer o ambiente do repositório nos padrões da comunidade de software livre.
 
-- Atualizar as respostas (já implementadas) para a personalidade do BOT.
+- Adicionar o gerenciamento de comunicação do projeto.
 
-- Adicionar assuntos ligados ao calendário acadêmico (as informações precisam ser acessadas pelo código).
+- Criar action de acesso a documentos acadêmicos.
 
  
 ## Sprint 09 - (13/10 a 19/10)
 
-- Estudar Kibana e Elasticsearch.
+- Redefinição do Escopo do projeto e documentos correlatos.
 
--  Estudar MongoDB.
+
+- Aumentar a gama de documentos enviados pelo bot para englobar todos os documentos referentes a estaǵio.
 
 ## Sprint 10 - (20/10 a 26/10)
 
-- Modelagem do DB de monitores.
+- Adicionar todas as perguntas referentes a Coordenação e Secretaria.
 
-- Criar um sistema de validação de monitores.
+- Realizar etapas de testes.
+
+- Estabelecer a pipeline(Gitalb CI/CD, docker).
 
 
 ## Sprint 11 - (27/10 a 02/11)
 
-- Realizar etapas de testes 1 e 2.
+- Criar tutorial do estágio supervisionado.
 
-- Estabelecer a pipeline(Gitalb CI/CD, docker).
-
-- Criar pipeline de deploy.
+- Criação da opção /help.
 
 
 ## Sprint 12 - (03/11 a 09/11)
 
-- Criação da opção /help e /start.
+- Realizar testes de UX.
+
+- Criar apresentação da R2.
 
 
 ## Sprint 13 - (10/11 a 16/11)
