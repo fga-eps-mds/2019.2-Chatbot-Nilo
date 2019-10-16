@@ -167,20 +167,6 @@
 	- utter_continuar_conversa
 
 <!-- Testado -->
-## path_coordenadores_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* coordenadores_estagio
-	- utter_coordenadores_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_coordenadores_estagio 2
-* coordenadores_estagio
-	- utter_coordenadores_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
 ## path_docs_nao_obrigatorio_estagio 1
 * cumprimentar
 	- utter_cumprimentar
