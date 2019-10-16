@@ -18,57 +18,57 @@ class ActionTodosOsCoordenadores(Action):
 		return "action_todos_os_coordenadores"
 
 	def run(self, dispatcher, tracker, domain):
-        web = WebScrapingIntegration()
+		web = webscraping.WebScrapingIntegration()
 		dispatcher.utter_message("Então Vossa Majestade quer encontrar os Deuses...")
-        dispatcher.utter_message("Só um instante... Estou tentando lembrar o nome de todos...")
+		dispatcher.utter_message("Só um instante... Estou tentando lembrar o nome de todos...")
 		dispatcher.utter_message(web.all_cordinators())
 
 class ActionCoordenadorDeSoftware(Action):
-    def name(self):
-        return "action_coordenador_de_software"
+	def name(self):
+		return "action_coordenador_de_software"
 
-    def run(self, dispatcher, tracker, domain):
-        web = WebScrapingIntegration()
-        dispatcher.utter_message("Então Vossa Majestade finalmente se tornará um(a) garoto(a) de programa")
-        dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
-        dispatcher.utter_message(web.software_coordinator())
+	def run(self, dispatcher, tracker, domain):
+		web = webscraping.WebScrapingIntegration()
+		dispatcher.utter_message("Então Vossa Majestade finalmente se tornará um(a) garoto(a) de programa")
+		dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
+		dispatcher.utter_message(web.software_coordinator())
 
 class ActionCoordenadorDeEnergia(Action):
-    def name(self):
-        return "action_coordenador_de_energia"
+	def name(self):
+		return "action_coordenador_de_energia"
 
-    def run(self, dispatcher, tracker, domain):
-        web = WebScrapingIntegration()
-        dispatcher.utter_message("Incrivel... Sempre quis ir ao espaço...")
-        dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
-        dispatcher.utter_message(web.energy_coordinator())
+	def run(self, dispatcher, tracker, domain):
+		web = webscraping.WebScrapingIntegration()
+		dispatcher.utter_message("Incrivel... Sempre quis ir ao espaço...")
+		dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
+		dispatcher.utter_message(web.energy_coordinator())
 
 class ActionCoordenadorDeAeroespacial(Action):
-    def name(self):
-        return "action_coordenador_de_aeroespacial"
+	def name(self):
+		return "action_coordenador_de_aeroespacial"
 
-    def run(self, dispatcher, tracker, domain):
-        web = WebScrapingIntegration()
-        dispatcher.utter_message("Tomara que Vossa Majestade construa um avião para que possa visitar o Egito...")
-        dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
-        dispatcher.utter_message(web.aeroespace_coordinator())
+	def run(self, dispatcher, tracker, domain):
+		web = webscraping.WebScrapingIntegration()
+		dispatcher.utter_message("Tomara que Vossa Majestade construa um avião para que possa visitar o Egito...")
+		dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
+		dispatcher.utter_message(web.aeroespace_coordinator())
 
 class ActionCoordenadorDeEletronica(Action):
-    def name(self):
-        return "action_coordenador_de_eletronica"
+	def name(self):
+		return "action_coordenador_de_eletronica"
 
-    def run(self, dispatcher, tracker, domain):
-        web = WebScrapingIntegration()
-        dispatcher.utter_message("UAU espero que Vossa Majestade possa criar várias coisas incriveis...")
-        dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajuda")
-        dispatcher.utter_message(web.eletronics_coordinator())
+	def run(self, dispatcher, tracker, domain):
+		web = webscraping.WebScrapingIntegration()
+		dispatcher.utter_message("UAU espero que Vossa Majestade possa criar várias coisas incriveis...")
+		dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajuda")
+		dispatcher.utter_message(web.eletronics_coordinator())
 
 class ActionCoordenadorDeAutomotiva(Action):
-    def name(self):
-        return "action_coordenador_de_automotiva"
+	def name(self):
+		return "action_coordenador_de_automotiva"
 
-    def run(self, dispatcher, tracker, domain):
-        web = WebScrapingIntegration()
-        dispatcher.utter_message("Então Vossa Majestade finalmente está pronto para construir os carros que desbravarão o deserto...")
-        dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
-        dispatcher.utter_message(web.automotive_coordinator())
+	def run(self, dispatcher, tracker, domain):
+		web = webscraping.WebScrapingIntegration()
+		dispatcher.utter_message("Então Vossa Majestade finalmente está pronto para construir os carros que desbravarão o deserto...")
+		dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
+		dispatcher.utter_message(web.automotive_coordinator())
