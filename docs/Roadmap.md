@@ -77,14 +77,17 @@
 
 - Redefinição do Escopo do projeto e documentos correlatos.
 
-
 - Aumentar a gama de documentos enviados pelo bot para englobar todos os documentos referentes a estaǵio.
 
 ## Sprint 10 - (20/10 a 26/10)
 
 - Adicionar todas as perguntas referentes a Coordenação e Secretaria.
 
+- Criar acesso a informações de coordenadores.
+
 - Realizar etapas de testes.
+
+- Estudar MongoDB.
 
 - Estabelecer a pipeline(Gitalb CI/CD, docker).
 
