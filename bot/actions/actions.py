@@ -9,7 +9,7 @@ class ActionEnviarDocFaqEstagio(Action):
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message("Eu tenho muitas informações sobre estágio para você, Vossa Majestade!")
         dispatcher.utter_message("Estou te enviando um documento com as dúvidas mais pertinentes que os alunos costumam ter")
-        bot = telegram.Bot(token='ACCESS_TOKEN')
+        bot = telegram.Bot(token='TELEGRAM_TOKEN')
         url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
         bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
@@ -21,7 +21,7 @@ class ActionTodosOsCoordenadores(Action):
 		web = webscraping.WebScrapingIntegration()
 		dispatcher.utter_message("Então Vossa Majestade quer encontrar os Deuses...")
 		dispatcher.utter_message("Só um instante... Estou tentando lembrar o nome de todos...")
-		dispatcher.utter_message(web.all_cordinators())
+		dispatcher.utter_message(web.all_coordinators())
 
 class ActionCoordenadorDeSoftware(Action):
 	def name(self):
@@ -29,7 +29,7 @@ class ActionCoordenadorDeSoftware(Action):
 
 	def run(self, dispatcher, tracker, domain):
 		web = webscraping.WebScrapingIntegration()
-		dispatcher.utter_message("Então Vossa Majestade finalmente se tornará um(a) garoto(a) de programa")
+		dispatcher.utter_message("Então Vossa Majestade finalmente se tornará um(a) grande desenvolvedor(a)")
 		dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
 		dispatcher.utter_message(web.software_coordinator())
 
@@ -39,7 +39,7 @@ class ActionCoordenadorDeEnergia(Action):
 
 	def run(self, dispatcher, tracker, domain):
 		web = webscraping.WebScrapingIntegration()
-		dispatcher.utter_message("Incrivel... Sempre quis ir ao espaço...")
+		dispatcher.utter_message("Tomara que você faça um sistema para captar toda a energia solar do deserto do Egito!")
 		dispatcher.utter_message("Só um instante... Estou buscando o guia certo para lhe ajudar")
 		dispatcher.utter_message(web.energy_coordinator())
 
