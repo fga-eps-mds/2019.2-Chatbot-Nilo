@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 
-class WebScrapingIntegration():
+class WebScrapingIntegration:
 	def __init__(self):
 		self.url = 'https://fga.unb.br/coordenacao'
 		self.r = requests.get(self.url)
-		self.soup = BeautifulSoup(self.r.text, 'lxml')
+		self.soup = BeautifulSoup(self.r.text, 'html.parser')
 		self.coordinators = self.soup.find_all('div', class_='article-body article-body-text-article')
 
 	def all_coordinators(self):
@@ -21,7 +21,7 @@ class WebScrapingIntegration():
 				elif coord_list.next_element.next_element.name == 'a' and cont > 4:
 					names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
 					names+='\n'
-				elif cont > 4:
+				elif cont > 4 and coord_list.next_element != '\xa0':
 					names+= coord_list.next_element
 					names+='\n'
 		return names
@@ -46,7 +46,7 @@ class WebScrapingIntegration():
 				elif coord_list.next_element.next_element.name == 'a' and cont > 4 and flag:
 					names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
 					names+='\n'
-				elif cont > 4 and flag:
+				elif cont > 4 and flag and coord_list.next_element != '\xa0':
 					names+= coord_list.next_element
 					names+='\n'
 		return names
@@ -71,7 +71,7 @@ class WebScrapingIntegration():
 				elif coord_list.next_element.next_element.name == 'a' and cont > 4 and flag:
 					names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
 					names += '\n'
-				elif cont > 4 and flag:
+				elif cont > 4 and flag and coord_list.next_element != '\xa0':
 					names += coord_list.next_element
 					names += '\n'
 		return names
@@ -96,7 +96,7 @@ class WebScrapingIntegration():
 				elif coord_list.next_element.next_element.name == 'a' and cont > 4 and flag:
 					names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
 					names += '\n'
-				elif cont > 4 and flag:
+				elif cont > 4 and flag and coord_list.next_element != '\xa0':
 					names += coord_list.next_element
 					names += '\n'
 		return names
@@ -121,7 +121,7 @@ class WebScrapingIntegration():
 				elif coord_list.next_element.next_element.name == 'a' and cont > 4 and flag:
 					names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
 					names += '\n'
-				elif cont > 4 and flag:
+				elif cont > 4 and flag and coord_list.next_element != '\xa0':
 					names += coord_list.next_element
 					names += '\n'
 		return names
@@ -146,7 +146,7 @@ class WebScrapingIntegration():
 				elif coord_list.next_element.next_element.name == 'a' and cont > 4 and flag:
 					names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
 					names += '\n'
-				elif cont > 4 and flag:
+				elif cont > 4 and flag and coord_list.next_element != '\xa0':
 					names += coord_list.next_element
 					names += '\n'
 		return names
