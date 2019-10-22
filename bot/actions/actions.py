@@ -21,7 +21,14 @@ class ActionTodosOsCoordenadores(Action):
 		web = webscraping.WebScrapingIntegration()
 		dispatcher.utter_message("Então Vossa Majestade quer encontrar os Deuses...")
 		dispatcher.utter_message("Só um instante... Estou tentando lembrar o nome de todos...")
-		dispatcher.utter_message(web.all_coordinators())
+		dispatcher.utter_message("Eng. Aeroespacial:")
+		dispatcher.utter_message(web.aeroespace_coordinator())
+		dispatcher.utter_message("Eng. Automotiva:")
+		dispatcher.utter_message(web.automotive_coordinator())
+		dispatcher.utter_message("Eng. Eletrônica:")
+		dispatcher.utter_message(web.eletronics_coordinator())
+		dispatcher.utter_message("Eng. de Software:")
+		dispatcher.utter_message(web.software_coordinator())
 
 class ActionCoordenadorDeSoftware(Action):
 	def name(self):
