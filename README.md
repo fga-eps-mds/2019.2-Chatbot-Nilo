@@ -6,18 +6,18 @@
 	<br/>
 	</p>
 
-# O que é o Nilo?
+## Sobre o projeto
 
 O Chatbot Nilo é o seu guia no grande deserto chamado FGA…
 Tem dúvidas sobre algo na Universidade? Estágio supervisionado, menções, monitoria, etc. O Nilo pode te ajudar!
 Criado a partir do Rasa-boilerplate [1] e desenvolvido na matéria de MDS [2].
 
-# Como utilizar?
+## 🔨 Como utilizar?
 
 Basta que você tenha o Telegram instalado no seu computador ou celular e
-então procure o bot pelo nome “@nilo_fga_bot” para poder começar a conversar.
+então procure o bot pelo nome “@nilo_fga_bot” e caso ele esteja upado, será possível iniciar uma conversa.
 
-# O que ele pode fazer?
+## ✨ Features
 
 Os assuntos que o Nilo já conhece são:
 
@@ -27,17 +27,88 @@ Os assuntos que o Nilo já conhece são:
 - Reintegração
 - Revisão de menção
 
-# Documentação:
-- [1. Documento de Arquitetura](
- https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeArquitetura.md) 
-- [2. Documento de Visão](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeVisao.md)
-- [3. TAP](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/TAP.md)
-- [4. Roadmap](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Roadmap.md)
-- [5. Escopo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Escopo.md)
+## 📦 Instalação
 
-# Discussão de Sugestões
-Caso tenha qualquer dúvida, sugestão ou queira reportar algum bug sobre nosso Projeto, sinta-se livre para ir em nosso repositório e criar um _issue_ com a descrição do problema e a tag `dúvida`, para assim podermos avalia-la. divulgaremos também as principais dúvidas e comentários na nossa página na [Wiki-Nilo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/wiki), então para mais informações acesse o link.
+**Clonando o repositório**
 
-# Referenciais
-- [1] Rasa-boilerplate: <https://github.com/lappis-unb/rasa-ptbr-boilerplate>
-- [2] Disciplina MDS: <https://github.com/fga-eps-mds>
+
+    $ git clone https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo.git
+
+    $ cd 2019.2-Chatbot-Nilo
+
+## Como subir o seu bot para telegram
+
+### 1. Crie um bot no Telegram
+
+Basta iniciar uma conversa com o [@BotFather do Telegram](https://t.me/BotFather) e digitar o comando “/newbot”, após isso é só seguir as instruções e você terá criado seu bot.
+
+### 2. Coloque no código as informações do seu bot
+
+Após escolher o nome do seu bot você receberá um token do @BotFather, com esse token será possível acessar a API do telegram.
+
+Adicione o nome do seu bot e o token no [arquivo de configuração](docker/bot-telegram.env)
+
+    sh
+    TELEGRAM_BOT_USERNAME=username_do_bot
+    TELEGRAM_TOKEN=token_fornecido_pelo_BotFather
+
+
+### 3. Execute o ngrok
+
+Após a etapa anterior, é necessário utilizar o [ngrok](https://ngrok.com/download), O Ngrok é um programa de linha de comando que permite criar um túnel de conexão segura a partir do seu localhost e publicá-lo na internet. Ele é multiplataforma, podendo ser usado no Windows, Linux e Mac OS X.
+
+Conforme a seguir, execute o ngrok na porta 5001.
+
+```sh
+./ngrok http 5001
+```
+
+**Atenção:** O conector do Telegram está utilizando a porta 5001 como padrão. Caso queira mudar, somente altere
+a porta utilizada pelo [Makefile](bot/Makefile).
+
+
+### 4. Exporte a URL do Webhook
+
+Enquanto o ngrok estiver em execução, ele apresentará uma série de informações da sessão atual. Copie a url do campo Forwarding com o protocolo HTTPS e cole no [arquivo de configurações do bot](../docker/bot-telegram.env). ela será similar à seguinte.
+
+```sh
+TELEGRAM_WEBHOOK=link_do_ngrok/webhooks/telegram/webhook
+```
+
+**Lembre-se!** sempre que executar o ngrok essa url deve ser exportada.
+
+
+## 5. Execução do bot no telegram
+
+Ao final de realizar essas configurações, seu [arquivo de configurações do bot](docker/bot-telegram.env) deve estar de acordo com o exibido logo abaixo:
+
+```sh
+TELEGRAM_BOT_USERNAME=lappisbot
+TELEGRAM_TOKEN=token
+TELEGRAM_WEBHOOK=your_webhook_server/webhooks/telegram/webhook
+```
+
+**Antes de seguir adiante. Importante:** 
+
+As variáveis de ambiente são necessárias para o correto funcionamento do bot, por isso não esqueça de exportá-las.
+
+Se ainda não tiver treinado seu bot execute antes:
+
+```sh
+make train
+```
+**Atenção**: o comando "make train" executa um container docker, caso precise de sudo em seu computador
+para execução docker, utilize "sudo make train".  
+
+
+Depois execute o bot no telegram:
+
+```sh
+sudo docker-compose up bot_telegram
+```
+
+## 🤝 Como contribuir
+
+Gostaria de contribuir com nosso projeto? É simples! Basta ler e acompanhar nosso [Guia de Contribuição] presente em nosso repositório.
+
+Todos que desejam contribuir de alguma forma com nosso projeto são mais que bem-vindos, e todos da equipe do Nilo agradecem a sua contribuição.
