@@ -6,6 +6,9 @@
 	<br/>
 	</p>
 
+
+![iN8Xdx5](https://user-images.githubusercontent.com/48720096/67254794-6ecf7d00-f455-11e9-88de-1cb85396f86c.gif)
+
 ## Sobre o projeto
 
 O Chatbot Nilo é o seu guia no grande deserto chamado FGA…
