@@ -9,3 +9,76 @@
 * action_enviar_doc_faq_estagio
   - action_enviar_doc_faq_estagio
   - utter_continuar_conversa
+
+## path_action_todos_os_coordenadores 1
+* cumprimentar
+  - utter_cumprimentar
+* action_todos_os_coordenadores
+  - action_todos_os_coordenadores
+  - utter_continuar_conversa
+
+## path_action_todos_os_coordenadores 2
+* action_todos_os_coordenadores
+  - action_todos_os_coordenadores
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_software 1
+* cumprimentar
+  - utter_cumprimentar
+* action_coordenador_de_software
+  - action_coordenador_de_software
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_software 2
+* action_coordenador_de_software
+  - action_coordenador_de_software
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_energia 1
+* cumprimentar
+  - utter_cumprimentar
+* action_coordenador_de_energia
+  - action_coordenador_de_energia
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_energia 2
+* action_coordenador_de_energia
+  - action_coordenador_de_energia
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_aeroespacial 1
+* cumprimentar
+  - utter_cumprimentar
+* action_coordenador_de_aeroespacial
+  - action_coordenador_de_aeroespacial
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_aeroespacial 2
+* action_coordenador_de_aeroespacial
+  - action_coordenador_de_aeroespacial
+  - utter_continuar_conversa
+
+
+## path_action_coordenador_de_eletronica 1
+* cumprimentar
+  - utter_cumprimentar
+* action_coordenador_de_eletronica
+  - action_coordenador_de_eletronica
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_eletronica 2
+* action_coordenador_de_eletronica
+  - action_coordenador_de_eletronica
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_automotiva 1
+* cumprimentar
+  - utter_cumprimentar
+* action_coordenador_de_automotiva
+  - action_coordenador_de_automotiva
+  - utter_continuar_conversa
+
+## path_action_coordenador_de_automotiva 2
+* action_coordenador_de_automotiva
+  - action_coordenador_de_automotiva
+  - utter_continuar_conversa

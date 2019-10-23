@@ -47,7 +47,6 @@ intents:
   - limite_creditos_simultaneo_estagio
   - doc_matricula_estagio
   - restricao_estagio
-  - coordenadores_estagio
   - docs_nao_obrigatorio_estagio
   - objetivo_estagio
   - senha-moodle_estagio
@@ -62,6 +61,12 @@ intents:
   - revisar_mencao
 
   - action_enviar_doc_faq_estagio
+  - action_coordenador_de_automotiva
+  - action_coordenador_de_eletronica
+  - action_coordenador_de_aeroespacial
+  - action_coordenador_de_energia
+  - action_coordenador_de_software
+  - action_todos_os_coordenadores
 
 entities:
   - religiao
@@ -529,21 +534,6 @@ templates:
         O estagiário pode atuar em qualquer cidade do planeta Terra.
 
         Que tal uma forcinha nas pirâmides?
-  utter_coordenadores_estagio:
-  - text:
-        Deseja encontrar os deuses?
-
-        Os atendimentos são feitos no prédio UED (FGA), na sala do respectivo professor, como informado a seguir
-
-        1) Sébastien Rondineau (Eng. Aeroespacial) atende na sala 31 às Quartas e Sextas de 14h a 16h.
-
-        2) Eneida González Valdés (Eng. Automotiva) atende na sala 7 às Quartas e Sextas de 10h a 12h.
-
-        3) Felipe Chagas Storti (Eng. de Energia) atende na sala 13 às Segundas e Sextas de 10h a 12h.
-
-        4) Tiago Alves (Eng. de Software) atende na sala 31 às Segundas e Quartas de 14h a 15h30.
-
-        5) Roberto Baptista (Eng. Eletrônica) atende na sala 22 às Terças, no horário de 10h a 12h, e às Quintas, no horário de 14h a 16h.
   utter_docs_nao_obrigatorio_estagio:
   - text:
         1) Modelo de Termo de Compromisso e Plano de Atividades (assinado pela empresa, pela integradora, pelo aluno e pelo DAIA (o último a assinar).
@@ -684,7 +674,6 @@ actions:
   - utter_limite_creditos_simultaneo_estagio
   - utter_doc_matricula_estagio
   - utter_restricao_estagio
-  - utter_coordenadores_estagio
   - utter_docs_nao_obrigatorio_estagio
   - utter_objetivo_estagio
   - utter_senha-moodle_estagio
@@ -699,3 +688,9 @@ actions:
   - utter_revisar_mencao
 
   - action_enviar_doc_faq_estagio
+  - action_coordenador_de_automotiva
+  - action_coordenador_de_eletronica
+  - action_coordenador_de_aeroespacial
+  - action_coordenador_de_energia
+  - action_coordenador_de_software
+  - action_todos_os_coordenadores
