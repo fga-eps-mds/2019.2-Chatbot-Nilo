@@ -31,6 +31,18 @@ Os assuntos que o Nilo já conhece são:
 - Reintegração
 - Revisão de menção
 
+<br/>
+
+## ✨ Protótipo
+
+<br/>
+
+<p align="left" >
+	<img width="300" height="500" src="./docs/img/prototipo_atividades_estagio.jpeg" hspace="100">
+	<img width="300" height="500" src="./docs/img/prototipo_despedida.jpeg">
+	</p>
+<br/>
+
 ## 📦 Instalação
 
 **Clonando o repositório**
