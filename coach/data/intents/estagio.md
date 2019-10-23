@@ -1,174 +1,93 @@
 ## intent:atividades_estagio
-- quais sao as atividades que podem ser consideradas como estagio supervisionado
-- quais são as atividades que podem ser consideradas como estágio supervisionado
-- atividades que eu posso fazer que podem substituir o estagio
-- atividades que eu posso fazer que podem substituir o estágio
-- atividades aceitas como estagio obrigatorio
-- atividades aceitas como estágio obrigatório
-- atividades aceitas como estagio supervisionado
-- atividades aceitas como estágio supervisionado
-- quais sao as atividades aceitas como estagio obrigatorio
-- quais são as atividades aceitas como estágio obrigatório
-- quais sao as atividades aceitas como estagio supervisionado
-- quais são as atividades aceitas como estágio supervisionado
-- que atividades sao consideradas no estagio obrigatorio
-- que atividades são consideradas no estágio obrigatório
-- que atividades sao consideradas no estagio supervisionado
-- que atividades são consideradas no estágio supervisionado
-- atividades aceitas no estagio obrigatorio
-- atividades aceitas no estágio obrigatório
-- atividades aceitas estagio obrigatorio
-- atividades aceitas estágio obrigatório
-- atividades aceitas estagio supervisionado
-- atividades aceitas estágio supervisionado
-- atividades estágio obrigatório
-- atividades estagio obrigatorio
-- atividades estágio supervisionado
-- atividades estagio supervisionado
-- atividade estagio obrigadorio
-- atividade estágio obrigatório
-- atividade estagio supervisionado
-- atividade estágio supervisionado
+- 1
+- projetos que contam como estágio
+- meu trabalho conta como estágio
+- atividades que substituem estágio
+- trabalhos que são considerados estágios
+- o que é válido como estágio
+- atividades que são consideradas estágio
+- como substituir o estágio
+- substituir  <!-- Possível erro-->
+- aceito
+- atividades
+- trabalho
+- válido
+- considerado
 
-## intent:pre-requisitos_estagio
-- quais sao os pre-requisitos do estagio
-- quais são os pré-requisitos do estágio
-- quais sao os pre-requisitos do estagio supervisionado
-- quais são os pré-requisitos do estágio supervisionado
-- pre-requisitos do estagio
-- pré-requisitos do estágio
-- pre-requisitos do estagio supervisionado
-- pré-requisitos do estágio supervisionado
-- quais seriam os pre-requisitos de estagio
-- quais seriam os pré-requisitos de estágio
-- quais sao os pre-requisitos de estagio
-- quais são os pré-requisitos de estágio
-- quais seriam os pre-requisitos de estagio supervisionado
-- quais seriam os pré-requisitos de estágio supervisionado
-- quais os pre-requisitos do estagio supervisionado
-- quais os pré-requisitos do estágio supervisionado
-- quais os pre-requisitos do estagio
-- quais os pré-requisitos do estágio
-- pré-requisitos estágio supervisionado
-- pre-requisitos estagio supervisionado
-- pré-requisitos estágio obrigatório
-- pre-requisitos estagio obrigadorio
+## intent:pre-requisitos_estagio 
+- o que eu preciso para o estágio
+- pre-requisitos do estágio
+- quais os pre-requisitos de estagio
+- o que é necessário pro estágio
+- o que é necessário para o estágio
+- requisitos para o estágio
+- requisitos do estágio
+- exigências necessárias
+- preciso
+- requerido
+- exigência
+- necessário
+- pre-requisitos
 
 ## intent:periodo_matricula_estagio
-- quando ocorre a matricula para o estagio supervisionado
-- quando ocorre a matrícula para o estágio supervisionado
-- quando ocorre a matricula para o estagio
-- quando ocorre a matrícula para o estágio
-- quando ocorre a matricula do estagio supervisionado
-- quando ocorre a matrícula do estágio supervisionado
-- quando ocorre a matricula do estagio
+- qual o período de matrícula pro estágio
 - quando ocorre a matrícula do estágio
-- quando acontece a matricula do estagio supervisionado
-- quando acontece a matrícula do estágio supervisionado
-- quando acontece a matricula do estagio supervisionado
-- quando acontece a matrícula do estágio supervisionado
-- quando acontece a matricula do estagio
 - quando acontece a matrícula do estágio
-- periodo de matricula do estagio supervisionado
-- período de matrícula do estágio supervisionado
-- periodo de matricula do estagio
 - período de matrícula do estágio
-- quando e a matricula do estagio supervisionado
-- quando é a matrícula do estágio supervisionado
-- data de matricula do estagio
-- data de matrícula do estágio
-- quando e a matricula do estagio
-- quando é a matrícula do estágio
+- quando é a matrícula do estágio 
+- que momento posso me matricular no estágio
+- em que ponto posso me matricular no estágio
+- momento
+- período
 
 ## intent:link_estagio
-- qual e o link do moodle para o estagio supervisionado
-- qual é o link do moodle para o estágio supervisionado
-- qual e o link do moodle da materia de estagio supervisionado
-- qual é o link do moodle da matéria de estágio supervisionado
-- link para o moodle do estagio supervisionado
-- link para o moodle do estágio supervisionado
-- link para o moodle da materia de estagio supervisionado
-- link para o moodle da matéria de estágio supervisionado
-- me envie o link para o moodle da materia de estagio supervisionado
-- me envie o link para o moodle da matéria de estágio supervisionado
-- link do moodle de estagio supervisionado
-- link do moodle de estágio supervisionado
-- link do moodle de estagio
+- qual é o link do moodle para o estágio
+- qual é o link do moodle da matéria de estágio
+- link para o moodle do estágio
+- me envie o link para o moodle da matéria de estágio
 - link do moodle de estágio
-- qual o link do moodle de estagio supervisionado
-- qual o link do moodle de estágio supervisionado
-- qual o link do moodle de estagio
 - qual o link do moodle de estágio
-- tem o link do moodle de estagio
-- tem o link do moodle de estágio
-- tem o link do moodle de estagio supervisionado
-- tem o link do moodle de estágio supervisionado
+- link do moodle
+- me envie o link
+- qual o site do moodle de estágio
+- qual o site do estágio
+- link
+- zelda
+- site
 
 ## intent:matricula_estagio
-- como me matriculo no estagio supervisionado
-- como me matriculo no estágio supervisionado
-- como realizo minha matricula no estagio supervisionado
-- como realizo minha matrícula no estágio supervisionado
-- como funciona a matricula no estagio supervisionado
-- como funciona a matrícula no estágio supervisionado
-- como me matricular no estagio supervisionado
-- como me matricular no estágio supervisionado
-- como funciona a matricula no estagio supervisionado
-- como funciona a matrícula no estágio supervisionado
-- como matricular estagio supervisionado
-- como matricular estágio supervisionado
-- matricular no estagio supervisionado
-- matricular no estágio supervisionado
-- matricular estagio supervisionado
-- matricular estágio supervisionado
-- matricula estagio supervisionado
-- matrícula estágio supervisionado
+- como me matriculo no estágio 
+- como me matricular no estágio 
+- como funciona a matrícula no estágio
+- me matricular no estágio
+- como me inscrevo no estágio
+- onde consigo um estágio
+- processo pra conseguir um estágio
+- matrícula
+- inscrição
 
 ## intent:orientador_estagio
-- como escolher um orientador de estagio supervisionado
-- como escolher um orientador de estágio supervisionado
-- como escolher orientador de estagio supervisionado
-- como escolher orientador de estágio supervisionado
-- como escolher um orientador de estagio
-- como escolher um orientador de estágio
-- como escolher um orientador para estagio supervisionado
-- como escolher um orientador para estágio supervisionado
-- como escolho um orientador de estagio para a disciplina de estagio supervisionado
-- como escolho um orientador de estágio para a disciplina de estágio supervisionado
-- como escolho um orientador de estagio supervisionado
-- como escolho um orientador de estágio supervisionado
-- orientador para estagio supervisionado
-- orientador para estágio supervisionado
-- escolher orientador para estagio supervisionado
-- escolher orientador para estágio supervisionado
-- orientador para estagio
-- orientador para estágio
-- orientador de estagio
+- escolher orientador para estágio
+- conseguir um orientador para estágio
+- dicas de orientador de estágio
+- quem pode ser meu orientador
 - orientador de estágio
-- orientador estagio supervisionado
-- orientador estágio supervisionado
-- orientador estagio
-- orientador estágio
+- orientador
 
 ## intent:carga-horaria_min_estagio
-- qual a carga horaria minima para o estagio supervisionado
-- qual a carga horária mínima para o estágio supervisionado
-- qual a carga horaria minima necessaria para o estagio supervisionado
-- qual a carga horária mínima necessária para o estágio supervisionado
-- qual a carga horaria minima do estagio supervisionado
-- qual a carga horária mínima do estágio supervisionado
-- carga horaria minima necessaria para o estagio supervisionado
-- carga horária mínima necessária para o estágio supervisionado
-- carga horaria minima para o estagio supervisionado
-- carga horária mínima para o estágio supervisionado
-- carga horaria minima de estagio supervisionado
-- carga horária mínima de estágio supervisionado
-- tem carga horaria minima de estagio supervisionado
-- tem carga horária mínima de estágio supervisionado
-- carga horaria minima estagio supervisionado
-- carga horária mínima do estágio supervisionado
-- carga horaria estagio supervisionado
-- carga horária estágio supervisionado
+- tempo mínimo de trabalho
+- qual o tempo mínimo do estágio
+- existe carga horária mínima para o estágio
+- carga horária mínima de estágio
+- horas necessárias
+- tempo de estágio
+- tempo mínimo de estágio
+- mínimo de tempo necessário 
+- tem carga horaria minima de estágio 
+- carga horária mínima
+- carga horária
+- tempo
+
 
 ## intent:limite_creditos_estagio
 - ha limite de creditos para cursar o estagio supervisionado
