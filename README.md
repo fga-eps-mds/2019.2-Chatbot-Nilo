@@ -7,7 +7,10 @@
 	</p>
 
 
-![iN8Xdx5](https://user-images.githubusercontent.com/48720096/67254794-6ecf7d00-f455-11e9-88de-1cb85396f86c.gif)
+<p align="center" >
+	<img width="500" height="500" src="./docs/img/iN8Xdx5.gif">
+	<br/>
+	</p>
 
 ## Sobre o projeto
 
