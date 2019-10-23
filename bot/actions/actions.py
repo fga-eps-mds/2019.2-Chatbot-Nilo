@@ -29,6 +29,8 @@ class ActionTodosOsCoordenadores(Action):
 		dispatcher.utter_message(web.eletronics_coordinator())
 		dispatcher.utter_message("Eng. de Software:")
 		dispatcher.utter_message(web.software_coordinator())
+		dispatcher.utter_message("Eng. de Energia:")
+		dispatcher.utter_message(web.energy_coordinator())
 
 class ActionCoordenadorDeSoftware(Action):
 	def name(self):
