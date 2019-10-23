@@ -6,12 +6,6 @@
 	<br/>
 	</p>
 
-
-<p align="center" >
-	<img width="500" height="500" src="./docs/img/iN8Xdx5.gif">
-	<br/>
-	</p>
-
 ## Sobre o projeto
 
 O Chatbot Nilo é o seu guia no grande deserto chamado FGA…
@@ -22,6 +16,11 @@ Criado a partir do Rasa-boilerplate [1] e desenvolvido na matéria de MDS [2].
 
 Basta que você tenha o Telegram instalado no seu computador ou celular e
 então procure o bot pelo nome “@nilo_fga_bot” e caso ele esteja upado, será possível iniciar uma conversa.
+
+<p align="center" >
+	<img width="517" height="328" src="./docs/img/iN8Xdx5.gif">
+	<br/>
+	</p>
 
 ## ✨ Features
 
