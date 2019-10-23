@@ -125,6 +125,6 @@ sudo docker-compose up bot_telegram
 
 ## 🤝 Como contribuir
 
-Gostaria de contribuir com nosso projeto? É simples! Basta ler e acompanhar nosso [Guia de Contribuição] presente em nosso repositório.
+Gostaria de contribuir com nosso projeto? É simples! Basta ler e acompanhar nosso [Guia de Contribuição](./CONTRIBUTING.md) presente em nosso repositório.
 
 Todos que desejam contribuir de alguma forma com nosso projeto são mais que bem-vindos, e todos da equipe do Nilo agradecem a sua contribuição.
