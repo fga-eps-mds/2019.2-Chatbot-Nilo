@@ -49,6 +49,17 @@ class ActionEnviarModeloDeTermoAditivo(Action):
 		url = 'https://fga.unb.br/articles/0002/2352/termo_aditivo_ao_tce.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id, document = url)
 
+class ActionEnviarModeloDeTermoAditivo(Action):
+	def name(self):
+		return "action_enviar_termo_rescisorio"
+
+	def run(self, dispatcher, tracker, domain):
+		dispatcher.utter_message("Eu tenho o modelo de termo rescisório para te enviar!")
+		dispatcher.utter_message("Estou te enviando agora.")
+		bot = telegram.Bot(token='TELEGRAM_TOKEN')
+		url = 'https://fga.unb.br/articles/0002/2351/termo_de_rescisorio.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id, document = url)
+
 class ActionTodosOsCoordenadores(Action):
 	def name(self):
 		return "action_todos_os_coordenadores"

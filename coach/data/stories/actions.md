@@ -34,6 +34,18 @@
   - action_enviar_modelo_de_termo_aditivo
   - utter_continuar_conversa
 
+## path_action_enviar_termo_rescisorio 1
+* cumprimentar
+  - utter_cumprimentar
+* action_enviar_termo_rescisorio
+  - action_enviar_termo_rescisorio
+  - utter_continuar_conversa
+
+## path_action_enviar_termo_rescisorio 2
+* action_enviar_termo_rescisorio
+  - action_enviar_termo_rescisorio
+  - utter_continuar_conversa
+
 ## path_action_enviar_doc_faq_estagio 1
 * cumprimentar
   - utter_cumprimentar

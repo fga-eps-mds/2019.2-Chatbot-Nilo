@@ -70,6 +70,7 @@ intents:
   - action_todos_os_coordenadores
   - action_enviar_ficha_solicitacao
   - action_enviar_modelo_de_termo_aditivo
+  - action_enviar_termo_rescisorio
 
 entities:
   - religiao
@@ -700,3 +701,4 @@ actions:
   - action_enviar_tce_pa
   - action_enviar_ficha_solicitacao
   - action_enviar_modelo_de_termo_aditivo
+  - action_enviar_termo_rescisorio

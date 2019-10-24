@@ -37,6 +37,14 @@
 - tem o termo aditivo
 - manda o termo aditivo
 
+## intent:action_enviar_termo_rescisorio
+- modelo de termo rescisório
+- termo rescisório
+- me envie o termo rescisório
+- quero o termo rescisório
+- tem o termo rescisório
+- manda o termo rescisório
+
 ## intent:action_enviar_doc_faq_estagio
 - queria saber sobre estagio
 - queria saber sobre estagio supervisionado
