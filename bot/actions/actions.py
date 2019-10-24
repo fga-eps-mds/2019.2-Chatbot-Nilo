@@ -12,14 +12,15 @@ class ActionEnviarDocFaqEstagio(Action):
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
 		url = 'https://fga.unb.br/articles/0002/2354/tce_para_estagio_obrigatorio.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)
+		url = 'https://fga.unb.br/articles/0002/2356/tce_para_estagio_nao_obrigatorio.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
 class ActionEnviarTCEPA(Action):
 	def name(self):
 		return "action_enviar_tce_pa"
 
 	def run(self, dispatcher, tracker, domain):
-		dispatcher.utter_message("Eu tenho esses documentos de estágio supervisionado!")
-		dispatcher.utter_message("Caso Vossa Majestade queira esses documentos para estágio não-obrigatório, especifique.")
+		dispatcher.utter_message("Eu tenho esses documentos de estágio supervisionado e não-obrigatório!")
 		dispatcher.utter_message("Estou te enviando o TCE e o PA")
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
 		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
