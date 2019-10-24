@@ -22,6 +22,18 @@
   - action_enviar_ficha_solicitacao
   - utter_continuar_conversa
 
+## path_action_enviar_modelo_de_termo_aditivo 1
+* cumprimentar
+  - utter_cumprimentar
+* action_enviar_modelo_de_termo_aditivo
+  - action_enviar_modelo_de_termo_aditivo
+  - utter_continuar_conversa
+
+## path_action_enviar_modelo_de_termo_aditivo 2
+* action_enviar_modelo_de_termo_aditivo
+  - action_enviar_modelo_de_termo_aditivo
+  - utter_continuar_conversa
+
 ## path_action_enviar_doc_faq_estagio 1
 * cumprimentar
   - utter_cumprimentar

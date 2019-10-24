@@ -29,6 +29,13 @@
 - tem a ficha de solicitação de matrícula
 - manda a ficha de solicitação de matrícula
 
+## intent:action_enviar_modelo_de_termo_aditivo
+- modelo de termo aditivo
+- termo aditivo
+- me envie o termo aditivo
+- quero o termo aditivo
+- tem o termo aditivo
+- manda o termo aditivo
 
 ## intent:action_enviar_doc_faq_estagio
 - queria saber sobre estagio

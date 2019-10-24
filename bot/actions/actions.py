@@ -38,6 +38,17 @@ class ActionEnviarFichaSolicitacao(Action):
 		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
+class ActionEnviarModeloDeTermoAditivo(Action):
+	def name(self):
+		return "action_enviar_modelo_de_termo_aditivo"
+
+	def run(self, dispatcher, tracker, domain):
+		dispatcher.utter_message("Eu tenho o modelo de termo aditivo para te enviar!")
+		dispatcher.utter_message("Estou te enviando agora.")
+		bot = telegram.Bot(token='TELEGRAM_TOKEN')
+		url = 'https://fga.unb.br/articles/0002/2352/termo_aditivo_ao_tce.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id, document = url)
+
 class ActionTodosOsCoordenadores(Action):
 	def name(self):
 		return "action_todos_os_coordenadores"

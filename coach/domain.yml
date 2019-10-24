@@ -69,6 +69,7 @@ intents:
   - action_coordenador_de_software
   - action_todos_os_coordenadores
   - action_enviar_ficha_solicitacao
+  - action_enviar_modelo_de_termo_aditivo
 
 entities:
   - religiao
@@ -698,3 +699,4 @@ actions:
   - action_todos_os_coordenadores
   - action_enviar_tce_pa
   - action_enviar_ficha_solicitacao
+  - action_enviar_modelo_de_termo_aditivo
