@@ -1,3 +1,28 @@
+## intent:action_enviar_tce_pa
+- termo de compromisso de estagio
+- tce
+- plano de atividades
+- pa
+- termo de compromisso de estagio e plano de atividades
+- tce e pa
+- me envie o termo de compromisso de estagio
+- me envie o tce
+- quero o termo de compromisso de estagio
+- quero o tce
+- tem o termo de compromisso de estagio
+- tem o tce
+- manda o termo de compromisso de estagio
+- manda o tce
+- me envie o plano de atividades
+- me envie o pa
+- quero o plano de atividades
+- quero o pa
+- tem o plano de atividades
+- tem o pa
+- manda o plano de atividades
+- manda o pa
+
+
 ## intent:action_enviar_doc_faq_estagio
 - queria saber sobre estagio
 - queria saber sobre estagio supervisionado

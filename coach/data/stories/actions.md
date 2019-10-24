@@ -1,3 +1,15 @@
+## path_action_enviar_tce_pa 1
+* cumprimentar
+  - utter_cumprimentar
+* action_enviar_tce_pa
+  - action_enviar_tce_pa
+  - utter_continuar_conversa
+
+## path_action_enviar_tce_pa 2
+* action_enviar_tce_pa
+  - action_enviar_tce_pa
+  - utter_continuar_conversa
+
 ## path_action_enviar_doc_faq_estagio 1
 * cumprimentar
   - utter_cumprimentar

@@ -3,15 +3,27 @@ import telegram
 from . import webscraping
 
 class ActionEnviarDocFaqEstagio(Action):
-    def name(self):
-        return "action_enviar_doc_faq_estagio"
+	def name(self):
+		return "action_enviar_doc_faq_estagio"
 
-    def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("Eu tenho muitas informações sobre estágio para você, Vossa Majestade!")
-        dispatcher.utter_message("Estou te enviando um documento com as dúvidas mais pertinentes que os alunos costumam ter")
-        bot = telegram.Bot(token='TELEGRAM_TOKEN')
-        url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
-        bot.sendDocument(chat_id=tracker.sender_id,document=url)
+	def run(self, dispatcher, tracker, domain):
+		dispatcher.utter_message("Eu tenho muitas informações sobre estágio para você, Vossa Majestade!")
+		dispatcher.utter_message("Estou te enviando um documento com as dúvidas mais pertinentes que os alunos costumam ter")
+		bot = telegram.Bot(token='TELEGRAM_TOKEN')
+		url = 'https://fga.unb.br/articles/0002/2354/tce_para_estagio_obrigatorio.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id,document=url)
+
+class ActionEnviarDocFaqEstagio(Action):
+	def name(self):
+		return "action_enviar_tce_pa"
+
+	def run(self, dispatcher, tracker, domain):
+		dispatcher.utter_message("Eu tenho esses documentos de estágio supervisionado!")
+		dispatcher.utter_message("Caso Vossa Majestade queira esses documentos para estágio não-obrigatório, especifique.")
+		dispatcher.utter_message("Estou te enviando o TCE e o PA")
+		bot = telegram.Bot(token='TELEGRAM_TOKEN')
+		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
 class ActionTodosOsCoordenadores(Action):
 	def name(self):

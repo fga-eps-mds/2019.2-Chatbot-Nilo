@@ -60,6 +60,7 @@ intents:
   - como_pedido_reintegracao
   - revisar_mencao
 
+  - action_enviar_tce_pa
   - action_enviar_doc_faq_estagio
   - action_coordenador_de_automotiva
   - action_coordenador_de_eletronica
@@ -694,3 +695,4 @@ actions:
   - action_coordenador_de_energia
   - action_coordenador_de_software
   - action_todos_os_coordenadores
+  - action_enviar_tce_pa
