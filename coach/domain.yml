@@ -71,6 +71,7 @@ intents:
   - action_enviar_ficha_solicitacao
   - action_enviar_modelo_de_termo_aditivo
   - action_enviar_termo_rescisorio
+  - action_enviar_relatorio_atividades
 
 entities:
   - religiao
@@ -702,3 +703,4 @@ actions:
   - action_enviar_ficha_solicitacao
   - action_enviar_modelo_de_termo_aditivo
   - action_enviar_termo_rescisorio
+  - action_enviar_relatorio_atividades
