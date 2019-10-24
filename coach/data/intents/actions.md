@@ -1,17 +1,17 @@
 ## intent:action_enviar_tce_pa
-- termo de compromisso de estagio
+- termo de compromisso de estágio
 - tce
 - plano de atividades
 - pa
-- termo de compromisso de estagio e plano de atividades
+- termo de compromisso de estágio e plano de atividades
 - tce e pa
-- me envie o termo de compromisso de estagio
+- me envie o termo de compromisso de estágio
 - me envie o tce
-- quero o termo de compromisso de estagio
+- quero o termo de compromisso de estágio
 - quero o tce
-- tem o termo de compromisso de estagio
+- tem o termo de compromisso de estágio
 - tem o tce
-- manda o termo de compromisso de estagio
+- manda o termo de compromisso de estágio
 - manda o tce
 - me envie o plano de atividades
 - me envie o pa
@@ -21,6 +21,13 @@
 - tem o pa
 - manda o plano de atividades
 - manda o pa
+
+## intent:action_enviar_ficha_solicitacao
+- ficha de solicitação de matrícula
+- me envie a ficha de solicitação de matrícula
+- quero a ficha de solicitação de matrícula
+- tem a ficha de solicitação de matrícula
+- manda a ficha de solicitação de matrícula
 
 
 ## intent:action_enviar_doc_faq_estagio

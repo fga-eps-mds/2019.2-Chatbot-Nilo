@@ -68,6 +68,7 @@ intents:
   - action_coordenador_de_energia
   - action_coordenador_de_software
   - action_todos_os_coordenadores
+  - action_enviar_ficha_solicitacao
 
 entities:
   - religiao
@@ -696,3 +697,4 @@ actions:
   - action_coordenador_de_software
   - action_todos_os_coordenadores
   - action_enviar_tce_pa
+  - action_enviar_ficha_solicitacao

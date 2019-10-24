@@ -13,7 +13,7 @@ class ActionEnviarDocFaqEstagio(Action):
 		url = 'https://fga.unb.br/articles/0002/2354/tce_para_estagio_obrigatorio.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
-class ActionEnviarDocFaqEstagio(Action):
+class ActionEnviarTCEPA(Action):
 	def name(self):
 		return "action_enviar_tce_pa"
 
@@ -21,6 +21,18 @@ class ActionEnviarDocFaqEstagio(Action):
 		dispatcher.utter_message("Eu tenho esses documentos de estágio supervisionado!")
 		dispatcher.utter_message("Caso Vossa Majestade queira esses documentos para estágio não-obrigatório, especifique.")
 		dispatcher.utter_message("Estou te enviando o TCE e o PA")
+		bot = telegram.Bot(token='TELEGRAM_TOKEN')
+		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id,document=url)
+
+class ActionEnviarFichaSolicitacao(Action):
+	def name(self):
+		return "action_enviar_ficha_solicitacao"
+
+	def run(self, dispatcher, tracker, domain):
+		dispatcher.utter_message("Eu tenho a ficha de solicitação de matrícula em estágio supervisionado!")
+		dispatcher.utter_message("Se você já estiver cadastrado na matéria, pode acessar uma ficha de preenchimento automático pelo moodle.")
+		dispatcher.utter_message("Estou te enviando a Ficha de Solicitação de Matrícula.")
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
 		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)

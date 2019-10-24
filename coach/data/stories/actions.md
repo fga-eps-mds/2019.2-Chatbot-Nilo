@@ -10,6 +10,18 @@
   - action_enviar_tce_pa
   - utter_continuar_conversa
 
+## path_action_enviar_ficha_solicitacao 1
+* cumprimentar
+  - utter_cumprimentar
+* action_enviar_ficha_solicitacao
+  - action_enviar_ficha_solicitacao
+  - utter_continuar_conversa
+
+## path_action_enviar_ficha_solicitacao 2
+* action_enviar_ficha_solicitacao
+  - action_enviar_ficha_solicitacao
+  - utter_continuar_conversa
+
 ## path_action_enviar_doc_faq_estagio 1
 * cumprimentar
   - utter_cumprimentar
