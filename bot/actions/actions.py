@@ -23,8 +23,8 @@ class ActionEnviarTCEPA(Action):
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
 		url = 'https://fga.unb.br/articles/0002/2354/tce_para_estagio_obrigatorio.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)
-		url = 'https://fga.unb.br/articles/0002/2356/tce_para_estagio_nao_obrigatorio.pdf'
-		bot.sendDocument(chat_id=tracker.sender_id,document=url)
+		url2 = 'https://fga.unb.br/articles/0002/2356/tce_para_estagio_nao_obrigatorio.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id,document=url2)
 
 class ActionEnviarFichaSolicitacao(Action):
 	def name(self):
