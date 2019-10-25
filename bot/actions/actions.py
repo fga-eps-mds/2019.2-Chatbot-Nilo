@@ -10,9 +10,7 @@ class ActionEnviarDocFaqEstagio(Action):
 		dispatcher.utter_message("Eu tenho muitas informações sobre estágio para você, Vossa Majestade!")
 		dispatcher.utter_message("Estou te enviando um documento com as dúvidas mais pertinentes que os alunos costumam ter")
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
-		url = 'https://fga.unb.br/articles/0002/2354/tce_para_estagio_obrigatorio.pdf'
-		bot.sendDocument(chat_id=tracker.sender_id,document=url)
-		url = 'https://fga.unb.br/articles/0002/2356/tce_para_estagio_nao_obrigatorio.pdf'
+		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
 class ActionEnviarTCEPA(Action):
@@ -23,7 +21,9 @@ class ActionEnviarTCEPA(Action):
 		dispatcher.utter_message("Eu tenho esses documentos de estágio supervisionado e não-obrigatório!")
 		dispatcher.utter_message("Estou te enviando o TCE e o PA")
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
-		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
+		url = 'https://fga.unb.br/articles/0002/2354/tce_para_estagio_obrigatorio.pdf'
+		bot.sendDocument(chat_id=tracker.sender_id,document=url)
+		url = 'https://fga.unb.br/articles/0002/2356/tce_para_estagio_nao_obrigatorio.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
 class ActionEnviarFichaSolicitacao(Action):
@@ -35,7 +35,7 @@ class ActionEnviarFichaSolicitacao(Action):
 		dispatcher.utter_message("Se você já estiver cadastrado na matéria, pode acessar uma ficha de preenchimento automático pelo moodle.")
 		dispatcher.utter_message("Estou te enviando a Ficha de Solicitação de Matrícula.")
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
-		url = 'https://aprender.ead.unb.br/pluginfile.php/688847/mod_resource/content/5/faq_estagio_supervisionado.pdf'
+		url = 'https://aprender.ead.unb.br/pluginfile.php/610764/mod_resource/content/2/Anexo1_Ficha_Matr%C3%ADcula_Est%C3%A1gio_Supervisionado_FGA.pdf'
 		bot.sendDocument(chat_id=tracker.sender_id,document=url)
 
 class ActionEnviarModeloDeTermoAditivo(Action):
@@ -68,7 +68,7 @@ class ActionEnviarModeloDeRelatorio(Action):
 		dispatcher.utter_message("Eu tenho o modelo de relatório de atividades para te enviar!")
 		dispatcher.utter_message("Estou te enviando agora.")
 		bot = telegram.Bot(token='TELEGRAM_TOKEN')
-		url = 'https://fga.unb.br/estagio/documentos/documentos-do-daia/relatorio-de-atividades-de-estagio.xlsx'
+		url = 'https://drive.google.com/file/d/1qomiocsmBqUJ0dd2_377oxUHdeYyGCMf/view'
 		bot.sendDocument(chat_id=tracker.sender_id, document = url)
 
 class ActionTodosOsCoordenadores(Action):
