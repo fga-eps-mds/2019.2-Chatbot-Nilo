@@ -1,5 +1,4 @@
 ## intent:atividades_estagio
-- 1
 - projetos que contam como estágio
 - meu trabalho conta como estágio
 - atividades que substituem estágio
@@ -90,22 +89,16 @@
 
 
 ## intent:limite_creditos_estagio
-- ha limite de creditos para cursar o estagio supervisionado
-- há limite de créditos para cursar o estágio supervisionado
-- existe limite de creditos para cursar o estagio supervisionado
-- existe limite de créditos para cursar o estágio supervisionado
-- existe algum limite de creditos para cursar o estagio supervisionado
-- existe algum limite de créditos para cursar o estágio supervisionado
-- limite de creditos estagio supervisionado
-- limite de créditos estágio supervisionado
-- limite de creditos para estagio supervisionado
-- limite de créditos para estágio supervisionado
-- tem limite de creditos para cursar estagio supervisionado
-- tem limite de créditos para cursar estágio supervisionado
-- tem limite de creditos para estagio supervisionado
-- tem limite de créditos para estágio supervisionado
-- limite creditos estagio supervisionado
-- limite créditos estágio supervisionado
+- existe algum limite de créditos para cursar o estágio
+- limite de creditos estagio
+- qual o limite de créditos simultâneos 
+- máximo de créditos com o estágio
+- até quantos créditos posso fazer com o estágio
+- tem limite de créditos para cursar estágio 
+- créditos máximos
+- máximo de créditos
+- limite créditos
+- limite de créditos
 
 ## intent:preencher_datas_estagio
 - como preencho as datas de inicio e termino do estagio supervisionado
