@@ -100,26 +100,26 @@
 - limite créditos
 - limite de créditos
 
+<!--WTF-->
+
 ## intent:preencher_datas_estagio
-- como preencho as datas de inicio e termino do estagio supervisionado
-- como preencho as datas de início e término do estágio supervisionado
-- como preencher as datas de inicio e termino do estagio supervisionado
-- como preencher as datas de início e término do estágio supervisionado
-- como preencher as datas de estagio supervisionado
-- como preencher as datas de estágio supervisionado
-- como preencher as datas do estagio supervisionado
-- como preencher as datas do estágio supervisionado
-- preencher datas estágio supervisionado
-- preencher datas estagio supervisionado
+- como preencho as datas de inicio e termino do estagio 
+- como preencho as datas de início e término do estágio 
+- como preencher as datas de inicio e termino do estagio 
+- como preencher as datas de início e término do estágio 
+- como preencher as datas de estagio 
+- como preencher as datas de estágio 
+- como preencher as datas do estagio 
+- como preencher as datas do estágio 
+- preencher datas estágio 
+- preencher datas estagio 
 
 ## intent:contratos_estagio
 - os contratos de trabalho precisam ser formalizados junto ao DAIA
-- os contratos de trabalho com carteira assinada precisam ser formalizados junto ao DAIA
-- contratos de trabalho precisam ser formalizados junto ao DAIA
-- contratos de trabalho com carteira assinada precisam ser formalizados junto ao DAIA
-- contratos de trabalho tem que ser formalizados junto ao DAIA
-- contratos de trabalho têm que ser formalizados junto ao DAIA
-- contratos de trabalho DAIA
+- carteira de trabalho
+- contratos de trabalho
+- DAIA
+- contratos
 
 ## intent:limite_creditos_simultaneo_estagio
 - limite de creditos que podem ser cursados simultaneamente ao estagio
@@ -147,37 +147,29 @@
 - créditos simultâneos estágio
 
 ## intent:doc_matricula_estagio
-- quais sao os documentos que devo apresentar junto a matricula caso esteja aproveitando um projeto de pesquisa
-- quais são os documentos que devo apresentar junto à matrícula caso esteja aproveitando um projeto de pesquisa
-- quais são os documentos que devo apresentar junto a matrícula caso esteja aproveitando um projeto de pesquisa
-- quais sao os documentos necessarios apresentar junto a matricula para aproveitar um projeto de pesquisa
-- quais são os documentos necessários apresentar junto à matrícula para aproveitar um projeto de pesquisa
-- quais são os documentos necessários apresentar junto a matrícula para aproveitar um projeto de pesquisa
-- que documentos devo apresentar junto a matricula caso esteja aproveitando um projeto de pesquisa
-- que documentos devo apresentar junto à matrícula caso esteja aproveitando um projeto de pesquisa
-- que documentos devo apresentar junto a matrícula caso esteja aproveitando um projeto de pesquisa
+- projetos que posso aproveitar
+- posso aproveitar meu PIBIC
+- programa de iniciação científica
+- PIBIC
 - aproveitar projeto de pesquisa
-- aproveitamento projeto de pesquisa
-- documentos para aproveitar projeto de pesquisa
-- documentos de aproveitamento de projeto de pesquisa
+- documentos necessários pra matrícula
+- documentos necessários para matrícula
 - projeto de pesquisa como estagio
-- projeto de pesquisa como estágio
-- projeto de pesquisa estágio
 - projeto de pesquisa estagio
+- projetos aproveitáveis
 
 ## intent:restricao_estagio
-- ha alguma restricao caso o estagio nao seja em brasilia
 - há alguma restrição caso o estágio não seja em brasília
-- existe alguma restricao caso o estagio nao seja em brasilia
 - existe alguma restrição caso o estágio não seja em brasília
-- caso o estagio nao seja em brasilia existe alguma restricao
 - caso o estágio não seja em brasília existe alguma restrição
-- estagio fora de brasilia
 - estágio fora de brasília
-- estagio em outro estado
 - estágio em outro estado
-- restricao local do estagio
+- restrição
+- restrições do estágio
+- onde posso fazer o estágio
+- fora de brasília
 - restrição local do estágio
+
 
 ## intent:docs_nao_obrigatorio_estagio
 - quais os documentos necessarios para o estagio nao obrigatorio
@@ -194,60 +186,49 @@
 - documentos necessários estágio não obrigatório
 
 ## intent:objetivo_estagio
-- qual e o objetivo do estagio supervisionado
-- qual é o objetivo do estágio supervisionado
-- qual o objetivo do estagio supervisionado
-- qual o objetivo do estágio supervisionado
-- qual seria o objetivo do estagio supervisionado
-- qual seria o objetivo do estágio supervisionado
-- objetivo do estagio supervisionado
-- objetivo do estágio supervisionado
-- pra que serve o estagio supervisionado
-- pra que serve o estágio supervisionado
-- por que temos que fazer estagio supervisionado
-- por que temos que fazer estágio supervisionado
-- pq temos que fazer estagio supervisionado
-- pq temos que fazer estágio supervisionado
-- pra que estagio supervisionado
-- pra que estágio supervisionado
-- por que fazer estagio supervisionado
-- por que fazer estágio supervisionado
-- pq fazer estágio supervisionado
-- pq fazer estagio supervisionado
-- objetivo estagio supervisionado
-- objetivo estágio supervisionado
-- pq estagio supervisionado
-- pq estágio supervisionado
+- qual é o objetivo do estágio 
+- finalidade do estágio
+- que intuito tem o estágio
+- qual o objetivo do estágio 
+- qual seria o objetivo do estágio 
+- objetivo do estágio 
+- pra que serve o estágio 
+- por que temos que fazer estágio 
+- pq temos que fazer estágio 
+- pra que estágio 
+- por que fazer estágio 
+- pq fazer estágio 
+- pra que preciso estagiar 
+- qual o propósito do estágio
+- objetivo	
+- foco
+- propósito
+- intuito
+- finalidade
 
 ## intent:senha-moodle_estagio
-- senha do moodle estagio supervisionado
-- senha do moodle estágio supervisionado
-- qual a senha do moodle do estagio supervisionado
-- qual a senha do moodle do estágio supervisionado
-- qual a senha do moodle da disciplina do estagio supervisionado
-- qual a senha do moodle da disciplina do estágio supervisionado
-- senha do moodle do estagio supervisionado
-- senha do moodle do estágio supervisionado
-- senha do moodle da disciplina estagio supervisionado
-- senha do moodle da disciplina estágio supervisionado
-- senha do moodle de estagio supervisionado
-- senha do moodle de estágio supervisionado
-- qual a senha do moodle de estagio supervisionado
-- qual a senha do moodle de estágio supervisionado
+- senha do moodle estágio 
+- qual a senha do moodle do estágio 
+- qual a senha do moodle da disciplina do estágio 
+- senha do moodle do estágio 
+- senha do moodle da disciplina estágio 
+- senha do moodle de estágio 
+- qual a senha do moodle de estágio 
+- como entrar no moodle
+- senha do moodle
+- senha
 
 ## intent:nome_da_pasta_estagio
 - nome da pasta que deve ser enviado os documentos
 - qual o nome da pasta que deve ser enviado os documentos
 - como devo nomear a pasta que sera enviado os documentos
 - nome da pasta que deve-se enviar os documentos
-- nome da pasta estagio supervisionado
-- nome da pasta estágio supervisionado
-- qual o nome da pasta estagio supervisionado
-- qual o nome da pasta estágio supervisionado
-- pasta de documentos estagio supervisionado
-- pasta de documentos estágio supervisionado
-- pasta estagio supervisionado
-- pasta estágio supervisionado
+- nome da pasta estágio 
+- qual o nome da pasta estágio 
+- pasta de documentos estágio 
+- pasta estágio 
+- nome da pasta
+- pasta
 
 ## intent:encontrar_guia_calouro
 - onde posso encontrar o guia do calouro
@@ -258,60 +239,56 @@
 - site do guia do calouro
 - encontrar guia do calouro
 - achar guia do calouro
+- guia do calouro
 
 ## intent:quando_entra_risco_desligamento
 - quando um estudante entra em risco de desligamento
 - quando um aluno entra em risco de desligamento
+- que momento posso ser delisgado
+- condições de desligamento
 - quando entro em risco de desligamento
 - como entrar em risco de desligamento
+- chance de ser jubilado
 - risco de desligamento
-- risco desligamento
 
 ## intent:sair_risco_desligamento
 - como sair do risco de desligamento
 - quando saio do risco de desligamento
+- evitar o desligamento
+- evitar a jubilação
 - o que fazer em risco de desligamento
 - oq fazer em risco de desligamento
 - o que fazer risco de desligamento
-- oq fazer risco desligamento
 - sair risco desligamento
 - sair do risco de desligamento
-- sair risco de desligamento
 - socorro risco de desligamento
 - socorro risco desligamento
+- estou prestes a ser jubilado
 
 ## intent:estudante_desligado
-- quando um estudante e desligado
 - quando um estudante é desligado
-- quando um estudante e desligado da UNB
-- quando um estudante é desligado da UNB
-- quando um aluno e desligado
 - quando um aluno é desligado
-- quando um aluno e desligado da UNB
-- quando um aluno é desligado da UNB
 - como ser desligado da UNB
-- desligamento
-- expulsao
-- expulsão
 - vou ser desligado
+- desligado
+- desligamento
+- jubilado
+- jubilamento
+- expulsão
 
 ## intent:quando_pedido_reintegracao
-- quando posso fazer meu pedido de reintegracao
 - quando posso fazer meu pedido de reintegração
-- quando fazer pedido de reintegracao
 - quando fazer pedido de reintegração
-- quando fazer pedido reintegracao
 - quando fazer pedido reintegração
-- quando pedir reintegracao
 - quando pedir reintegração
-- periodo de reintegracao
+- como pedir reintegração
 - período de reintegração
-- tempo de reintegracao
 - tempo de reintegração
-- data de reintegracao
 - data de reintegração
-- ate quando posso ser reintegrado
 - até quando posso ser reintegrado
+- pedido de reintegração
+- reintegração
+- reintegrado
 
 ## intent:como_pedido_reintegracao
 - como fazer o pedido de reintegracao
@@ -329,15 +306,11 @@
 - fazer reintegração
 
 ## intent:revisar_mencao
-- como fazer a revisao de mencao
 - como fazer a revisão de menção
-- como fazer revisao de mencao
 - como fazer revisão de menção
-- como revisar mencao
 - como revisar menção
-- revisar mencao
 - revisar menção
-- revisao mencao
 - revisão menção
-- revisao de mencao
 - revisão de menção
+- revisão
+- menção
