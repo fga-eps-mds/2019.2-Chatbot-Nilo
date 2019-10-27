@@ -125,20 +125,6 @@
 	- utter_continuar_conversa
 
 <!-- Testado -->
-## path_limite_creditos_simultaneo_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* limite_creditos_simultaneo_estagio
-	- utter_limite_creditos_simultaneo_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_limite_creditos_simultaneo_estagio 2
-* limite_creditos_simultaneo_estagio
-	- utter_limite_creditos_simultaneo_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
 ## path_doc_matricula_estagio 1
 * cumprimentar
 	- utter_cumprimentar
@@ -164,20 +150,6 @@
 ## path_restricao_estagio 2
 * restricao_estagio
 	- utter_restricao_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_docs_nao_obrigatorio_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* docs_nao_obrigatorio_estagio
-	- utter_docs_nao_obrigatorio_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_docs_nao_obrigatorio_estagio 2
-* docs_nao_obrigatorio_estagio
-	- utter_docs_nao_obrigatorio_estagio
 	- utter_continuar_conversa
 
 <!-- Testado -->
@@ -290,20 +262,6 @@
 ## path_estudante_desligado 2
 * estudante_desligado
 	- utter_estudante_desligado
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_quando_pedido_reintegracao 1
-* cumprimentar
-	- utter_cumprimentar
-* quando_pedido_reintegracao
-	- utter_quando_pedido_reintegracao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_quando_pedido_reintegracao 2
-* quando_pedido_reintegracao
-	- utter_quando_pedido_reintegracao
 	- utter_continuar_conversa
 
 <!-- Testado -->

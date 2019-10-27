@@ -88,17 +88,6 @@
 - tempo
 
 
-## intent:limite_creditos_estagio
-- existe algum limite de créditos para cursar o estágio
-- limite de creditos estagio
-- qual o limite de créditos simultâneos 
-- máximo de créditos com o estágio
-- até quantos créditos posso fazer com o estágio
-- tem limite de créditos para cursar estágio 
-- créditos máximos
-- máximo de créditos
-- limite créditos
-- limite de créditos
 
 <!--WTF-->
 
@@ -121,42 +110,26 @@
 - DAIA
 - contratos
 
-## intent:limite_creditos_simultaneo_estagio
-- limite de creditos que podem ser cursados simultaneamente ao estagio
+## intent:limite_creditos_estagio
+- existe algum limite de créditos para cursar o estágio
+- limite de creditos estagio
+- qual o limite de créditos simultâneos 
+- máximo de créditos com o estágio
+- até quantos créditos posso fazer com o estágio
+- tem limite de créditos para cursar estágio 
 - limite de créditos que podem ser cursados simultaneamente ao estágio
-- qual o limite de creditos que podem ser cursados simultaneamente ao estagio
 - qual o limite de créditos que podem ser cursados simultaneamente ao estágio
-- limite de creditos silmutaneos ao estagio
 - limite de créditos simultâneos ao estágio
-- qual o limite de creditos simultaneos ao estagio
 - qual o limite de créditos simultâneos ao estágio
-- quantos creditos posso fazer junto ao estagio
-- quantos créditos posso fazer junto ao estágio
-- quantos creditos posso pegar junto ao estagio
 - quantos créditos posso pegar junto ao estágio
-- fazendo estagio posso pegar quantos creditos
 - fazendo estágio posso pegar quantos créditos
-- fazendo estagio posso cursar quantos creditos
-- fazendo estagio posso fazer quantos creditos
-- fazendo estágio posso fazer quantos créditos
-- creditos junto ao estagio
 - créditos junto ao estágio
-- creditos simultaneos ao estagio
 - créditos simultâneos ao estágio
-- creditos simultaneos estagio
-- créditos simultâneos estágio
+- créditos máximos
+- máximo de créditos
+- limite créditos
+- limite de créditos
 
-## intent:doc_matricula_estagio
-- projetos que posso aproveitar
-- posso aproveitar meu PIBIC
-- programa de iniciação científica
-- PIBIC
-- aproveitar projeto de pesquisa
-- documentos necessários pra matrícula
-- documentos necessários para matrícula
-- projeto de pesquisa como estagio
-- projeto de pesquisa estagio
-- projetos aproveitáveis
 
 ## intent:restricao_estagio
 - há alguma restrição caso o estágio não seja em brasília
@@ -170,20 +143,23 @@
 - fora de brasília
 - restrição local do estágio
 
-
-## intent:docs_nao_obrigatorio_estagio
-- quais os documentos necessarios para o estagio nao obrigatorio
-- quais os documentos necessários para o estágio não obrigatório
-- quais sao os documentos necessarios para o estagio nao obrigatorio
-- quais são os documentos necessários para o estágio não obrigatório
-- documentos necessarios para o estagio nao obrigatorio
-- documentos necessários para o estágio não obrigatório
-- documentos estagio nao obrigatorio
-- documentos estágio não obrigatório
-- documentos para estagio nao obrigatorio
-- documentos para estágio não obrigatório
-- documentos necessarios estagio nao obrigatorio
-- documentos necessários estágio não obrigatório
+## intent:doc_matricula_estagio
+- projetos que posso aproveitar
+- posso aproveitar meu PIBIC
+- programa de iniciação científica
+- PIBIC
+- aproveitar projeto de pesquisa
+- documentos necessários pra matrícula
+- documentos necessários para matrícula
+- projeto de pesquisa como estágio
+- projeto de pesquisa estagio
+- projetos aproveitáveis
+- quais os documentos necessários para o estágio 
+- quais são os documentos necessários para o estágio 
+- documentos necessários para o estágio 
+- documentos estágio 
+- documentos para estágio 
+- documentos necessários estágio 
 
 ## intent:objetivo_estagio
 - qual é o objetivo do estágio 
@@ -276,7 +252,7 @@
 - jubilamento
 - expulsão
 
-## intent:quando_pedido_reintegracao
+## intent:como_pedido_reintegracao
 - quando posso fazer meu pedido de reintegração
 - quando fazer pedido de reintegração
 - quando fazer pedido reintegração
@@ -287,23 +263,14 @@
 - data de reintegração
 - até quando posso ser reintegrado
 - pedido de reintegração
-- reintegração
-- reintegrado
-
-## intent:como_pedido_reintegracao
-- como fazer o pedido de reintegracao
 - como fazer o pedido de reintegração
-- como posso fazer o pedido de reintegracao
 - como posso fazer o pedido de reintegração
 - como ser reintegrado
-- como fazer reintegracao
-- como fazer reintegração
-- como pedir reintegracao
 - como pedir reintegração
-- como fazer pedido reintegracao
 - como fazer pedido reintegração
-- fazer reintegracao
 - fazer reintegração
+- reintegração
+- reintegrado
 
 ## intent:revisar_mencao
 - como fazer a revisão de menção
