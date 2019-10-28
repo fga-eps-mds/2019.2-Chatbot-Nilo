@@ -1,3 +1,50 @@
+## intent:action_enviar_tce_pa
+- termo de compromisso de estágio
+- tce
+- plano de atividades
+- pa
+- termo de compromisso de estágio e plano de atividades
+- tce e pa
+- me envie o termo de compromisso de estágio
+- me envie o tce
+- quero o termo de compromisso de estágio
+- quero o tce
+- tem o termo de compromisso de estágio
+- tem o tce
+- manda o termo de compromisso de estágio
+- manda o tce
+- me envie o plano de atividades
+- me envie o pa
+- quero o plano de atividades
+- quero o pa
+- tem o plano de atividades
+- tem o pa
+- manda o plano de atividades
+- manda o pa
+
+## intent:action_enviar_ficha_solicitacao
+- ficha de solicitação de matrícula
+- me envie a ficha de solicitação de matrícula
+- quero a ficha de solicitação de matrícula
+- tem a ficha de solicitação de matrícula
+- manda a ficha de solicitação de matrícula
+
+## intent:action_enviar_modelo_de_termo_aditivo
+- modelo de termo aditivo
+- termo aditivo
+- me envie o termo aditivo
+- quero o termo aditivo
+- tem o termo aditivo
+- manda o termo aditivo
+
+## intent:action_enviar_termo_rescisorio
+- modelo de termo rescisório
+- termo rescisório
+- me envie o termo rescisório
+- quero o termo rescisório
+- tem o termo rescisório
+- manda o termo rescisório
+
 ## intent:action_enviar_doc_faq_estagio
 - queria saber sobre estagio
 - queria saber sobre estagio supervisionado
