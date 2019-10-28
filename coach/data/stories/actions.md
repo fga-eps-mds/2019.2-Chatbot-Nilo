@@ -46,18 +46,6 @@
   - action_enviar_termo_rescisorio
   - utter_continuar_conversa
 
-## path_action_enviar_relatorio_atividades 1
-* cumprimentar
-  - utter_cumprimentar
-* action_enviar_relatorio_atividades
-  - action_enviar_relatorio_atividades
-  - utter_continuar_conversa
-
-## path_action_enviar_relatorio_atividades 2
-* action_enviar_relatorio_atividades
-  - action_enviar_relatorio_atividades
-  - utter_continuar_conversa
-
 ## path_action_enviar_doc_faq_estagio 1
 * cumprimentar
   - utter_cumprimentar

@@ -45,14 +45,6 @@
 - tem o termo rescisório
 - manda o termo rescisório
 
-## intent:action_enviar_relatorio_atividades
-- modelo de relatório de atividades
-- relatório de atividades
-- me envie o relatório de atividades
-- quero o relatório de atividades
-- tem o relatório de atividades
-- manda o relatório de atividades
-
 ## intent:action_enviar_doc_faq_estagio
 - queria saber sobre estagio
 - queria saber sobre estagio supervisionado

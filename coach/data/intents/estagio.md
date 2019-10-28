@@ -1,3 +1,11 @@
+## intent:enviar_relatorio_atividades
+- modelo de relatório de atividades
+- relatório de atividades
+- me envie o relatório de atividades
+- quero o relatório de atividades
+- tem o relatório de atividades
+- manda o relatório de atividades
+
 ## intent:atividades_estagio
 - quais sao as atividades que podem ser consideradas como estagio supervisionado
 - quais são as atividades que podem ser consideradas como estágio supervisionado

@@ -59,6 +59,7 @@ intents:
   - quando_pedido_reintegracao
   - como_pedido_reintegracao
   - revisar_mencao
+  - enviar_relatorio_atividades
 
   - action_enviar_tce_pa
   - action_enviar_doc_faq_estagio
@@ -71,7 +72,7 @@ intents:
   - action_enviar_ficha_solicitacao
   - action_enviar_modelo_de_termo_aditivo
   - action_enviar_termo_rescisorio
-  - action_enviar_relatorio_atividades
+  
 
 entities:
   - religiao
@@ -630,6 +631,11 @@ templates:
         Vossa Majestade deve ir na secretaria e pedir o documento referente a isso, nesse documento vai perguntar, o motivo da solicitação, o nome e o código da disciplina, sua turma e qual era o professor, por quê sua menção deve ser revisada e etc.
         Depois de preencher os dados basta entregar na secretaria e esperar os resultados, normalmente ele chega no e-mail.
         Boa sorte, faraó!
+  utter_enviar_relatorio_atividades:
+  - text: |
+        Eu tenho um modelo de relatório de atividades. Aqui está um link para baixá-lo no formato de planilha:
+
+        https://fga.unb.br/estagio/documentos/documentos-do-daia/relatorio-de-atividades-de-estagio.xlsx
 
 actions:
   - utter_start
@@ -691,6 +697,7 @@ actions:
   - utter_quando_pedido_reintegracao
   - utter_como_pedido_reintegracao
   - utter_revisar_mencao
+  - utter_enviar_relatorio_atividades
 
   - action_enviar_doc_faq_estagio
   - action_coordenador_de_automotiva
@@ -703,4 +710,3 @@ actions:
   - action_enviar_ficha_solicitacao
   - action_enviar_modelo_de_termo_aditivo
   - action_enviar_termo_rescisorio
-  - action_enviar_relatorio_atividades
