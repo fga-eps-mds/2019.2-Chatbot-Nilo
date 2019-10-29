@@ -44,10 +44,8 @@ intents:
   - limite_creditos_estagio
   - preencher_datas_estagio
   - contratos_estagio
-  - limite_creditos_simultaneo_estagio
   - doc_matricula_estagio
   - restricao_estagio
-  - docs_nao_obrigatorio_estagio
   - objetivo_estagio
   - senha-moodle_estagio
   - nome_da_pasta_estagio
@@ -56,7 +54,6 @@ intents:
   - quando_entra_risco_desligamento
   - sair_risco_desligamento
   - estudante_desligado
-  - quando_pedido_reintegracao
   - como_pedido_reintegracao
   - revisar_mencao
   - enviar_relatorio_atividades
@@ -102,15 +99,15 @@ templates:
     - text: |
         Oi eu sou o Nilo!
         Posso te ajudar a tirar suas dúvidas sobre estágio, e assuntos academicos como:
-        1. Qual o objetivo do estagio supervisionado?
-        2. Quais sao as atividades que podem ser consideradas como estagio supervisionado?
-        3. Quais sao os pre-requisitos do estágio supervisionado?
-        4. Como funciona a matricula no estagio supervisionado?
-        5. Link para o moodle do estagio supervisionado.
-        6. Quais os documentos necessarios para o estagio não obrigatorio?
+        1. Qual o objetivo do estagio.
+        2. Quais sao as atividades que podem ser consideradas como estagio.
+        3. Quais sao os pre-requisitos do estágio.
+        4. Como funciona a matricula no estagio.
+        5. Link para o moodle do estagio.
+        6. Quais os documentos necessarios para o estagio.
         7. Atendimento coordenadores de estágio.
-        8. Quando um estudante entra em risco de desligamento?
-        9. Como fazer o pedido de reintegracao?
+        8. Quando um estudante entra em risco de desligamento.
+        9. Como fazer o pedido de reintegracao.
 
   utter_default:
     - text: |
@@ -485,6 +482,8 @@ templates:
 
         Todas as disciplinas em que você estiver matriculado mais os créditos de Estágio Supervisionado não poderão ultrapassar 32 créditos.
 
+        Para qualquer carga horário maior que 30h/sem, vale o mesmo limite de créditos para o caso em que o estágio é de 30h/sem, 8 créditos no máximo.
+
         Por exemplo, se o estágio for de 20h, Vossa Majestade pode pegar até 18 créditos.
 
         Se o estágio for de 30h, você poderá pegar até 8 créditos.
@@ -504,13 +503,7 @@ templates:
         Os tempos em que o estudante estiver em atividade sem ter cumprido os pré-requisitos serão descontados do cômputo do acumulado das horas de estágio.
   utter_contratos_estagio:
   - text: |
-        Não precisam.
         Para matricular na disciplina, basta apresentar os contratos de trabalho com informações sobre contratante/empregador, local de trabalho, nome do supervisor/demandante/chefe, lista de atividades, carga horária e duração.
-  utter_limite_creditos_simultaneo_estagio:
-  - text: |
-        Nem mesmo Vossa Majestade pode trabalhar tanto!
-
-        Para qualquer carga horário maior que 30h/sem, vale o mesmo limite de créditos para o caso em que o estágio é de 30h/sem, 8 créditos no máximo.
   utter_doc_matricula_estagio:
   - text: |
         Para comprovar o vínculo de Vossa Majestade com o projeto de pesquisa, será necessário apresentar o Plano de Atividades ou o contrato que formaliza a relação.
@@ -520,6 +513,8 @@ templates:
         O restante da documentação comprobatória permanece.
 
         Esses documentos substitutos deverão conter de forma clara as seguintes informações
+
+        PARA ESTÁGIO OBRIGATÓRIO
 
         1) Onde (endereço) as atividades acontecerão.
 
@@ -534,14 +529,9 @@ templates:
         6) Por quanto tempo o aluno trabalhará no projeto.
 
         Esse documento deverá estar assinado pelo aluno e pelo coordenador/supervisor do projeto.
-  utter_restricao_estagio:
-  - text: |
-        Não há limites para um faraó.
-        O estagiário pode atuar em qualquer cidade do planeta Terra.
 
-        Que tal uma forcinha nas pirâmides?
-  utter_docs_nao_obrigatorio_estagio:
-  - text:
+        PARA ESTÁGIO NÃO OBRIGATÓRIO
+
         1) Modelo de Termo de Compromisso e Plano de Atividades (assinado pela empresa, pela integradora, pelo aluno e pelo DAIA (o último a assinar).
 
         2) Plano de atividades (assinado pela empresa, pela integradora, pelo aluno, pelo supervisor [profissional na empresa que acompanhará o aluno], pelo orientador de estágio [professor na UnB] e pelo DAIA [o último a assinar]).
@@ -551,6 +541,12 @@ templates:
         4) Modelo de Termo Rescisório.
 
         5) Modelo de Relatório de Atividades.
+  utter_restricao_estagio:
+  - text: |
+        Não há limites para um faraó.
+        O estagiário pode atuar em qualquer cidade do planeta Terra.
+
+        Que tal uma forcinha nas pirâmides?
   utter_objetivo_estagio:
   - text:
         O estágio obrigatório visa a preparação para o trabalho produtivo permitindo a aquisição de competências próprias da atividade profissional.
@@ -616,11 +612,11 @@ templates:
         7) Durante dois semestres consecutivos, não efetivar matrícula em nenhuma disciplina ou que, embora matriculado, tenha sido reprovado com menção SR (Sem Rendimento) em todas as disciplinas (desligamento por abandono).
 
         Caso ocorra o desligamento do curso, Vossa Majestade ainda pode requisitar a reintegração.
-  utter_quando_pedido_reintegracao:
-  - text: |
-        O pedido pode ser feito desde o momento em que se recebe um comunicado formal sobre o desligamento, até o prazo máximo de 2 anos do desligamento.
+  
   utter_como_pedido_reintegracao:
   - text: |
+        O pedido pode ser feito desde o momento em que se recebe um comunicado formal sobre o desligamento, até o prazo máximo de 2 anos do desligamento.
+
         Deve-se ler e preencher a Instrução Normativa CEG n° 0002/2017 (link: http://www.deg.unb.br/images/legislacao/intrucao_normativa_ceg_0002_2017.pdf) e entregá-la na Secretaria do curso.
 
         Se o pedido for indeferido, Vossa Majestade pode entrar com recurso, pessoalmente, no prédio da Reitoria.
@@ -685,7 +681,6 @@ actions:
   - utter_limite_creditos_simultaneo_estagio
   - utter_doc_matricula_estagio
   - utter_restricao_estagio
-  - utter_docs_nao_obrigatorio_estagio
   - utter_objetivo_estagio
   - utter_senha-moodle_estagio
   - utter_nome_da_pasta_estagio
@@ -694,7 +689,6 @@ actions:
   - utter_quando_entra_risco_desligamento
   - utter_sair_risco_desligamento
   - utter_estudante_desligado
-  - utter_quando_pedido_reintegracao
   - utter_como_pedido_reintegracao
   - utter_revisar_mencao
   - utter_enviar_relatorio_atividades
