@@ -6,7 +6,7 @@
 - o que é válido como estágio
 - atividades que são consideradas estágio
 - como substituir o estágio
-- substituir  <!-- Possível erro-->
+- substituir
 - aceito
 - atividades
 - trabalho
@@ -87,10 +87,6 @@
 - carga horária
 - tempo
 
-
-
-<!--WTF-->
-
 ## intent:preencher_datas_estagio
 - como preencho as datas de inicio e termino do estagio 
 - como preencho as datas de início e término do estágio 
@@ -101,7 +97,9 @@
 - como preencher as datas do estagio 
 - como preencher as datas do estágio 
 - preencher datas estágio 
-- preencher datas estagio 
+- preencher datas estagio
+- datas estágio
+- datas do estágio 
 
 ## intent:contratos_estagio
 - os contratos de trabalho precisam ser formalizados junto ao DAIA
