@@ -254,3 +254,23 @@
 - revisão de menção
 - revisão
 - menção
+
+## intent:quanto_mencao
+- valor menções
+- pontuação
+- quanto vale
+- quantos pontos
+- ss
+- superior
+- ms
+- médio superior
+- mi
+- médio inferior
+- mm
+- médio
+- mi
+- médio inferior
+- ii
+- inferior
+- sr
+- sem rendimento

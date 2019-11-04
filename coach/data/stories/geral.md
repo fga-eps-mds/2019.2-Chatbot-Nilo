@@ -143,3 +143,15 @@
 * revisar_mencao
     - utter_revisar_mencao
     - utter_continuar_conversa
+
+## path_quanto_mencao 1
+* cumprimentar
+    - utter_cumprimentar
+* quanto_mencao
+    - utter_quanto_mencao
+    - utter_continuar_conversa
+
+## path_quanto_mencao 2
+* quanto_mencao
+    - utter_quanto_mencao
+    - utter_continuar_conversa

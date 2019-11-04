@@ -56,6 +56,7 @@ intents:
   - estudante_desligado
   - como_pedido_reintegracao
   - revisar_mencao
+  - quanto_mencao
   - enviar_relatorio_atividades
 
   - action_enviar_tce_pa
@@ -626,6 +627,15 @@ templates:
         Eu tenho um modelo de relatório de atividades. Aqui está um link para baixá-lo no formato de planilha:
 
         https://fga.unb.br/estagio/documentos/documentos-do-daia/relatorio-de-atividades-de-estagio.xlsx
+  utter__quanto_mencao:
+  - text: |
+        SS (Superior) vai de 9,0 a 10.
+        MS (Médio Superior) vai de 7,0 a 8,9.
+        MM (Médio) vai de 5,0 a 6,9.
+        MI (Médio Inferior) vai de 3,0 a 4,9.
+        II (Inferior) vai de 0,1 a 2,9.
+        SR (Sem rendimento). Zero.
+
 
 actions:
   - utter_start
@@ -685,6 +695,7 @@ actions:
   - utter_estudante_desligado
   - utter_como_pedido_reintegracao
   - utter_revisar_mencao
+  - utter__quanto_mencao
   - utter_enviar_relatorio_atividades
 
   - action_enviar_doc_faq_estagio
