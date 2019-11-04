@@ -72,6 +72,8 @@
 - processo pra conseguir um estágio
 - matrícula
 - inscrição
+- tutorial
+- tutorial estágio
 
 ## intent:orientador_estagio
 - escolher orientador para estágio

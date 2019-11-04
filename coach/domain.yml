@@ -425,25 +425,19 @@ templates:
         O seu período de solicitação acontece durante o primeiro mês de aulas de um semestre que se inicia.
   utter_matricula_estagio:
   - text: |
-        Para se matricular no estágio supervisionado, Vossa Majestade deve
+        Para se matricular no estágio supervisionado, Vossa Majestade deve seguir os seguintes passos
 
-        Possuir TCE (Termo de Compromisso de Estágio) + PA (Plano de Atividades) ou Contrato de Trabalho (CLT) ou Contrato de Prestação de Serviço.
+        Passo 1 - Obter os seguintes documentos: Termo de Compromisso de Estágio + Plano de Atividades OU Contrato de Trabalho (CLT) OU Contrato de Prestação de Serviços.
 
-        Atender os pré-requisitos de matrícula em estágio.
+        Passo 2 - Atender às condições de resolução de estágio: Ter 70% dos créditos concluídos E realizar 210 h de atividades técnicas sob a supervisão/demanda de um profissional da área de atuação do seu curso.
 
-        E também deve ter um orientador previamente definido e disponível.
+        Passo 3 - Escolher um orientador de estágio.
 
-        Após isso, deve seguir os seguintes passos
+        Passo 4 - Preencher a ficha de solicitação de matrícula. Essa ficha pode ser acessada no Moodle da matéria ou solicitada no Bot Nilo. Após preenchê-la, assine-a e leve para o seu Orientador para que assine também.
 
-        1) Preencher a Ficha de Solicitação de Matrícula pelo sistema. A ficha de Solicitação de Matrícula será enviada pelo sistema para o e-mail do aluno.
+        Passo 5 - Criar o arquivo .zip com os seguintes documentos e enviá-lo no Moodle: Ficha assinada (por você e pelo Orientador), Histórico Escolar, Grade Curricular e Contrato.
 
-        2) Imprimir a Ficha, assiná-la e levar até o Orientador de Estágio escolhido para que ele também a assine.
-
-        3) Compactar os seguintes documentos - Ficha de Solicitação de Matrícula assinada, Histórico Escolar, Grade Curricular e Contrato) em formato .zip e submeter no Moodle.
-
-        Em seguida, a situação será avaliada pelo Coordenador de Estágios para definir se a sua matrícula será aprovada ou não.
-
-        Caso não seja aprovado, você será notificado.
+        Passo 6 - Aguarde a notificação do Coordenador de Estágios para prosseguir.
   utter_orientador_estagio:
   - text: |
         Então está procurando um guia para sua jornada no deserto?
