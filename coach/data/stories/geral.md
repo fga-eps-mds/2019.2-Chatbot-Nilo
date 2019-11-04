@@ -59,3 +59,87 @@
     - utter_botao
 * negacao_botao
     - utter_negacao_botao
+
+<!-- Testado -->
+## path_encontrar_guia_calouro 1
+* cumprimentar
+    - utter_cumprimentar
+* encontrar_guia_calouro
+    - utter_encontrar_guia_calouro
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_encontrar_guia_calouro 2
+* encontrar_guia_calouro
+    - utter_encontrar_guia_calouro
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_quando_entra_risco_desligamento 1
+* cumprimentar
+    - utter_cumprimentar
+* quando_entra_risco_desligamento
+    - utter_quando_entra_risco_desligamento
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_quando_entra_risco_desligamento 2
+* quando_entra_risco_desligamento
+    - utter_quando_entra_risco_desligamento
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_sair_risco_desligamento 1
+* cumprimentar
+    - utter_cumprimentar
+* sair_risco_desligamento
+    - utter_sair_risco_desligamento
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_sair_risco_desligamento 2
+* sair_risco_desligamento
+    - utter_sair_risco_desligamento
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_estudante_desligado 1
+* cumprimentar
+    - utter_cumprimentar
+* estudante_desligado
+    - utter_estudante_desligado
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_estudante_desligado 2
+* estudante_desligado
+    - utter_estudante_desligado
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_como_pedido_reintegracao 1
+* cumprimentar
+    - utter_cumprimentar
+* como_pedido_reintegracao
+    - utter_como_pedido_reintegracao
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_como_pedido_reintegracao 2
+* como_pedido_reintegracao
+    - utter_como_pedido_reintegracao
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_revisar_mencao 1
+* cumprimentar
+    - utter_cumprimentar
+* revisar_mencao
+    - utter_revisar_mencao
+    - utter_continuar_conversa
+
+<!-- Testado -->
+## path_revisar_mencao 2
+* revisar_mencao
+    - utter_revisar_mencao
+    - utter_continuar_conversa
