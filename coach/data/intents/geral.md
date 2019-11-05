@@ -301,3 +301,13 @@
 - trancar
 - trancamento parcial
 - trancamento geral
+
+## intent:reserva_sala
+- como fazer reserva de sala
+- como reservar sala
+- reserva de sala
+- reservar sala
+- como reservar sala
+- como fazer reserva de sala
+- reserva
+- reservar

@@ -60,6 +60,7 @@ intents:
   - enviar_relatorio_atividades
   - participar_semana_academica
   - trancamento
+  - reserva_sala
 
   - action_enviar_tce_pa
   - action_enviar_doc_faq_estagio
@@ -651,6 +652,9 @@ templates:
         Pode-se solicitar o trancamento geral ou parcial de matrícula justificado, nos casos de impossibilidade de cumprimento das obrigações acadêmicas, por motivos previstos nas resoluções (verifique o documento a seguir), com justificativa circunstanciada e devidamente comprovada.
 
         Para mais informações de trancamento justificado, acesse: http://www.saa.unb.br/images/peticionamento_eletronico/trancamento.pdf
+  utter_reserva_sala:
+  - text: |
+        Alunos e professores podem fazer reserva de sala, de forma presencial na Coordenação do campus. Primeiro deve-se verificar a disponibilidade de horário com o coordenador. Em seguida, deve-se preencher um formulário de reserva, que deve conter a assinatura de um professor responsável. Devolvendo o formulário à Coordenação, a reserva será feita. 
 
 actions:
   - utter_start
@@ -714,6 +718,7 @@ actions:
   - utter_enviar_relatorio_atividades
   - utter_participar_semana_academica
   - utter_trancamento
+  - utter_reserva_sala
 
   - action_enviar_doc_faq_estagio
   - action_coordenador_de_automotiva

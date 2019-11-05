@@ -170,7 +170,7 @@
 
 ## path_trancamento 1
 * cumprimentar
-    -utter_cumprimentar
+    - utter_cumprimentar
 * trancamento
     - utter_trancamento
     - utter_continuar_conversa
@@ -178,4 +178,16 @@
 ## path_trancamento 2
 * trancamento
     - utter_trancamento
+    - utter_continuar_conversa
+
+## path_reserva_sala 1
+* cumprimentar
+    - utter_cumprimentar
+* reserva_sala
+    - utter_reserva_sala
+    - utter_continuar_conversa
+
+## path_reserva_sala 2
+* reserva_sala
+    - utter_reserva_sala
     - utter_continuar_conversa
