@@ -311,3 +311,11 @@
 - como fazer reserva de sala
 - reserva
 - reservar
+
+## intent:dupla_graduacao
+- como fazer dupla graduação
+- como fazer dupla diplomação
+- dupla graduação
+- dupla diplomação
+- duas graduações
+- dois diplomas

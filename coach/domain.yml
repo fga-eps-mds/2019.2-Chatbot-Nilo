@@ -61,6 +61,7 @@ intents:
   - participar_semana_academica
   - trancamento
   - reserva_sala
+  - dupla_graduacao
 
   - action_enviar_tce_pa
   - action_enviar_doc_faq_estagio
@@ -655,6 +656,28 @@ templates:
   utter_reserva_sala:
   - text: |
         Alunos e professores podem fazer reserva de sala, de forma presencial na Coordenação do campus. Primeiro deve-se verificar a disponibilidade de horário com o coordenador. Em seguida, deve-se preencher um formulário de reserva, que deve conter a assinatura de um professor responsável. Devolvendo o formulário à Coordenação, a reserva será feita. 
+  utter_dupla_graduacao:
+  - text: |
+        A inscrição é feita somente via portal do aluno, após a leitura do manual do peticionamento, no endereço eletrônico https://aluno.unb.br/peticionamento-aluno. A inscrição deve seguir as datas previstas no Calendário Acadêmico.
+        Os editais podem ser encontrados no link: http://saa.unb.br/gradua/188-editais-alteracao-de-opcao
+        
+        Condições:
+        Estar registrado em curso que ofereça os graus de bacharel ou licenciado, na mesma área;
+        Existir vaga na habilitação pretendida;
+        Ser provável formando atual semestre no seu curso;
+        A habilitação pretendida não estar bloqueada ou desativada;
+        Não estar usufruindo de Trancamento Geral de Matrícula no período de solicitação;
+
+        Impedimentos:
+        Ter ingressado em curso de graduação como Portador de Diploma de Curso Superior (DCS);
+        Já ter sido beneficiário de Dupla Diplomação;
+        Não concluir o curso na sua opção atual ao término do semestre.
+
+        Critérios de Classificação e Desempate:
+        - Número de créditos obtidos na habilitação pretendida;
+        - Índice de Rendimento Acadêmico (IRA);
+        - Menções obtidas em disciplinas da Habilitação pretendida
+cursadas pelo estudante.
 
 actions:
   - utter_start
@@ -719,6 +742,7 @@ actions:
   - utter_participar_semana_academica
   - utter_trancamento
   - utter_reserva_sala
+  - utter_dupla_graduacao
 
   - action_enviar_doc_faq_estagio
   - action_coordenador_de_automotiva

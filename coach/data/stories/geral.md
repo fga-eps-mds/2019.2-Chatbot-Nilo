@@ -191,3 +191,15 @@
 * reserva_sala
     - utter_reserva_sala
     - utter_continuar_conversa
+
+## path_dupla_graduacao 1
+* cumprimentar
+    - utter_cumprimentar
+* dupla_graduacao
+    - utter_dupla_graduacao
+    - utter_continuar_conversa
+
+## path_dupla_graduacao 2
+* dupla_graduacao
+    - utter_dupla_graduacao
+    - utter_continuar_conversa
