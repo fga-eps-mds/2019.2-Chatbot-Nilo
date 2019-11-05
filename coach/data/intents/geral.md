@@ -292,3 +292,12 @@
 - como me inscrever na semana universitária
 - cursos semana acadêmica
 - cursos semana universitária
+
+## intent:trancamento
+- como fazer trancamento
+- como trancar matrícula
+- como trancar matéria
+- trancamento
+- trancar
+- trancamento parcial
+- trancamento geral

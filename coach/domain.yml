@@ -59,6 +59,7 @@ intents:
   - quanto_mencao
   - enviar_relatorio_atividades
   - participar_semana_academica
+  - trancamento
 
   - action_enviar_tce_pa
   - action_enviar_doc_faq_estagio
@@ -641,8 +642,15 @@ templates:
         Primeiro, Vossa Majestade deve ter uma conta no site do Sistema de Extensão (SIEX), que pode ser acessado pelo link: https://www.sistemas.unb.br/
 
         Clique no botão “Cursos e Eventos de Extensão”. Nessa aba, você poderá pesquisar por atividades de interesse. No campo “Tipo de Ação”, coloque “Semana Universitária” para filtrar os resultados. Quando achar a atividade desejada, clique no botão “CLIQUE AQUI” para se inscrever.
+  utter_trancamento:
+  - text: |
+        Vossa majestade pode solicitar o trancamento geral (curso) ou parcial (matéria) de matrícula na secretaria do campus ou pelo site do Matrícula Web, na aba “Matrícula”. Para isso, deve obedecer aos prazos definidos no calendário acadêmico. 
 
+        O trancamento geral não pode passar de dois semestres e a cada semestre deve ser feita uma nova solicitação.
 
+        Pode-se solicitar o trancamento geral ou parcial de matrícula justificado, nos casos de impossibilidade de cumprimento das obrigações acadêmicas, por motivos previstos nas resoluções (verifique o documento a seguir), com justificativa circunstanciada e devidamente comprovada.
+
+        Para mais informações de trancamento justificado, acesse: http://www.saa.unb.br/images/peticionamento_eletronico/trancamento.pdf
 
 actions:
   - utter_start
@@ -705,6 +713,7 @@ actions:
   - utter__quanto_mencao
   - utter_enviar_relatorio_atividades
   - utter_participar_semana_academica
+  - utter_trancamento
 
   - action_enviar_doc_faq_estagio
   - action_coordenador_de_automotiva

@@ -167,3 +167,15 @@
 * participar_semana_academica
     - utter_participar_semana_academica
     - utter_continuar_conversa
+
+## path_trancamento 1
+* cumprimentar
+    -utter_cumprimentar
+* trancamento
+    - utter_trancamento
+    - utter_continuar_conversa
+
+## path_trancamento 2
+* trancamento
+    - utter_trancamento
+    - utter_continuar_conversa
