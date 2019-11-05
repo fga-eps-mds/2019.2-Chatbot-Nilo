@@ -58,6 +58,7 @@ intents:
   - revisar_mencao
   - quanto_mencao
   - enviar_relatorio_atividades
+  - participar_semana_academica
 
   - action_enviar_tce_pa
   - action_enviar_doc_faq_estagio
@@ -635,6 +636,12 @@ templates:
         MI (Médio Inferior) vai de 3,0 a 4,9.
         II (Inferior) vai de 0,1 a 2,9.
         SR (Sem rendimento). Zero.
+  utter__quanto_mencao:
+  - text: |
+        Primeiro, Vossa Majestade deve ter uma conta no site do Sistema de Extensão (SIEX), que pode ser acessado pelo link: https://www.sistemas.unb.br/
+
+        Clique no botão “Cursos e Eventos de Extensão”. Nessa aba, você poderá pesquisar por atividades de interesse. No campo “Tipo de Ação”, coloque “Semana Universitária” para filtrar os resultados. Quando achar a atividade desejada, clique no botão “CLIQUE AQUI” para se inscrever.
+
 
 
 actions:
@@ -697,6 +704,7 @@ actions:
   - utter_revisar_mencao
   - utter__quanto_mencao
   - utter_enviar_relatorio_atividades
+  - utter_participar_semana_academica
 
   - action_enviar_doc_faq_estagio
   - action_coordenador_de_automotiva

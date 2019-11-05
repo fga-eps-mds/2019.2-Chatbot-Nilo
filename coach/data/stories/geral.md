@@ -155,3 +155,15 @@
 * quanto_mencao
     - utter_quanto_mencao
     - utter_continuar_conversa
+
+## path_participar_semana_academica 1
+* cumprimentar
+    - utter_cumprimentar
+* participar_semana_academica
+    - utter_participar_semana_academica
+    - utter_continuar_conversa
+
+## path_participar_semana_academica 2
+* participar_semana_academica
+    - utter_participar_semana_academica
+    - utter_continuar_conversa

@@ -274,3 +274,21 @@
 - inferior
 - sr
 - sem rendimento
+
+## intent:participar_semana_academica
+- como participar da semana acadêmica
+- como participar da semana universitária
+- como participo da semana acadêmica
+- como participo da semana universitária
+- semana acadêmica
+- semana universitária
+- participar semana acadêmica
+- participar semana universitária
+- como entrar na semana acadêmica
+- como entrar na semana universitária
+- inscrição semana acadêmica
+- inscrição semana universitária
+- como me inscrever na semana acadêmica
+- como me inscrever na semana universitária
+- cursos semana acadêmica
+- cursos semana universitária
