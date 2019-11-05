@@ -7,7 +7,8 @@ class WebScrapingIntegration:
         self.url = 'https://fga.unb.br/coordenacao'
         self.request = requests.get(self.url)
         self.soup = BeautifulSoup(self.request.text, 'html.parser')
-        self.coordinators = self.soup.find_all('div', class_='article-body article-body-text-article')
+        self.coordinators = self.soup.find_all('div',\
+        class_= 'article-body article-body-text-article')
 
     def software_coordinator(self):
         names = ''
@@ -20,16 +21,23 @@ class WebScrapingIntegration:
                 if html_next_element.find('span') != -1:
                     span_counter+=1
                     continue
-                elif html_next_element.find('Eng.') != -1 and html_next_element.find('Software') == -1:
+                elif html_next_element.find('Eng.') != -1 and\
+                html_next_element.find('Software') == -1:
                     find_coordinator = False
                     continue
-                elif html_next_element.find('Eng.') != -1 and html_next_element.find('Software') != -1:
+                elif html_next_element.find('Eng.') != -1 and\
+                html_next_element.find('Software') != -1:
                     find_coordinator = True
                     continue
-                elif coord_list.next_element.next_element.name == 'a' and span_counter > 4 and find_coordinator:
-                    names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
+                elif coord_list.next_element.next_element.name == 'a'\
+                and span_counter > 4 and find_coordinator:
+                    names = names + 'Prof(a). ' \
+                    + coord_list.next_element.next_element.next_element +\
+                    ' ' + coord_list.next_element.next_element.\
+                    next_element.next_element
                     names+='\n'
-                elif span_counter > 4 and find_coordinator and coord_list.next_element != '\xa0':
+                elif span_counter > 4 and find_coordinator \
+                and coord_list.next_element != '\xa0':
                     names+= coord_list.next_element
                     names+='\n'
         return names
@@ -45,16 +53,23 @@ class WebScrapingIntegration:
                 if html_next_element.find('span') != -1:
                     span_counter += 1
                     continue
-                elif html_next_element.find('Eng.') != -1 and html_next_element.find('Energia') == -1:
+                elif html_next_element.find('Eng.') != -1 and\
+                html_next_element.find('Energia') == -1:
                     find_coordinator = False
                     continue
-                elif html_next_element.find('Eng.') != -1 and html_next_element.find('Energia') != -1:
+                elif html_next_element.find('Eng.') != -1 and\
+                html_next_element.find('Energia') != -1:
                     find_coordinator = True
                     continue
-                elif coord_list.next_element.next_element.name == 'a' and span_counter > 4 and find_coordinator:
-                    names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
+                elif coord_list.next_element.next_element.name == 'a' and\
+                span_counter > 4 and find_coordinator:
+                    names = names + 'Prof(a). ' +\
+                    coord_list.next_element.next_element.next_element + ' '+\
+                    coord_list.next_element.\
+                    next_element.next_element.next_element
                     names += '\n'
-                elif span_counter > 4 and find_coordinator and coord_list.next_element != '\xa0':
+                elif span_counter > 4 and find_coordinator and\
+                coord_list.next_element != '\xa0':
                     names += coord_list.next_element
                     names += '\n'
         return names
@@ -70,16 +85,23 @@ class WebScrapingIntegration:
                 if html_next_element.find('span') != -1:
                     span_counter += 1
                     continue
-                elif html_next_element.find('Eng.') != -1 and html_next_element.find('Aeroespacial') == -1:
+                elif html_next_element.find('Eng.') != -1 \
+                and html_next_element.find('Aeroespacial') == -1:
                     find_coordinator = False
                     continue
-                elif html_next_element.find('Eng.') != -1 and html_next_element.find('Aeroespacial') != -1:
+                elif html_next_element.find('Eng.') != -1 and \
+                html_next_element.find('Aeroespacial') != -1:
                     find_coordinator = True
                     continue
-                elif coord_list.next_element.next_element.name == 'a' and span_counter > 4 and find_coordinator:
-                    names = names + 'Prof(a). ' + coord_list.next_element.next_element.next_element + ' ' + coord_list.next_element.next_element.next_element.next_element
+                elif coord_list.next_element.next_element.name == 'a' \
+                and span_counter > 4 and find_coordinator:
+                    names = names + 'Prof(a). ' + \
+                    coord_list.next_element.next_element.next_element + ' ' +\
+                    coord_list.next_element.next_element.next_element.\
+                    next_element
                     names += '\n'
-                elif span_counter > 4 and find_coordinator and coord_list.next_element != '\xa0':
+                elif span_counter > 4 and find_coordinator \
+                and coord_list.next_element != '\xa0':
                     names += coord_list.next_element
                     names += '\n'
         return names
