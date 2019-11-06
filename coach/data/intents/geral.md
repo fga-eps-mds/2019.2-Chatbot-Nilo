@@ -2,6 +2,23 @@
 - /start
 - start
 
+## intent:help
+- me ajuda
+- como assim
+- o que você sabe fazer
+- sobre o que posso falar
+- quais assuntos você conhece
+- sobre o que você sabe
+- o que mais pode fazer
+- não sei sobre o que conversar
+- não sei onde minha pergunta se encaixa
+- não entendi
+- como funciona
+- /help
+- help
+- ajuda
+- socorro
+
 ## intent:out_of_scope
 - você fala sobre o meio ambiente
 - qual a origem do mundo
