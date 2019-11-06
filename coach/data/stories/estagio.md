@@ -1,13 +1,13 @@
 ## path_enviar_relatorio_atividades 1
 * cumprimentar
   - utter_cumprimentar
-* action_enviar_relatorio_atividades
-  - action_enviar_relatorio_atividades
+* enviar_relatorio_atividades
+  - utter_enviar_relatorio_atividades
   - utter_continuar_conversa
 
 ## path_enviar_relatorio_atividades 2
-* action_enviar_relatorio_atividades
-  - action_enviar_relatorio_atividades
+* enviar_relatorio_atividades
+  - utter_enviar_relatorio_atividades
   - utter_continuar_conversa
 
 <!-- Testado -->
@@ -218,88 +218,4 @@
 ## path_link_estagio 2
 * link_estagio
 	- utter_link_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_encontrar_guia_calouro 1
-* cumprimentar
-	- utter_cumprimentar
-* encontrar_guia_calouro
-	- utter_encontrar_guia_calouro
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_encontrar_guia_calouro 2
-* encontrar_guia_calouro
-	- utter_encontrar_guia_calouro
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_quando_entra_risco_desligamento 1
-* cumprimentar
-	- utter_cumprimentar
-* quando_entra_risco_desligamento
-	- utter_quando_entra_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_quando_entra_risco_desligamento 2
-* quando_entra_risco_desligamento
-	- utter_quando_entra_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_sair_risco_desligamento 1
-* cumprimentar
-	- utter_cumprimentar
-* sair_risco_desligamento
-	- utter_sair_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_sair_risco_desligamento 2
-* sair_risco_desligamento
-	- utter_sair_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_estudante_desligado 1
-* cumprimentar
-	- utter_cumprimentar
-* estudante_desligado
-	- utter_estudante_desligado
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_estudante_desligado 2
-* estudante_desligado
-	- utter_estudante_desligado
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_como_pedido_reintegracao 1
-* cumprimentar
-	- utter_cumprimentar
-* como_pedido_reintegracao
-	- utter_como_pedido_reintegracao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_como_pedido_reintegracao 2
-* como_pedido_reintegracao
-	- utter_como_pedido_reintegracao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_revisar_mencao 1
-* cumprimentar
-	- utter_cumprimentar
-* revisar_mencao
-	- utter_revisar_mencao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_revisar_mencao 2
-* revisar_mencao
-	- utter_revisar_mencao
 	- utter_continuar_conversa

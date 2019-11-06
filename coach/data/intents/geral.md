@@ -178,3 +178,144 @@
 
 ## intent:negacao_botao
 - negação de botão
+
+## intent:encontrar_guia_calouro
+- onde posso encontrar o guia do calouro
+- onde encontrar guia do calouro
+- em que site acho o guia do calouro
+- onde acho o guia do calouro
+- onde achar o guia do calouro
+- site do guia do calouro
+- encontrar guia do calouro
+- achar guia do calouro
+- guia do calouro
+
+## intent:quando_entra_risco_desligamento
+- quando um estudante entra em risco de desligamento
+- quando um aluno entra em risco de desligamento
+- que momento posso ser delisgado
+- condições de desligamento
+- quando entro em risco de desligamento
+- como entrar em risco de desligamento
+- chance de ser jubilado
+- risco de desligamento
+
+## intent:sair_risco_desligamento
+- como sair do risco de desligamento
+- quando saio do risco de desligamento
+- evitar o desligamento
+- evitar a jubilação
+- o que fazer em risco de desligamento
+- oq fazer em risco de desligamento
+- o que fazer risco de desligamento
+- sair risco desligamento
+- sair do risco de desligamento
+- socorro risco de desligamento
+- socorro risco desligamento
+- estou prestes a ser jubilado
+
+## intent:estudante_desligado
+- quando um estudante é desligado
+- quando um aluno é desligado
+- como ser desligado da UNB
+- vou ser desligado
+- desligado
+- desligamento
+- jubilado
+- jubilamento
+- expulsão
+
+## intent:como_pedido_reintegracao
+- quando posso fazer meu pedido de reintegração
+- quando fazer pedido de reintegração
+- quando fazer pedido reintegração
+- quando pedir reintegração
+- como pedir reintegração
+- período de reintegração
+- tempo de reintegração
+- data de reintegração
+- até quando posso ser reintegrado
+- pedido de reintegração
+- como fazer o pedido de reintegração
+- como posso fazer o pedido de reintegração
+- como ser reintegrado
+- como pedir reintegração
+- como fazer pedido reintegração
+- fazer reintegração
+- reintegração
+- reintegrado
+
+## intent:revisar_mencao
+- como fazer a revisão de menção
+- como fazer revisão de menção
+- como revisar menção
+- revisar menção
+- revisão menção
+- revisão de menção
+- revisão
+- menção
+
+## intent:quanto_mencao
+- valor menções
+- pontuação
+- quanto vale
+- quantos pontos
+- ss
+- superior
+- ms
+- médio superior
+- mi
+- médio inferior
+- mm
+- médio
+- mi
+- médio inferior
+- ii
+- inferior
+- sr
+- sem rendimento
+
+## intent:participar_semana_academica
+- como participar da semana acadêmica
+- como participar da semana universitária
+- como participo da semana acadêmica
+- como participo da semana universitária
+- semana acadêmica
+- semana universitária
+- participar semana acadêmica
+- participar semana universitária
+- como entrar na semana acadêmica
+- como entrar na semana universitária
+- inscrição semana acadêmica
+- inscrição semana universitária
+- como me inscrever na semana acadêmica
+- como me inscrever na semana universitária
+- cursos semana acadêmica
+- cursos semana universitária
+
+## intent:trancamento
+- como fazer trancamento
+- como trancar matrícula
+- como trancar matéria
+- trancamento
+- trancar
+- trancamento parcial
+- trancamento geral
+
+## intent:reserva_sala
+- como fazer reserva de sala
+- como reservar sala
+- reserva de sala
+- reservar sala
+- como reservar sala
+- como fazer reserva de sala
+- reserva
+- reservar
+
+## intent:dupla_graduacao
+- como fazer dupla graduação
+- como fazer dupla diplomação
+- dupla graduação
+- dupla diplomação
+- duas graduações
+- dois diplomas

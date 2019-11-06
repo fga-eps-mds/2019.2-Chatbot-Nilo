@@ -56,7 +56,12 @@ intents:
   - estudante_desligado
   - como_pedido_reintegracao
   - revisar_mencao
+  - quanto_mencao
   - enviar_relatorio_atividades
+  - participar_semana_academica
+  - trancamento
+  - reserva_sala
+  - dupla_graduacao
 
   - action_enviar_tce_pa
   - action_enviar_doc_faq_estagio
@@ -425,25 +430,19 @@ templates:
         O seu período de solicitação acontece durante o primeiro mês de aulas de um semestre que se inicia.
   utter_matricula_estagio:
   - text: |
-        Para se matricular no estágio supervisionado, Vossa Majestade deve
+        Para se matricular no estágio supervisionado, Vossa Majestade deve seguir os seguintes passos
 
-        Possuir TCE (Termo de Compromisso de Estágio) + PA (Plano de Atividades) ou Contrato de Trabalho (CLT) ou Contrato de Prestação de Serviço.
+        Passo 1 - Obter os seguintes documentos: Termo de Compromisso de Estágio + Plano de Atividades OU Contrato de Trabalho (CLT) OU Contrato de Prestação de Serviços.
 
-        Atender os pré-requisitos de matrícula em estágio.
+        Passo 2 - Atender às condições de resolução de estágio: Ter 70% dos créditos concluídos E realizar 210 h de atividades técnicas sob a supervisão/demanda de um profissional da área de atuação do seu curso.
 
-        E também deve ter um orientador previamente definido e disponível.
+        Passo 3 - Escolher um orientador de estágio.
 
-        Após isso, deve seguir os seguintes passos
+        Passo 4 - Preencher a ficha de solicitação de matrícula. Essa ficha pode ser acessada no Moodle da matéria ou solicitada no Bot Nilo. Após preenchê-la, assine-a e leve para o seu Orientador para que assine também.
 
-        1) Preencher a Ficha de Solicitação de Matrícula pelo sistema. A ficha de Solicitação de Matrícula será enviada pelo sistema para o e-mail do aluno.
+        Passo 5 - Criar o arquivo .zip com os seguintes documentos e enviá-lo no Moodle: Ficha assinada (por você e pelo Orientador), Histórico Escolar, Grade Curricular e Contrato.
 
-        2) Imprimir a Ficha, assiná-la e levar até o Orientador de Estágio escolhido para que ele também a assine.
-
-        3) Compactar os seguintes documentos - Ficha de Solicitação de Matrícula assinada, Histórico Escolar, Grade Curricular e Contrato) em formato .zip e submeter no Moodle.
-
-        Em seguida, a situação será avaliada pelo Coordenador de Estágios para definir se a sua matrícula será aprovada ou não.
-
-        Caso não seja aprovado, você será notificado.
+        Passo 6 - Aguarde a notificação do Coordenador de Estágios para prosseguir.
   utter_orientador_estagio:
   - text: |
         Então está procurando um guia para sua jornada no deserto?
@@ -632,6 +631,53 @@ templates:
         Eu tenho um modelo de relatório de atividades. Aqui está um link para baixá-lo no formato de planilha:
 
         https://fga.unb.br/estagio/documentos/documentos-do-daia/relatorio-de-atividades-de-estagio.xlsx
+  utter_quanto_mencao:
+  - text: |
+        SS (Superior) vai de 9,0 a 10.
+        MS (Médio Superior) vai de 7,0 a 8,9.
+        MM (Médio) vai de 5,0 a 6,9.
+        MI (Médio Inferior) vai de 3,0 a 4,9.
+        II (Inferior) vai de 0,1 a 2,9.
+        SR (Sem rendimento). Zero.
+  utter_participar_semana_academica:
+  - text: |
+        Primeiro, Vossa Majestade deve ter uma conta no site do Sistema de Extensão (SIEX), que pode ser acessado pelo link: https://www.sistemas.unb.br/
+
+        Clique no botão “Cursos e Eventos de Extensão”. Nessa aba, você poderá pesquisar por atividades de interesse. No campo “Tipo de Ação”, coloque “Semana Universitária” para filtrar os resultados. Quando achar a atividade desejada, clique no botão “CLIQUE AQUI” para se inscrever.
+  utter_trancamento:
+  - text: |
+        Vossa majestade pode solicitar o trancamento geral (curso) ou parcial (matéria) de matrícula na secretaria do campus ou pelo site do Matrícula Web, na aba “Matrícula”. Para isso, deve obedecer aos prazos definidos no calendário acadêmico. 
+
+        O trancamento geral não pode passar de dois semestres e a cada semestre deve ser feita uma nova solicitação.
+
+        Pode-se solicitar o trancamento geral ou parcial de matrícula justificado, nos casos de impossibilidade de cumprimento das obrigações acadêmicas, por motivos previstos nas resoluções (verifique o documento a seguir), com justificativa circunstanciada e devidamente comprovada.
+
+        Para mais informações de trancamento justificado, acesse: http://www.saa.unb.br/images/peticionamento_eletronico/trancamento.pdf
+  utter_reserva_sala:
+  - text: |
+        Alunos e professores podem fazer reserva de sala, de forma presencial na Coordenação do campus. Primeiro deve-se verificar a disponibilidade de horário com o coordenador. Em seguida, deve-se preencher um formulário de reserva, que deve conter a assinatura de um professor responsável. Devolvendo o formulário à Coordenação, a reserva será feita. 
+  utter_dupla_graduacao:
+  - text: |
+        A inscrição é feita somente via portal do aluno, após a leitura do manual do peticionamento, no endereço eletrônico https://aluno.unb.br/peticionamento-aluno. 
+        A inscrição deve seguir as datas previstas no Calendário Acadêmico.
+        Os editais podem ser encontrados no link: http://saa.unb.br/gradua/188-editais-alteracao-de-opcao
+        
+        Condições:
+        Estar registrado em curso que ofereça os graus de bacharel ou licenciado, na mesma área;
+        Existir vaga na habilitação pretendida;
+        Ser provável formando atual semestre no seu curso;
+        A habilitação pretendida não estar bloqueada ou desativada;
+        Não estar usufruindo de Trancamento Geral de Matrícula no período de solicitação;
+
+        Impedimentos:
+        Ter ingressado em curso de graduação como Portador de Diploma de Curso Superior (DCS);
+        Já ter sido beneficiário de Dupla Diplomação;
+        Não concluir o curso na sua opção atual ao término do semestre.
+
+        Critérios de Classificação e Desempate:
+        - Número de créditos obtidos na habilitação pretendida;
+        - Índice de Rendimento Acadêmico (IRA);
+        - Menções obtidas em disciplinas da Habilitação pretendida cursadas pelo estudante.
 
 actions:
   - utter_start
@@ -691,7 +737,12 @@ actions:
   - utter_estudante_desligado
   - utter_como_pedido_reintegracao
   - utter_revisar_mencao
+  - utter_quanto_mencao
   - utter_enviar_relatorio_atividades
+  - utter_participar_semana_academica
+  - utter_trancamento
+  - utter_reserva_sala
+  - utter_dupla_graduacao
 
   - action_enviar_doc_faq_estagio
   - action_coordenador_de_automotiva
