@@ -2,6 +2,10 @@
 * start
     - utter_start
 
+## help
+* help
+    - utter_help
+
 ## cumprimentar
 * cumprimentar
     - utter_cumprimentar
