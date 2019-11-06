@@ -1,5 +1,6 @@
 intents:
   - start
+  - help
   - cumprimentar
   - despedir
   - out_of_scope
@@ -113,6 +114,36 @@ templates:
         7. Atendimento coordenadores de estágio.
         8. Quando um estudante entra em risco de desligamento.
         9. Como fazer o pedido de reintegracao.
+
+  utter_help:
+    - text: |
+        Você pode me perguntar sobre:
+        Objetivo do estágio
+        Atividades aceitas como Estágio
+        Pré-requisitos do estágio
+        Como se matricular na matéria de estágio
+        Período de matrícula no estágio
+        Quem escolher como orientador de estágio
+        Carga horária mínima de estágio
+        Limite de créditos para estágiario
+        Preencher as datas de estágio
+        Contratos de estágio
+        Como substituir o estágio
+        Restrições de localidade para o estágio
+        Senha do moodle para a disciplina de estágio
+        Nome da pasta em que os documentos de estágio devem estar
+        Relatório de atividades
+        Link para o moodle
+        Onde encontrar o guia do calouro
+        Quando entrar em risco de desligamento
+        Como sair do risco de desligamento
+        Condições para o desligamento
+        Pedido de reintegração
+        Menções
+        Semana academica
+        Trancamento de disciplinas
+        Dupla graduação
+        Reserva de salas
 
   utter_default:
     - text: |
@@ -681,6 +712,7 @@ templates:
 
 actions:
   - utter_start
+  - utter_help
   - utter_default
   - utter_cumprimentar
   - utter_despedir
