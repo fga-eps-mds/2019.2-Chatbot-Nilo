@@ -1,5 +1,13 @@
 intents:
   - start
+  - help
+  - stage_example
+  - expelled_example
+  - mention_example
+  - academic_week_example
+  - locking_example
+  - reserve_room_example
+  - double_graduation_example
   - cumprimentar
   - despedir
   - out_of_scope
@@ -113,6 +121,80 @@ templates:
         7. Atendimento coordenadores de estágio.
         8. Quando um estudante entra em risco de desligamento.
         9. Como fazer o pedido de reintegracao.
+
+  utter_help:
+    - text: |
+
+        Meu faraó não está conseguindo ter uma resposta satisfatória ?
+
+        Não se preocupe, Nilo, está aqui para lhe ajudar;
+        
+        primeiro certifique-se de que sua pergunta se encaixa em um dos tópicos que tenho domínio;
+
+        Esses temas normalmente envolvem perguntas sobre o estágio, e a coordenação de forma geral;
+
+        Caso não esteja conseguindo sua resposta mesmo que o tema seja um dos citados
+        basta digitar: "Exemplo de [tópico que deseja]".
+
+  utter_stage_example:
+    - text: |
+
+        Para sanar todas as dúvidas de Vossa Majestade sobre o estágio basta me enviar a mensagem: 
+
+        "gostaria de saber sobre estágio supervisionado";
+
+        que lhe enviarei um arquivo com todas as principais perguntas respondidas.
+
+  utter_expelled_example:
+    - text: |
+
+        Caso queira saber sobre quais são as condições que fazem com que um aluno seja desligado
+        me envie a mensagem: "quando um aluno é desligado" que lhe deixarei informado dos riscos;
+
+        Caso queira saber como se livrar do risco de desligamento
+        me envie a mensagem: "como sair do risco de desligamento" que lhe ajudarei a sair dessa enrascada;
+
+        E caso queira saber sobre como fazer seu pedido de reintegração
+        me envie a mensagem: "como fazer o pedido de reintegração" que lhe ajudarei a retornar ainda mais grandioso.
+
+  utter_mention_example:
+    - text: |
+        
+        Caso queira saber sobre quais são as menções utilizadas na UnB
+        
+        me envie a mensagem: "valor menções";
+
+        Caso houve algum erro com sua menção e deseja revisa-lá mas não sabe como
+        
+        me envie a mensagem: "como fazer a revisão de menção" que lhe direi como conseguir o que é justo.
+
+  utter_academic_week_example:
+    - text: |
+
+        Vossa Majestade está interessada em participar da semana acadêmica mas não sabe como?
+        
+        me envie a mensagem: "como participar da semana acadêmica" que lhe ajudarei nisso.
+
+  utter_locking_example:
+    - text: |
+
+        Vossa Majestade deseja trancar alguma disciplina ou até mesmo o semestre e não sabe como fazer isso ?
+        
+        me envie a mensagem: "como fazer trancamento" que lhe ajudarei.
+
+  utter_reserve_room_example:
+    - text: |
+
+        Meu faraó precisa de uma sala ?
+        
+        me envie a mensagem: "como fazer reserva de sala" que saberá como ter uma sala somente para si.
+
+  utter_double_graduation_example:
+    - text: |
+
+        Meu faraó está interessado em se graduar em 2 cursos ?
+        
+        me envie a mensagem: "como fazer dupla graduação" que lhe ajudarei nessa jornada de conhecimento.
 
   utter_default:
     - text: |
@@ -681,6 +763,14 @@ templates:
 
 actions:
   - utter_start
+  - utter_help
+  - utter_stage_example
+  - utter_expelled_example
+  - utter_mention_example
+  - utter_academic_week_example
+  - utter_locking_example
+  - utter_reserve_room_example
+  - utter_double_graduation_example
   - utter_default
   - utter_cumprimentar
   - utter_despedir

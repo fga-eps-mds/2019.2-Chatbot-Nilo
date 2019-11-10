@@ -2,6 +2,20 @@
 - /start
 - start
 
+## intent:help
+- me ajuda
+- o que você sabe fazer
+- sobre o que posso falar
+- como posso falar com você
+- quais assuntos você conhece
+- sobre o que você sabe
+- o que mais pode fazer
+- não sei sobre o que conversar
+- /help
+- help
+- ajuda
+- socorro
+
 ## intent:out_of_scope
 - você fala sobre o meio ambiente
 - qual a origem do mundo
@@ -210,8 +224,6 @@
 - o que fazer risco de desligamento
 - sair risco desligamento
 - sair do risco de desligamento
-- socorro risco de desligamento
-- socorro risco desligamento
 - estou prestes a ser jubilado
 
 ## intent:estudante_desligado
