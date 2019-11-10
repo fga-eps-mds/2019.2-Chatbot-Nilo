@@ -9,8 +9,8 @@ class WebScrapingIntegration:
         self.request = requests.get(self.url)
         self.soup = BeautifulSoup(self.request.text, 'html.parser')
         self.coordinators = self.soup.find_all('div',
-                                               class_='article-body\
-                                                article-body-text-article')
+                                               class_=('article-body' +
+                                                       '-text-article'))
 
     def software_coordinator(self):
         names = ''
