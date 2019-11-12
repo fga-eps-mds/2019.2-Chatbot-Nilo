@@ -2,28 +2,28 @@
 * cumprimentar: oi
     - utter_cumprimentar
     - action_listen
-* atividades_estagio: quais são as atividades que podem ser consideradas como estágio supervisionado
+* atividades_estagio: como substituir o estágio
     - utter_atividades_estagio
     - utter_continuar_conversa
     - action_listen
 
 ## end-to-end story 2
-* atividades_estagio: que atividades são consideradas no estágio obrigatório
+* atividades_estagio: atividades consideradas estágio
     - utter_atividades_estagio
     - utter_continuar_conversa
     - action_listen
 
 ## end-to-end story 3
-* cumprimentar: ola
+* cumprimentar: olá
    - utter_cumprimentar
    - action_listen
-* pre-requisitos_estagio: quais sao os pre-requisitos do estagio
+* pre-requisitos_estagio: pré-requisitos
    - utter_pre-requisitos_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end story 4
-* pre-requisitos_estagio: pre-requisitos do estagio
+* pre-requisitos_estagio: exigências necessárias
    - utter_pre-requisitos_estagio
    - utter_continuar_conversa
    - action_listen
@@ -32,13 +32,13 @@
 * cumprimentar: oiii
    - utter_cumprimentar
    - action_listen
-* periodo_matricula_estagio: quando acontece a matricula do estagio supervisionado
+* periodo_matricula_estagio: período
    - utter_periodo_matricula_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end story 6
-* periodo_matricula_estagio: quando ocorre a matricula para o estagio
+* periodo_matricula_estagio: qual o período de matrícula pro estágio
    - utter_periodo_matricula_estagio
    - utter_continuar_conversa
    - action_listen
@@ -47,13 +47,13 @@
 * cumprimentar: olá
    - utter_cumprimentar
    - action_listen
-* matricula_estagio: matricular no estágio supervisionado  
+* matricula_estagio: onde consigo um estágio
    - utter_matricula_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 8
-* matricula_estagio: como me matriculo no estagio supervisionado
+* matricula_estagio: como me inscrevo no estágio
    - utter_matricula_estagio
    - utter_continuar_conversa
    - action_listen
@@ -62,28 +62,28 @@
 * cumprimentar: oi
    - utter_cumprimentar
    - action_listen
-* orientador_estagio: como escolher um orientador de estágio supervisionado
+* orientador_estagio: conseguir um orientador para estágio
    - utter_orientador_estagio
    - utter_continuar_conversa
-   - action_listen   
+   - action_listen
 
 ## end-to-end 10
-* orientador_estagio: orientador para estágio
+* orientador_estagio: dicas de orientador de estágio
    - utter_orientador_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 11
-* cumprimentar: ola boa tarde
+* cumprimentar: olá
    - utter_cumprimentar
    - action_listen
-* carga-horaria_min_estagio: tem carga horária mínima de estágio supervisionado
+* carga-horaria_min_estagio: tempo mínimo de trabalho
    - utter_carga-horaria_min_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 12
-* carga-horaria_min_estagio: carga horária mínima para o estágio supervisionado
+* carga-horaria_min_estagio: horas necessárias
    - utter_carga-horaria_min_estagio
    - utter_continuar_conversa
    - action_listen
@@ -92,59 +92,44 @@
 * cumprimentar: oi
    - utter_cumprimentar
    - action_listen
-* limite_creditos_estagio: tem limite de creditos para estagio supervisionado
+* limite_creditos_estagio: limite de creditos estágio
    - utter_limite_creditos_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 14
-* limite_creditos_estagio: limite de creditos para estagio supervisionado
+* limite_creditos_estagio: máximo de créditos com o estágio
    - utter_limite_creditos_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 15
-* cumprimentar: ola boa tarde
+* cumprimentar: oiii
    - utter_cumprimentar
    - action_listen
-* preencher_datas_estagio: como preencher as datas do estágio supervisionado
+* preencher_datas_estagio: datas estágio
    - utter_preencher_datas_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 16
-* preencher_datas_estagio: preencher datas estagio supervisionado
+* preencher_datas_estagio: datas do estágio
    - utter_preencher_datas_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 17
-* cumprimentar: ola
+* cumprimentar: oi
    - utter_cumprimentar
    - action_listen
-* contratos_estagio: contratos de trabalho DAIA
+* contratos_estagio: DAIA
    - utter_contratos_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 18
-* contratos_estagio: os contratos de trabalho com carteira assinada precisam ser formalizados junto ao DAIA
+* contratos_estagio: carteira de trabalho
    - utter_contratos_estagio
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 19
-* cumprimentar: olá
-   - utter_cumprimentar
-   - action_listen
-* limite_creditos_simultaneo_estagio: qual o limite de creditos simultaneos ao estagio
-   - utter_limite_creditos_simultaneo_estagio
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 20
-* limite_creditos_simultaneo_estagio: quantos créditos posso pegar junto ao estágio
-   - utter_limite_creditos_simultaneo_estagio
    - utter_continuar_conversa
    - action_listen
 
@@ -152,73 +137,43 @@
 * cumprimentar: olá
    - utter_cumprimentar
    - action_listen
-* doc_matricula_estagio: documentos de aproveitamento de projeto de pesquisa
+* doc_matricula_estagio: aproveitar projeto de pesquisa
    - utter_doc_matricula_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 22
-* doc_matricula_estagio: quais são os documentos necessários apresentar junto a matrícula para aproveitar um projeto de pesquisa
+* doc_matricula_estagio: Posso usar meu PIBIC
    - utter_doc_matricula_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 23
-* cumprimentar: ola
+* cumprimentar: olá
    - utter_cumprimentar
    - action_listen
-* restricao_estagio: estagio em outro estado
+* restricao_estagio: restrições do estágio
    - utter_restricao_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 24
-* restricao_estagio: existe alguma restrição caso o estágio não seja em brasília
+* restricao_estagio: estágio fora de brasília
    - utter_restricao_estagio
    - utter_continuar_conversa
    - action_listen
 
-## end-to-end 25
+## end-to-end 29
 * cumprimentar: oiii
    - utter_cumprimentar
    - action_listen
-* coordenadores_estagio: coordenadores de estágio e quando atendem
-   - utter_coordenadores_estagio
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 26
-* coordenadores_estagio: quem é o coordenador de estágio
-   - utter_coordenadores_estagio
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 27
-* cumprimentar: olá
-   - utter_cumprimentar
-   - action_listen
-* docs_nao_obrigatorio_estagio: documentos estagio nao obrigatorio
-   - utter_docs_nao_obrigatorio_estagio
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 28
-* docs_nao_obrigatorio_estagio: quais os documentos necessarios para o estagio nao obrigatorio
-   - utter_docs_nao_obrigatorio_estagio
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 29
-* cumprimentar:ola boa tarde
-   - utter_cumprimentar
-   - action_listen
-* objetivo_estagio: qual e o objetivo do estagio supervisionado
+* objetivo_estagio: qual é o objetivo do estágio
    - utter_objetivo_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 30
-* objetivo_estagio: pra que estágio supervisionado
+* objetivo_estagio: pra que estágio
    - utter_objetivo_estagio
    - utter_continuar_conversa
    - action_listen
@@ -227,13 +182,13 @@
 * cumprimentar: oiii
    - utter_cumprimentar
    - action_listen
-* senha-moodle_estagio: senha do moodle da disciplina estágio supervisionado
+* senha-moodle_estagio: senha
    - utter_senha-moodle_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 32
-* senha-moodle_estagio: qual a senha do moodle do estagio supervisionado
+* senha-moodle_estagio: qual a senha do moodle do estagio
    - utter_senha-moodle_estagio
    - utter_continuar_conversa
    - action_listen
@@ -242,13 +197,13 @@
 * cumprimentar: olá
    - utter_cumprimentar
    - action_listen
-* nome_da_pasta_estagio: qual o nome da pasta estagio supervisionado
+* nome_da_pasta_estagio: pasta
    - utter_nome_da_pasta_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 34
-* nome_da_pasta_estagio: pasta estágio supervisionado
+* nome_da_pasta_estagio: nome da pasta
    - utter_nome_da_pasta_estagio
    - utter_continuar_conversa
    - action_listen
@@ -257,119 +212,28 @@
 * cumprimentar: salut
    - utter_cumprimentar
    - action_listen
-* link_estagio: qual é o link do moodle da matéria de estágio supervisionado
+* link_estagio: zelda
    - utter_link_estagio
    - utter_continuar_conversa
    - action_listen
 
 ## end-to-end 36
-* link_estagio: link do moodle de estágio supervisionado
+* link_estagio: link
    - utter_link_estagio
    - utter_continuar_conversa
    - action_listen
-
-## end-to-end 37
-* cumprimentar: bonsoir
-   - utter_cumprimentar
-   - action_listen
-* encontrar_guia_calouro: onde posso encontrar o guia do calouro
-   - utter_encontrar_guia_calouro
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 38
-* encontrar_guia_calouro: achar guia do calouro
-   - utter_encontrar_guia_calouro
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 39
-* cumprimentar: salut
-   - utter_cumprimentar
-   - action_listen
-* quando_entra_risco_desligamento: risco desligamento
-   - utter_quando_entra_risco_desligamento
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 40
-* quando_entra_risco_desligamento: como entrar em risco de desligamento
-   - utter_quando_entra_risco_desligamento
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 41
-* cumprimentar: com licenca
-   - utter_cumprimentar
-   - action_listen
-* sair_risco_desligamento: quando saio do risco de desligamento
-   - utter_sair_risco_desligamento
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 42
-* sair_risco_desligamento: socorro risco desligamento
-   - utter_sair_risco_desligamento
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 43
-* cumprimentar:bom dia
-   - utter_cumprimentar
-   - action_listen
-* estudante_desligado: quando um aluno é desligado da UNB
-   - utter_estudante_desligado
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 44
-* estudante_desligado: quando um estudante é desligado da UNB
-   - utter_estudante_desligado
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 45
-* cumprimentar: boa noite
-   - utter_cumprimentar
-   - action_listen
-* quando_pedido_reintegracao: quando posso fazer meu pedido de reintegração
-   - utter_quando_pedido_reintegracao
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 46
-* quando_pedido_reintegracao: data de reintegracao
-   - utter_quando_pedido_reintegracao
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 47
-* cumprimentar: boa tarde
-   - utter_cumprimentar
-   - action_listen
-* como_pedido_reintegracao: fazer reintegracao
-   - utter_como_pedido_reintegracao
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 48
-* como_pedido_reintegracao: como posso fazer o pedido de reintegração
-   - utter_como_pedido_reintegracao
-   - utter_continuar_conversa
-   - action_listen
-
-## end-to-end 49
-* cumprimentar: bom dia
-   - utter_cumprimentar
-   - action_listen
-* revisar_mencao: como fazer revisão de menção
-   - utter_revisar_mencao
-   - utter_continuar_conversa
-   - action_listen
    
-## end-to-end 50
-* revisar_mencao: revisão menção
-   - utter_revisar_mencao
-   - utter_continuar_conversa
+## end-to-end 51
+* cumprimentar: oi
+   - utter_cumprimentar
    - action_listen
-   
+* enviar_relatorio_atividades: me envie o relatório de atividades
+  - utter_enviar_relatorio_atividades
+  - utter_continuar_conversa
+  - action_listen
+
+## end-to-end 52
+* enviar_relatorio_atividades: me mande o relatório de atividades
+  - utter_enviar_relatorio_atividades
+  - utter_continuar_conversa
+  - action_listen
