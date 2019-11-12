@@ -3,11 +3,12 @@ image: python:3.6-slim
 variables:
   BOT_IMAGE: $DOCKERHUB_USER/bot
   COACH_IMAGE: $DOCKERHUB_USER/coach
+  REQUIREMENTS_IMAGE: $DOCKERHUB_USER/requirements
 
 stages:
   - test style
-  - test stories
   - build requirements
+  - test stories
   - build coach
   - build
 
@@ -52,13 +53,12 @@ build requirements:
     - docker:dind
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - cd ./docker/bot
-    - ./build-base.sh publish
+    - docker build . -f docker/requirements.Dockerfile -t $REQUIREMENTS_IMAGE:latest
+    - docker push $REQUIREMENTS_IMAGE:latest
   only:
-    refs:
-      - master
     changes:
-      - ./docker/bot/requirements.txt
+      - requirements.txt
+
   environment: homolog
 
 
