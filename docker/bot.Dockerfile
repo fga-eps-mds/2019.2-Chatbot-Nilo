@@ -1,5 +1,5 @@
-FROM lappis/coach:boilerplate as coach
-FROM lappis/botrequirements:boilerplate
+FROM yukioz/coach as coach
+FROM yukioz/requirements
 
 
 COPY ./bot /bot

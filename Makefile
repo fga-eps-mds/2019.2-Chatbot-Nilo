@@ -3,7 +3,7 @@ build-bot:
 	make train
 
 train:
-	docker build . -f docker/coach.Dockerfile -t lappis/coach:boilerplate
+	docker build . -f docker/coach.Dockerfile -t yukioz/coach
 	docker-compose build bot
 
 run-telegram:
@@ -14,3 +14,6 @@ run-console:
 
 test-dialogue:
 	docker-compose run --rm bot make e2e
+
+test:
+	docker-compose run --rm bot make test-stories
