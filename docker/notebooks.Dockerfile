@@ -1,4 +1,4 @@
-FROM lappis/botrequirements:boilerplate
+FROM yukioz/requirements
 
 RUN apt-get install -y graphviz libgraphviz-dev pkg-config
 
