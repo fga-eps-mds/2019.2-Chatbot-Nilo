@@ -111,17 +111,9 @@ templates:
   utter_start:
     - text: |
         Oi eu sou o Nilo!
-        Posso te ajudar a tirar suas dúvidas sobre estágio, e assuntos academicos como:
-        1. Qual o objetivo do estagio.
-        2. Quais sao as atividades que podem ser consideradas como estagio.
-        3. Quais sao os pre-requisitos do estágio.
-        4. Como funciona a matricula no estagio.
-        5. Link para o moodle do estagio.
-        6. Quais os documentos necessarios para o estagio.
-        7. Atendimento coordenadores de estágio.
-        8. Quando um estudante entra em risco de desligamento.
-        9. Como fazer o pedido de reintegracao.
+        Posso te ajudar a tirar suas dúvidas sobre estágio e muitos assuntos que os alunos da UNB precisam procurar na Coordenação e na Secretaria, como desligamento, reintegração, dupla diplomação, entre outros.
 
+        Faça a sua pergunta e tentarei lhe ajudar! Caso tenha dificuldades em fazer uma pergunta, digite "/help" para ver o menu de ajuda.
   utter_help:
     - text: |
 
