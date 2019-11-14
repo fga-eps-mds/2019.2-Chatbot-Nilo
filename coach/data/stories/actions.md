@@ -1,349 +1,132 @@
-<!-- Testado -->
-## path_action_atividades_estagio 1
+## path_action_enviar_tce_pa 1
 * cumprimentar
-    - utter_cumprimentar
-* action_atividades_estagio
-    - action_atividades_estagio
-    - utter_continuar_conversa
+  - utter_cumprimentar
+* action_enviar_tce_pa
+  - action_enviar_tce_pa
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_atividades_estagio 2
-* action_atividades_estagio
-    - action_atividades_estagio
-    - utter_continuar_conversa
+## path_action_enviar_tce_pa 2
+* action_enviar_tce_pa
+  - action_enviar_tce_pa
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_pre-requisitos_estagio 1
+## path_action_enviar_ficha_solicitacao 1
 * cumprimentar
-	- utter_cumprimentar
-* action_pre-requisitos_estagio
-	- action_pre-requisitos_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_enviar_ficha_solicitacao
+  - action_enviar_ficha_solicitacao
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_pre-requisitos_estagio 2
-* action_pre-requisitos_estagio
-	- action_pre-requisitos_estagio
-	- utter_continuar_conversa
+## path_action_enviar_ficha_solicitacao 2
+* action_enviar_ficha_solicitacao
+  - action_enviar_ficha_solicitacao
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_periodo_matricula_estagio 1
+## path_action_enviar_modelo_de_termo_aditivo 1
 * cumprimentar
-	- utter_cumprimentar
-* action_periodo_matricula_estagio
-	- action_periodo_matricula_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_enviar_modelo_de_termo_aditivo
+  - action_enviar_modelo_de_termo_aditivo
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_periodo_matricula_estagio 2
-* action_periodo_matricula_estagio
-	- action_periodo_matricula_estagio
-	- utter_continuar_conversa
+## path_action_enviar_modelo_de_termo_aditivo 2
+* action_enviar_modelo_de_termo_aditivo
+  - action_enviar_modelo_de_termo_aditivo
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_matricula_estagio 1
+## path_action_enviar_termo_rescisorio 1
 * cumprimentar
-	- utter_cumprimentar
-* action_matricula_estagio
-	- action_matricula_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_enviar_termo_rescisorio
+  - action_enviar_termo_rescisorio
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_matricula_estagio 2
-* action_matricula_estagio
-	- action_matricula_estagio
-	- utter_continuar_conversa
+## path_action_enviar_termo_rescisorio 2
+* action_enviar_termo_rescisorio
+  - action_enviar_termo_rescisorio
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_orientador_estagio 1
+## path_action_enviar_doc_faq_estagio 1
 * cumprimentar
-	- utter_cumprimentar
-* action_orientador_estagio
-	- action_orientador_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_enviar_doc_faq_estagio
+  - action_enviar_doc_faq_estagio
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_orientador_estagio 2
-* action_orientador_estagio
-	- action_orientador_estagio
-	- utter_continuar_conversa
+## path_action_enviar_doc_faq_estagio 2
+* action_enviar_doc_faq_estagio
+  - action_enviar_doc_faq_estagio
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_carga-horaria_min_estagio 1
+## path_action_todos_os_coordenadores 1
 * cumprimentar
-	- utter_cumprimentar
-* action_carga-horaria_min_estagio
-	- action_carga-horaria_min_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_todos_os_coordenadores
+  - action_todos_os_coordenadores
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_carga-horaria_min_estagio 2
-* action_carga-horaria_min_estagio
-	- action_carga-horaria_min_estagio
-	- utter_continuar_conversa
+## path_action_todos_os_coordenadores 2
+* action_todos_os_coordenadores
+  - action_todos_os_coordenadores
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_limite_creditos_estagio 1
+## path_action_coordenador_de_software 1
 * cumprimentar
-	- utter_cumprimentar
-* action_limite_creditos_estagio
-	- action_limite_creditos_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_coordenador_de_software
+  - action_coordenador_de_software
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_limite_creditos_estagio 2
-* action_limite_creditos_estagio
-	- action_limite_creditos_estagio
-	- utter_continuar_conversa
+## path_action_coordenador_de_software 2
+* action_coordenador_de_software
+  - action_coordenador_de_software
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_preencher_datas_estagio 1
+## path_action_coordenador_de_energia 1
 * cumprimentar
-	- utter_cumprimentar
-* action_preencher_datas_estagio
-	- action_preencher_datas_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_coordenador_de_energia
+  - action_coordenador_de_energia
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_preencher_datas_estagio 2
-* action_preencher_datas_estagio
-	- action_preencher_datas_estagio
-	- utter_continuar_conversa
+## path_action_coordenador_de_energia 2
+* action_coordenador_de_energia
+  - action_coordenador_de_energia
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_contratos_estagio 1
+## path_action_coordenador_de_aeroespacial 1
 * cumprimentar
-	- utter_cumprimentar
-* action_contratos_estagio
-	- action_contratos_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_coordenador_de_aeroespacial
+  - action_coordenador_de_aeroespacial
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_contratos_estagio 2
-* action_contratos_estagio
-	- action_contratos_estagio
-	- utter_continuar_conversa
+## path_action_coordenador_de_aeroespacial 2
+* action_coordenador_de_aeroespacial
+  - action_coordenador_de_aeroespacial
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_limite_creditos_simultaneo_estagio 1
+
+## path_action_coordenador_de_eletronica 1
 * cumprimentar
-	- utter_cumprimentar
-* action_limite_creditos_simultaneo_estagio
-	- action_limite_creditos_simultaneo_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_coordenador_de_eletronica
+  - action_coordenador_de_eletronica
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_limite_creditos_simultaneo_estagio 2
-* action_limite_creditos_simultaneo_estagio
-	- action_limite_creditos_simultaneo_estagio
-	- utter_continuar_conversa
+## path_action_coordenador_de_eletronica 2
+* action_coordenador_de_eletronica
+  - action_coordenador_de_eletronica
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_doc_matricula_estagio 1
+## path_action_coordenador_de_automotiva 1
 * cumprimentar
-	- utter_cumprimentar
-* action_doc_matricula_estagio
-	- action_doc_matricula_estagio
-	- utter_continuar_conversa
+  - utter_cumprimentar
+* action_coordenador_de_automotiva
+  - action_coordenador_de_automotiva
+  - utter_continuar_conversa
 
-<!-- Testado -->
-## path_action_doc_matricula_estagio 2
-* action_doc_matricula_estagio
-	- action_doc_matricula_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_restricao_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* action_restricao_estagio
-	- action_restricao_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_restricao_estagio 2
-* action_restricao_estagio
-	- action_restricao_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_coordenadores_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* action_coordenadores_estagio
-	- action_coordenadores_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_coordenadores_estagio 2
-* action_coordenadores_estagio
-	- action_coordenadores_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_docs_nao_obrigatorio_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* action_docs_nao_obrigatorio_estagio
-	- action_docs_nao_obrigatorio_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_docs_nao_obrigatorio_estagio 2
-* action_docs_nao_obrigatorio_estagio
-	- action_docs_nao_obrigatorio_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_objetivo_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* action_objetivo_estagio
-	- action_objetivo_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_objetivo_estagio 2
-* action_objetivo_estagio
-	- action_objetivo_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_senha-moodle_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* action_senha-moodle_estagio
-	- action_senha-moodle_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_senha-moodle_estagio 2
-* action_senha-moodle_estagio
-	- action_senha-moodle_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_nome_da_pasta_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* action_nome_da_pasta_estagio
-	- action_nome_da_pasta_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_nome_da_pasta_estagio 2
-* action_nome_da_pasta_estagio
-	- action_nome_da_pasta_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_link_estagio 1
-* cumprimentar
-	- utter_cumprimentar
-* action_link_estagio
-	- action_link_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_link_estagio 2
-* action_link_estagio
-	- action_link_estagio
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_encontrar_guia_calouro 1
-* cumprimentar
-	- utter_cumprimentar
-* action_encontrar_guia_calouro
-	- action_encontrar_guia_calouro
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_encontrar_guia_calouro 2
-* action_encontrar_guia_calouro
-	- action_encontrar_guia_calouro
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_quando_entra_risco_desligamento 1
-* cumprimentar
-	- utter_cumprimentar
-* action_quando_entra_risco_desligamento
-	- action_quando_entra_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_quando_entra_risco_desligamento 2
-* action_quando_entra_risco_desligamento
-	- action_quando_entra_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_sair_risco_desligamento 1
-* cumprimentar
-	- utter_cumprimentar
-* action_sair_risco_desligamento
-	- action_sair_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_sair_risco_desligamento 2
-* action_sair_risco_desligamento
-	- action_sair_risco_desligamento
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_estudante_desligado 1
-* cumprimentar
-	- utter_cumprimentar
-* action_estudante_desligado
-	- action_estudante_desligado
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_estudante_desligado 2
-* action_estudante_desligado
-	- action_estudante_desligado
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_quando_pedido_reintegracao 1
-* cumprimentar
-	- utter_cumprimentar
-* action_quando_pedido_reintegracao
-	- action_quando_pedido_reintegracao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_quando_pedido_reintegracao 2
-* action_quando_pedido_reintegracao
-	- action_quando_pedido_reintegracao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_como_pedido_reintegracao 1
-* cumprimentar
-	- utter_cumprimentar
-* action_como_pedido_reintegracao
-	- action_como_pedido_reintegracao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_como_pedido_reintegracao 2
-* action_como_pedido_reintegracao
-	- action_como_pedido_reintegracao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_revisar_mencao 1
-* cumprimentar
-	- utter_cumprimentar
-* action_revisar_mencao
-	- action_revisar_mencao
-	- utter_continuar_conversa
-
-<!-- Testado -->
-## path_action_revisar_mencao 2
-* action_revisar_mencao
-	- action_revisar_mencao
-	- utter_continuar_conversa
+## path_action_coordenador_de_automotiva 2
+* action_coordenador_de_automotiva
+  - action_coordenador_de_automotiva
+  - utter_continuar_conversa

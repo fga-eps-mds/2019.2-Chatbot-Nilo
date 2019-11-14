@@ -80,11 +80,9 @@ Para cada feature nova devemos criar uma branch própria para essa feature. A fe
 
 Quando finalizado toda a criação e desenvolvimento da feature, podemos então fazer o **merge** da branch na develop.
 
-* Finalizamos a feature utilizando o git-flow desta forma
+* Ao finalizar o desenvolvimento, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
-            $ git flow feature finish nome_da_feature
-
-* O comando acima irá automaticamente fazer o **merge** na branch develop, e deletar a feature branch.
+* Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
 
 ## Release Branch
 
@@ -156,9 +154,10 @@ Assim que realizado os demais ajustes, será realizado o merge de volta a master
 
 ### 2. Finalizando uma hotfix
 
-* Similarmente a release branch, ao finalizarmos a hotfix branch, automaticamente é realizado o merge da hotfix com a branch master e develop.
+* Ao finalizar o desenvolvimento, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
-            $ git flow hotfix finish hotfix_branch
+* Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
+
 ## Bugfix
 
 A Bugfix não é uma branch padrão do Gitflow, porém utilizaremos ela com intúito de resolver bugs que ocorrem na fase de teste da produção.
@@ -173,13 +172,61 @@ Esta branch será praticamente uma cópia da develop branch, que após os requer
             
 ## 2. Finalizando uma bugfix
 
-* Após a bugfix finalizada, ocorre-se o merge de volta a develop branch.
+* Ao finalizar a correção dos bugs, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
 
-           $ git flow bugfix finish bugfix_branch
+* Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
 
 ### Observações
 
 * Na finalização de cada branch, será realizado o Pull Request, e assim que aprovado, sera utilizado o comando "finish" ou sera realizado o merge e a exclusão da branch (em alguns casos manualmente sem o uso do git-flow).
+
+## Branches de correção ou adição simples
+
+Estas branches serão utilizados com o intuito de adicionar ou corrigir pequenas alterações, sendo elas : erros de digitação, correção ou adição documentação e erros pequenos em geral.
+
+#### Fix branch
+
+Esta branch será utilizada para corrigir pequenos erros e corrigir documentações.
+
+*A branch deverá ser criada a partir da branch Develop, e seguindo os padrões de nome a seguir.
+
+
+    $ git checkout develop
+    $ git checkout -b Fix/<nome do documento ou correção geral>
+     
+
+#### Add branch
+
+Esta branch será utilizada para adicionar documentos que faltam, ou novos documentos.
+
+#### 1. Iniciando
+
+*A branch deverá ser criada a partir da branch Develop, e seguindo os padrões de nome a seguir.
+
+
+        $ git checkout develop
+        $ git checkout -b Ad/<nome do documento>
+
+#### 2. Finalizando
+
+* Ao finalizar as correções, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
+
+* Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`
+
+
+#### 1. Iniciando
+
+*A branch deverá ser criada a partir da branch Develop, e seguindo os padrões de nome a seguir.
+
+
+        $ git checkout develop
+        $ git checkout -b Ad/<nome do documento>
+
+#### 2. Finalizando
+
+* Ao finalizar as correções, devera ser realizado o [Pull Request](/.github/pull_request_template.md) de acordo com os padrões estabelecidos.
+
+* Após o Pull Request ser aprovado, a branch poderá ser incluida na Develop, através do `merge`.
 
 ## Referências
 
