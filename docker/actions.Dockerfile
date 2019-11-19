@@ -1,4 +1,4 @@
-FROM lappis/botrequirements:boilerplate
+FROM yukioz/requirements
 
 ADD ./bot/actions/actions.py /bot/actions/actions.py
 ADD ./bot/Makefile /bot/Makefile
