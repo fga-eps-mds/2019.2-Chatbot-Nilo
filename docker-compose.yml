@@ -30,7 +30,7 @@ services:
 
   # ================================= Bot =====================================
   bot:
-    image: yukioz/requirements
+    image: yukioz/bot
     container_name: bot_rocketchat
     build:
       context: .
