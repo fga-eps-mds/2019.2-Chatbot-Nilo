@@ -8,14 +8,14 @@ class ActionEnviarDocFaqEstagio(Action):
         return "action_enviar_doc_faq_estagio"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("Eu tenho muitas informações sobre estágio \
-                                 para você, Vossa Majestade!")
-        dispatcher.utter_message("Estou te enviando um documento com as \
-                                 dúvidas mais pertinentes que os alunos \
-                                 costumam ter")
+        dispatcher.utter_message("Eu tenho muitas informações sobre estágio " +
+                                 "para você, Vossa Majestade!")
+        dispatcher.utter_message("Estou te enviando um documento com as " +
+                                 "dúvidas mais pertinentes que os alunos " +
+                                 "costumam ter")
         bot = telegram.Bot(token='TELEGRAM_TOKEN')
-        url = ('https://aprender.ead.unb.br/pluginfile.php/688847/' +
-               'mod_resource/content/5/faq_estagio_supervisionado.pdf')
+        url = 'https://www.docdroid.net/file/download/RdSYmiN'
+        url += '/faq-estagio-supervisionado.pdf'
         bot.sendDocument(chat_id=tracker.sender_id, document=url)
 
 
