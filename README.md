@@ -4,7 +4,7 @@
 	</p>
 
 <h1 align="center">
-  	Nilo
+  	Chatbot Nilo
 </h1>
 
 ## Sobre o projeto
