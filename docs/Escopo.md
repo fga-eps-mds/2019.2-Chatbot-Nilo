@@ -18,4 +18,4 @@ Esse trabalho é dividido nos seguintes fluxos:
 - Responde dúvidas frequentes feitas na Secretaria da FGA, sobre os assuntos: trancamento e dupla graduação.
 - Envia o Manual do Calouro e o Calendário Acadêmico.
 
-Para informações mais específicas sobre esses fluxos, acesse o backlog do produto:
+Para informações mais específicas sobre esses fluxos, acesse o [backlog do produto](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Product_Backlog.md).
