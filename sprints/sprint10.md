@@ -31,7 +31,10 @@ Nesta reunião pontuamos alguns problemas que estamos enfrentando nesta fase do 
 
 ### Burndown Report
 
-../docs/métricas/Burndown_Report/burndown_sprint10.png
+<p align="center" >
+	<img src="../docs/métricas/Burndown_Report/burndown_sprint10.png">
+	<br/>
+	</p>
 
 
 ## Reunião com o Monitor

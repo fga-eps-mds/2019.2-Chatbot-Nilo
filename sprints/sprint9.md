@@ -32,8 +32,10 @@ Nesta reunião foi discutido como deve ser o novo escopo e o backlog do produto,
 
 ### Burndown Report
 
-../docs/métricas/Burndown_Report/burndown_sprint9.png
-
+<p align="center" >
+	<img src="../docs/métricas/Burndown_Report/burndown_sprint9.png">
+	<br/>
+	</p>
 ## Reunião 2 :
 
  

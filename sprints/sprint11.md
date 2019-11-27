@@ -37,7 +37,10 @@ Nesta reunião foram definidas as prioridades, e problemas a serem resolvidos ne
 
 ### Burndown Report
 
-../docs/métricas/Burndown_Report/burndown_sprint11.png
+<p align="center" >
+	<img src="../docs/métricas/Burndown_Report/burndown_sprint10.png">
+	<br/>
+	</p>
 
 
 
