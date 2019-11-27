@@ -32,6 +32,13 @@ Os assuntos que o Nilo já conhece são:
 - Desligamento e seu risco
 - Reintegração
 - Revisão de menção
+- Reserva de salas
+- Semana Acadêmica
+- Atendimento dos Coordenadores
+- Trancamento
+- Dupla Graduação
+- Manual do Calouro
+- Calendário Acadêmico
 
 <br/>
 
