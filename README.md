@@ -3,6 +3,7 @@
 <p align="center" >
 	<img width="550" height="550" src="./assets/Nilo_logo.jpg">
 	<br/>
+	<h1> Chatbot Nilo</h1>
 	</p>
 
 ## Sobre o projeto
