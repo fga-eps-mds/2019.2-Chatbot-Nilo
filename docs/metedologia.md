@@ -21,7 +21,7 @@ No Scrum, os projetos são divididos em ciclos (tipicamente mensais) chamados de
 ## Divisão dos “Roles”(Tarefas) do Scrum:
 
 <p align="center" >
-	<img src="./assets/roles.png">
+	<img src="../assets/roles.png">
 	<br/>
 	</p>
   
@@ -115,7 +115,7 @@ Como visto anteriormente, as Sprints são interações do Ciclo de vida do proje
 
 
 <p align="center" >
-	<img src="./assets/ciclo_scrum.gif">
+	<img src="../assets/ciclo_scrum.gif">
 	<br/>
 	</p>
   
