@@ -1,9 +1,11 @@
-# Chatbot Nilo
-
 <p align="center" >
-	<img width="550" height="550" src="./docs/img/Nilo_logo_pequeno.png">
+	<img width="550" height="550" src="./assets/Nilo_logo.jpg">
 	<br/>
 	</p>
+
+<h1 align="center">
+  	Chatbot Nilo
+</h1>
 
 ## Sobre o projeto
 
@@ -17,7 +19,7 @@ Basta que você tenha o Telegram instalado no seu computador ou celular e
 então procure o bot pelo nome “@nilo_fga_bot” e caso ele esteja upado, será possível iniciar uma conversa.
 
 <p align="center" >
-	<img width="510" height="417" src="./docs/img/iN8Xdx5.gif">
+	<img width="510" height="417" src="./assets/iN8Xdx5.gif">
 	<br/>
 	</p>
 
@@ -38,8 +40,8 @@ Os assuntos que o Nilo já conhece são:
 <br/>
 
 <p align="left" >
-	<img width="300" height="500" src="./docs/img/prototipo_atividades_estagio.jpeg" hspace="100">
-	<img width="300" height="500" src="./docs/img/prototipo_despedida.jpeg">
+	<img width="300" height="500" src="./assets/matricula.jpg" hspace="100">
+	<img width="300" height="500" src="./assets/send_doc.jpg">
 	</p>
 <br/>
 
