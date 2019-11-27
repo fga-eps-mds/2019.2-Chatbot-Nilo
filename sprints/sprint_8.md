@@ -13,7 +13,7 @@
 
  - Meio de comunicação : Discord.
 
-### Resumo
+### Resumo da reunião
 
 Nesta reunião foram redefinidas nossas prioridades, com base no feedback da Release 1, tendo como assunto principal a redefinição do escopo, e a organização do repositório.
 
@@ -43,7 +43,7 @@ Nesta reunião foram redefinidas nossas prioridades, com base no feedback da Rel
 
 ## Resultados
 
-#### Resumo
+#### Resumo dos resultados
 
 Nesta Sprint conseguimos começar a organizar melhor nossa equipe e nosso desenvolvimento com base no feedback da Release 1. Não conseguimos finalizar o escopo definitivo, mas começamos a elabora-lo do zero, revisando a arquitetura e seus requisitos.
 
