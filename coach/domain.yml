@@ -2,6 +2,8 @@ intents:
   - start
   - help
   - stage_example
+  - topics_example
+  - coordination_example
   - expelled_example
   - mention_example
   - academic_week_example
@@ -136,6 +138,40 @@ templates:
         "gostaria de saber sobre estágio supervisionado";
 
         que lhe enviarei um arquivo com todas as principais perguntas respondidas.
+
+  utter_topics_example:
+    - text: |
+
+        Posso te ajudar a tirar suas dúvidas sobre estágio como:
+
+        Qual o objetivo do estagio.
+        Quais sao as atividades que podem ser consideradas como estagio.
+        Quais sao os pre-requisitos do estágio.
+        Como funciona a matricula no estagio.
+        Link para o moodle do estagio.
+        Quais os documentos necessarios para o estagio.
+        Atendimento coordenadores de estágio.
+
+        E assuntos referentes a coordenação.
+
+  utter_coordination_example:
+    - text: |
+
+        Infelizmente não possuo uma resposta para cobrir todo o assunto de coordenação;
+
+        mas Vossa Majestade pode pedir especificamente por algum tópico, como:
+
+        Dupla Graduação
+
+        Menções/Revisão de Menção
+
+        Desligamento/Reintegração
+
+        Semana Acadêmica
+
+        Trancamento e
+
+        Reserva de Sala
 
   utter_expelled_example:
     - text: |
@@ -757,6 +793,8 @@ actions:
   - utter_start
   - utter_help
   - utter_stage_example
+  - utter_topics_example
+  - utter_coordination_example
   - utter_expelled_example
   - utter_mention_example
   - utter_academic_week_example

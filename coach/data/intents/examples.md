@@ -5,6 +5,31 @@
 - exemplo de pergunta sobre estágio
 - exemplo de dúvida sobre estágio
 
+## intent:topics_example
+- exemplo de tópicos
+- quais são os tópicos
+- quais são os assuntos que você sabe
+- quais são os assuntos
+- você fala sobre quais assuntos
+- sobre o que você sabe
+- sobre o que você sabe falar
+- o que você sabe
+- sobre o que falar
+- não sei sobre o que falar
+- como falar com você
+- tópicos
+- assuntos
+
+## intent:coordination_example
+- exemplo de coordenação
+- coordenação
+- quero falar sobre coordenação
+- como falar sobre coordenação
+- assuntos de coordenação
+- quais são os assuntos de coordenação
+- gostaria de saber sobre a coordenação
+- assuntos referentes a coordenação
+
 ## intent:expelled_example
 - exemplo de desligamento
 - como falo sobre desligamento
