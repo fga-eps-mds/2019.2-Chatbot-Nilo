@@ -36,7 +36,10 @@ Nesta reunião foram redefinidas nossas prioridades, com base no feedback da Rel
 
 ### Burndown Report
 
-../Métricas/Burndown_Report/burndown_sprint8.png
+<p align="center" >
+	<img src="../docs/métricas/Burndown_Report/burndown_sprint8.png">
+	<br/>
+	</p>
 
 ## Resultados
 
