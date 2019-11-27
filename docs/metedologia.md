@@ -92,19 +92,14 @@ Cada Scrum Team trabalha normalmente, mas cada equipe também contribui com uma 
   
   
 
-| Tarefa | Integrante |
 
-|---------------|-------------------------------------------------------|
+| Tarefa        | Integrante                  |
+|---------------|-----------------------------|
+| Scrum Master  | - Eliseu Kadesh             |
+| Product Owner | - Gabriel Paiva             |
+| Developers    | - Murilo Gomes<br> - Washington Bispo <br> - Thiago Guilherme                      |
+| DevOps        | - Victor Yukio/Murilo Gomes |
 
-| Scrum Master | - Eliseu Kadesh |
-
-| Product Owner | - Gabriel Paiva |
-
-| Developers  | - Murilo Gomes - Washington Bispo - Thiago Guilherme |
-
-| DevOps | - Victor Yukio/Murilo Gomes |
-
-  
   
 
 ## Sprints
