@@ -130,3 +130,26 @@ sudo docker-compose up bot_telegram
 Gostaria de contribuir com nosso projeto? É simples! Basta ler e acompanhar nosso [Guia de Contribuição](./CONTRIBUTING.md) presente em nosso repositório.
 
 Todos que desejam contribuir de alguma forma com nosso projeto são mais que bem-vindos, e todos da equipe do Nilo agradecem a sua contribuição.
+
+
+## :clipboard: Documentação
+
+O Nilo possui uma gama de documentos para te ajudar a compreender os métodos adotados em sua produção e o seu funcionamento. Você pode encontrar os documentos seguindo os links abaixo:
+
+[Documento de Escopo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Escopo.md)
+
+[Termo de Abertura do Projeto](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/TAP.md)
+
+[Roadmap](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Roadmap.md)
+
+[Documento de Arquitetura](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeArquitetura.md)
+
+[Documento de Visão](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeVisao.md)
+
+[Backlog do Produto](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Product_Backlog.md)
+
+[Documento de Comunicação](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeComunicacao.md)
+
+[Documento de Metodologia](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/metedologia.md)
+
+[Relatórios de Sprints](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/tree/develop/sprints)
