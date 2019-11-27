@@ -19,7 +19,7 @@ Basta que você tenha o Telegram instalado no seu computador ou celular e
 então procure o bot pelo nome “@nilo_fga_bot” e caso ele esteja upado, será possível iniciar uma conversa.
 
 <p align="center" >
-	<img width="510" height="417" src="./assets/iN8Xdx5.gif">
+	<img width="510" height="417" src="./assets/gif_start.gif">
 	<br/>
 	</p>
 
