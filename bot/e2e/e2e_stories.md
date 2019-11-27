@@ -237,3 +237,50 @@
   - utter_enviar_relatorio_atividades
   - utter_continuar_conversa
   - action_listen
+
+<!-- Ínicio dos testes referente ao examples.md -->
+
+## end-to-end story 33
+* stage_example: como falo sobre estágio
+    - utter_stage_example
+    - utter_continuar_conversa
+
+## end-to-end story 34
+* coordination_example: gostaria de saber sobre a coordenação
+  - utter_coordination_example
+  - utter_continuar_conversa
+
+## end-to-end story 35
+* topics_example: como falar com você
+  - utter_topics_example
+  - utter_continuar_conversa
+
+## end-to-end story 36
+* expelled_example: como falo sobre desligamento
+    - utter_expelled_example
+    - utter_continuar_conversa
+
+## end-to-end story 37
+* mention_example: como perguntar sobre menções
+    - utter_mention_example
+    - utter_continuar_conversa
+
+## end-to-end story 38
+* academic_week_example: exemplo de dúvida sobre semana acadêmica
+    - utter_academic_week_example
+    - utter_continuar_conversa
+
+## end-to-end story 39
+* locking_example: exemplo de trancamento de disciplina
+    - utter_locking_example
+    - utter_continuar_conversa
+
+## end-to-end story 40
+* reserve_room_example: como perguntar sobre reserva de sala
+    - utter_reserve_room_example
+    - utter_continuar_conversa
+
+## end-to-end stor 41
+* double_graduation_example: exemplo de dupla graduação
+    - utter_double_graduation_example
+    - utter_continuar_conversa
