@@ -38,7 +38,7 @@ Os assuntos que o Nilo já conhece são:
 <br/>
 
 <p align="left" >
-	<img width="300" height="500" src="./assets/start.jpg" hspace="100">
+	<img width="300" height="500" src="./assets/matricula.jpg" hspace="100">
 	<img width="300" height="500" src="./assets/send_doc.jpg">
 	</p>
 <br/>
