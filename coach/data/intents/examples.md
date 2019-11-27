@@ -1,3 +1,4 @@
+<!-- Testado -->
 ## intent:stage_example
 - exemplo de estágio
 - como falo sobre estágio
@@ -5,6 +6,7 @@
 - exemplo de pergunta sobre estágio
 - exemplo de dúvida sobre estágio
 
+<!-- Testado -->
 ## intent:topics_example
 - exemplo de tópicos
 - quais são os tópicos
@@ -20,6 +22,7 @@
 - tópicos
 - assuntos
 
+<!-- Testado -->
 ## intent:coordination_example
 - exemplo de coordenação
 - coordenação
@@ -30,6 +33,7 @@
 - gostaria de saber sobre a coordenação
 - assuntos referentes a coordenação
 
+<!-- Testado -->
 ## intent:expelled_example
 - exemplo de desligamento
 - como falo sobre desligamento
@@ -38,6 +42,7 @@
 - exemplo de dúvida sobre desligamento
 - como perguntar se um aluno vai ser desligado
 
+<!-- Testado -->
 ## intent:mention_example
 - exemplo de menção
 - exemplo de menções
@@ -50,7 +55,7 @@
 - exemplo de dúvida sobre menção
 - exemplo de dúvida sobre menções
 
-
+<!-- Testado -->
 ## intent:academic_week_example
 - exemplo de semana acadêmica
 - como falo sobre semana acadêmica
@@ -58,6 +63,7 @@
 - exemplo de pergunta sobre semana acadêmica
 - exemplo de dúvida sobre semana acadêmica
 
+<!-- Testado -->
 ## intent:locking_example
 - exemplo de trancamento
 - exemplo de trancamento de matéria
@@ -69,6 +75,7 @@
 - exemplo de pergunta sobre trancamento
 - exemplo de dúvida sobre trancamento
 
+<!-- Testado -->
 ## intent:reserve_room_example
 - exemplo de reserva de sala
 - como falo sobre reserva de sala
@@ -76,6 +83,7 @@
 - exemplo de pergunta sobre reserva de sala
 - exemplo de dúvida sobre reserva de sala
 
+<!-- Testado -->
 ## intent:double_graduation_example
 - exemplo de dupla graduação
 - como falo sobre dupla graduação

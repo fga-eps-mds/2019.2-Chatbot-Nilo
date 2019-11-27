@@ -1,3 +1,5 @@
+<!-- Testes do estagio.md -->
+
 ## end-to-end story 1
 * cumprimentar: oi
     - utter_cumprimentar
@@ -237,3 +239,184 @@
   - utter_enviar_relatorio_atividades
   - utter_continuar_conversa
   - action_listen
+
+<!-- Início dos testes referente ao examples.md -->
+
+## end-to-end story 33
+* stage_example: como falo sobre estágio
+    - utter_stage_example
+    - utter_continuar_conversa
+
+## end-to-end story 34
+* coordination_example: gostaria de saber sobre a coordenação
+  - utter_coordination_example
+  - utter_continuar_conversa
+
+## end-to-end story 35
+* topics_example: como falar com você
+  - utter_topics_example
+  - utter_continuar_conversa
+
+## end-to-end story 36
+* expelled_example: como falo sobre desligamento
+    - utter_expelled_example
+    - utter_continuar_conversa
+
+## end-to-end story 37
+* mention_example: como perguntar sobre menções
+    - utter_mention_example
+    - utter_continuar_conversa
+
+## end-to-end story 38
+* academic_week_example: exemplo de dúvida sobre semana acadêmica
+    - utter_academic_week_example
+    - utter_continuar_conversa
+
+## end-to-end story 39
+* locking_example: exemplo de trancamento de disciplina
+    - utter_locking_example
+    - utter_continuar_conversa
+
+## end-to-end story 40
+* reserve_room_example: como perguntar sobre reserva de sala
+    - utter_reserve_room_example
+    - utter_continuar_conversa
+
+## end-to-end story 41
+* double_graduation_example: exemplo de dupla graduação
+    - utter_double_graduation_example
+    - utter_continuar_conversa
+
+<!-- Início dos testes referente ao examples.md -->
+
+## end-to-end story 42
+* cumprimentar: oi
+  - utter_cumprimentar
+* action_enviar_tce_pa: tce
+  - action_enviar_tce_pa
+  - utter_continuar_conversa
+
+## end-to-end story 43
+* action_enviar_tce_pa: me envie o pa
+  - action_enviar_tce_pa
+  - utter_continuar_conversa
+
+## end-to-end story 44
+* cumprimentar: salut
+  - utter_cumprimentar
+* action_enviar_ficha_solicitacao: ficha de solicitação de matrícula
+  - action_enviar_ficha_solicitacao
+  - utter_continuar_conversa
+
+## end-to-end story 45
+* action_enviar_ficha_solicitacao: tem a ficha de solicitação de matrícula
+  - action_enviar_ficha_solicitacao
+  - utter_continuar_conversa
+
+## end-to-end story 46
+* cumprimentar: olá
+  - utter_cumprimentar
+* action_enviar_modelo_de_termo_aditivo: termo aditivo
+  - action_enviar_modelo_de_termo_aditivo
+  - utter_continuar_conversa
+
+## end-to-end story 47
+* action_enviar_modelo_de_termo_aditivo: me envie o termo aditivo
+  - action_enviar_modelo_de_termo_aditivo
+  - utter_continuar_conversa
+
+## end-to-end story 48
+* cumprimentar: oiii
+  - utter_cumprimentar
+* action_enviar_termo_rescisorio: termo rescisório
+  - action_enviar_termo_rescisorio
+  - utter_continuar_conversa
+
+## end-to-end story 49
+* action_enviar_termo_rescisorio: tem o termo rescisório
+  - action_enviar_termo_rescisorio
+  - utter_continuar_conversa
+
+## end-to-end story 50
+* cumprimentar: oi
+  - utter_cumprimentar
+* action_enviar_doc_faq_estagio: queria saber sobre estágio supervisionado
+  - action_enviar_doc_faq_estagio
+  - utter_continuar_conversa
+
+## end-to-end story 51
+* action_enviar_doc_faq_estagio: tenho dúvidas sobre estágio
+  - action_enviar_doc_faq_estagio
+  - utter_continuar_conversa
+
+## end-to-end story 52
+* cumprimentar: olá
+  - utter_cumprimentar
+* action_todos_os_coordenadores: quais são os coordenadores
+  - action_todos_os_coordenadores
+  - utter_continuar_conversa
+
+## end-to-end story 53
+* action_todos_os_coordenadores: coordenadores de estágio supervisionado
+  - action_todos_os_coordenadores
+  - utter_continuar_conversa
+
+## end-to-end story 54
+* cumprimentar: oie
+  - utter_cumprimentar
+* action_coordenador_de_software: coordenador de software
+  - action_coordenador_de_software
+  - utter_continuar_conversa
+
+## end-to-end story 55
+* action_coordenador_de_software: quem é o coordenador de software
+  - action_coordenador_de_software
+  - utter_continuar_conversa
+
+## end-to-end story 56
+* cumprimentar:  hi
+  - utter_cumprimentar
+* action_coordenador_de_energia: coordenador de energia
+  - action_coordenador_de_energia
+  - utter_continuar_conversa
+
+## end-to-end story 57
+* action_coordenador_de_energia: engenharia de energia
+  - action_coordenador_de_energia
+  - utter_continuar_conversa
+
+## end-to-end story 58
+* cumprimentar: bonjour
+  - utter_cumprimentar
+* action_coordenador_de_aeroespacial: coordenador de estágio para aeroespacial
+  - action_coordenador_de_aeroespacial
+  - utter_continuar_conversa
+
+## end-to-end story 59
+* action_coordenador_de_aeroespacial: qual é o nome do coordenador de engenharia aeroespacial
+  - action_coordenador_de_aeroespacial
+  - utter_continuar_conversa
+
+## end-to-end story 60
+* cumprimentar: bonjour
+  - utter_cumprimentar
+* action_coordenador_de_eletronica: coordenador de estágio de eletrônica
+  - action_coordenador_de_eletronica
+  - utter_continuar_conversa
+
+## end-to-end story 61
+* action_coordenador_de_eletronica: qual é o nome do coordenador de eletrônica
+  - action_coordenador_de_eletronica
+  - utter_continuar_conversa
+
+## end-to-end story 62
+* cumprimentar: bom dia
+  - utter_cumprimentar
+* action_coordenador_de_automotiva: qual é o nome do coordenador de automotiva
+  - action_coordenador_de_automotiva
+  - utter_continuar_conversa
+
+## end-to-end story 63
+* action_coordenador_de_automotiva: qual é o nome do coordenador de engenharia automotiva
+  - action_coordenador_de_automotiva
+  - utter_continuar_conversa
