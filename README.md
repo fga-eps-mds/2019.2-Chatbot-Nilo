@@ -153,3 +153,5 @@ O Nilo possui uma gama de documentos para te ajudar a compreender os métodos ad
 [Documento de Metodologia](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/metedologia.md)
 
 [Relatórios de Sprints](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/tree/develop/sprints)
+
+[Burndown das Sprints](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/tree/develop/docs/m%C3%A9tricas/Burndown_Report)
