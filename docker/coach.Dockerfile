@@ -1,4 +1,4 @@
-FROM lappis/botrequirements:boilerplate
+FROM yukioz/requirements
 
 COPY ./coach /coach
 COPY ./scripts /scripts

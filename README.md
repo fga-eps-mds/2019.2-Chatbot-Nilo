@@ -1,9 +1,11 @@
-# Chatbot Nilo
-
 <p align="center" >
-	<img width="550" height="550" src="./docs/img/Nilo_logo_pequeno.png">
+	<img width="550" height="550" src="./assets/Nilo_logo.jpg">
 	<br/>
 	</p>
+
+<h1 align="center">
+  	Chatbot Nilo
+</h1>
 
 ## Sobre o projeto
 
@@ -17,7 +19,7 @@ Basta que você tenha o Telegram instalado no seu computador ou celular e
 então procure o bot pelo nome “@nilo_fga_bot” e caso ele esteja upado, será possível iniciar uma conversa.
 
 <p align="center" >
-	<img width="510" height="417" src="./docs/img/iN8Xdx5.gif">
+	<img width="510" height="417" src="./assets/gif_start.gif">
 	<br/>
 	</p>
 
@@ -30,6 +32,13 @@ Os assuntos que o Nilo já conhece são:
 - Desligamento e seu risco
 - Reintegração
 - Revisão de menção
+- Reserva de salas
+- Semana Acadêmica
+- Atendimento dos Coordenadores
+- Trancamento
+- Dupla Graduação
+- Manual do Calouro
+- Calendário Acadêmico
 
 <br/>
 
@@ -38,10 +47,34 @@ Os assuntos que o Nilo já conhece são:
 <br/>
 
 <p align="left" >
-	<img width="300" height="500" src="./docs/img/prototipo_atividades_estagio.jpeg" hspace="100">
-	<img width="300" height="500" src="./docs/img/prototipo_despedida.jpeg">
+	<img width="300" height="500" src="./assets/matricula.jpg" hspace="100">
+	<img width="300" height="500" src="./assets/send_doc.jpg">
 	</p>
 <br/>
+
+## :clipboard: Documentação
+
+O Nilo possui uma gama de documentos para te ajudar a compreender os métodos adotados em sua produção e o seu funcionamento. Você pode encontrar os documentos seguindo os links abaixo:
+
+[Documento de Escopo](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Escopo.md)
+
+[Termo de Abertura do Projeto](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/TAP.md)
+
+[Roadmap](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Roadmap.md)
+
+[Documento de Arquitetura](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeArquitetura.md)
+
+[Documento de Visão](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeVisao.md)
+
+[Backlog do Produto](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/Product_Backlog.md)
+
+[Documento de Comunicação](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/DocumentoDeComunicacao.md)
+
+[Documento de Metodologia](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/blob/develop/docs/metedologia.md)
+
+[Relatórios de Sprints](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/tree/develop/sprints)
+
+[Burndown das Sprints](https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/tree/develop/docs/m%C3%A9tricas/Burndown_Report)
 
 ## 📦 Instalação
 
