@@ -18,7 +18,7 @@ class ActionEnviarDocFaqEstagio(Action):
             url = 'https://www.docdroid.net/file/download/RdSYmiN'
             url += '/faq-estagio-supervisionado.pdf'
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
-        except:
+        except Exception:
             dispatcher.utter_message("Não consegui acessar o documento :/")
             dispatcher.utter_message("Mas você pode me perguntar sua dúvida" +
                                      " específica que eu farei o máximo para" +
@@ -41,7 +41,7 @@ class ActionEnviarTCEPA(Action):
             url2 = 'https://fga.unb.br/articles/0002/2356/'
             url2 += 'tce_para_estagio_nao_obrigatorio.pdf'
             bot.sendDocument(chat_id=tracker.sender_id, document=url2)
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " documento que Vossa Majestade" +
                                      " pediu :/")
@@ -65,7 +65,7 @@ class ActionEnviarFichaSolicitacao(Action):
             url += '/mod_resource/content/2/Anexo1_Ficha_'
             url += 'Matr%C3%ADcula_Est%C3%A1gio_Supervisionado_FGA.pdf'
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " documento que Vossa Majestade" +
                                      " pediu :/")
@@ -84,7 +84,7 @@ class ActionEnviarModeloDeTermoAditivo(Action):
             url = 'https://fga.unb.br/articles/0002/2352'
             url += '/termo_aditivo_ao_tce.pdf'
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " documento que Vossa Majestade" +
                                      " pediu :/")
@@ -103,7 +103,7 @@ class ActionEnviarModeloDeTermoRescisorio(Action):
             url = 'https://fga.unb.br/articles/0002/2351'
             url += '/termo_de_rescisorio.pdf'
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " documento que Vossa Majestade" +
                                      " pediu :/")
@@ -130,7 +130,7 @@ class ActionTodosOsCoordenadores(Action):
             dispatcher.utter_message(web.software_coordinator())
             dispatcher.utter_message("Eng. de Energia:")
             dispatcher.utter_message(web.energy_coordinator())
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " site com as informações sobre os " +
                                      " coordenadores.")
@@ -151,7 +151,7 @@ class ActionCoordenadorDeSoftware(Action):
         try:
             web = webscraping.WebScrapingIntegration()
             dispatcher.utter_message(web.software_coordinator())
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " site com as informações sobre os " +
                                      " coordenadores.")
@@ -173,7 +173,7 @@ class ActionCoordenadorDeEnergia(Action):
         try:
             web = webscraping.WebScrapingIntegration()
             dispatcher.utter_message(web.energy_coordinator())
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " site com as informações sobre os " +
                                      " coordenadores.")
@@ -194,7 +194,7 @@ class ActionCoordenadorDeAeroespacial(Action):
         try:
             web = webscraping.WebScrapingIntegration()
             dispatcher.utter_message(web.aeroespace_coordinator())
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " site com as informações sobre os " +
                                      " coordenadores.")
@@ -215,7 +215,7 @@ class ActionCoordenadorDeEletronica(Action):
         try:
             web = webscraping.WebScrapingIntegration()
             dispatcher.utter_message(web.eletronics_coordinator())
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " site com as informações sobre os " +
                                      " coordenadores.")
@@ -237,7 +237,7 @@ class ActionCoordenadorDeAutomotiva(Action):
         try:
             web = webscraping.WebScrapingIntegration()
             dispatcher.utter_message(web.automotive_coordinator())
-        except:
+        except Exception:
             dispatcher.utter_message("Infelizmente não consegui acessar o" +
                                      " site com as informações sobre os " +
                                      " coordenadores.")
